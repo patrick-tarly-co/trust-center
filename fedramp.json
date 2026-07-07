@@ -1,0 +1,49 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "Tarly Cowork (TARLY)",
+    "providerName": "Pincus Technologies Inc (dba Tarly)",
+    "ueiNumber": "RKCYVMCNUK45",
+    "serviceName": "Tarly Cowork",
+    "serviceAcronym": "TARLY",
+    "serviceDescription": "AI-powered procurement workspace for government acquisition teams. Tarly Cowork helps contracting professionals run market research, draft acquisition documents (IGCEs, solicitations, evaluation materials), and manage procurement files with grounded citations to authoritative federal data sources (SAM.gov, USAspending, the FAR and agency supplements).",
+    "certificationType": "20x",
+    "website": "https://gov.tarly.co",
+    "logo": "https://gov.tarly.co/tarly-logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": ["SaaS"],
+    "deploymentModel": "Public Cloud",
+    "digitalIdentityLevel": "IAL1/AAL1 (federated sign-in; target IAL2/AAL2 at certification)",
+    "businessCategory": [
+      "Artificial Intelligence (AI)",
+      "Collaboration",
+      "Data Management"
+    ],
+    "trustCenter": {
+      "repositoryType": ["Trust Center"],
+      "url": "https://gov.tarly.co/trust/",
+      "repositoryDescription": "Tarly Trust Center — FedRAMP certification status, security posture, certification roadmap, and quarterly progress updates. Machine-readable data at https://gov.tarly.co/trust/fedramp.json. No authentication required.",
+      "authenticationRequired": false
+    },
+    "nextOngoingCertificationReportDate": "2026-10-06"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Sales",
+      "contactName": "Cary Volpert",
+      "contactEmail": "cary@tarly.co",
+      "contactPhone": "310-883-8302"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Patrick Phillips",
+      "contactEmail": "patrick@tarly.co",
+      "contactPhone": "585-474-2276"
+    }
+  ],
+  "assessor": {
+    "name": "Independent assessor not yet engaged — 3PAO selection in final stage, engagement targeted August 2026",
+    "id": "TBD"
+  }
+}
