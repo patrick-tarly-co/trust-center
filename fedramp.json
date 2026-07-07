@@ -26,6 +26,14 @@
       "repositoryDescription": "Tarly Trust Center — FedRAMP certification status, security posture, certification roadmap, and quarterly progress updates. Machine-readable data at https://gov.tarly.co/trust/fedramp.json. No authentication required.",
       "authenticationRequired": false
     },
+    "additionalRepositories": [
+      {
+        "repositoryType": ["Machine Readable Package", "Git Repository"],
+        "url": "https://github.com/patrick-tarly-co/trust-center",
+        "repositoryDescription": "Public git repository with machine-readable Key Security Indicator (KSI) evaluation results, updated nightly by Tarly's automated compliance pipeline. Commit history is the public record of security-posture changes over time. No authentication required.",
+        "authenticationRequired": false
+      }
+    ],
     "nextOngoingCertificationReportDate": "2026-10-06"
   },
   "contactInformation": [
