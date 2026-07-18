@@ -30,19 +30,6 @@
         "total": 3,
         "passing": 2
       },
-      "underlying-controls": [
-        "cp-3",
-        "ir-2",
-        "ps-6",
-        "at-2",
-        "at-2.2",
-        "at-2.3",
-        "at-3.5",
-        "at-4",
-        "ir-2.3",
-        "at-3",
-        "sr-11.1"
-      ],
       "evidence-manifest-sha256": "bcd7a6823852c7fdf7fcd0913b28f0840670a59f17246b2c7c75bf0da56ae950",
       "remediation": {
         "risk": "low",
@@ -61,15 +48,6 @@
         "total": 2,
         "passing": 1
       },
-      "underlying-controls": [
-        "au-2",
-        "cm-3",
-        "cm-3.2",
-        "cm-4.2",
-        "cm-6",
-        "cm-8.3",
-        "ma-2"
-      ],
       "evidence-manifest-sha256": "57ef170096110ec983016711126655dcd3c22554a7dc9a388c5cccdf4b863c95",
       "remediation": {
         "risk": "medium",
@@ -88,15 +66,6 @@
         "total": 2,
         "passing": 1
       },
-      "underlying-controls": [
-        "cm-2",
-        "cm-3",
-        "cm-5",
-        "cm-6",
-        "cm-7",
-        "cm-8.1",
-        "si-3"
-      ],
       "evidence-manifest-sha256": "9f6b7f1f0689964da58dc579089ada391f5d3d0fe59e9760bce1a311ef629421",
       "remediation": {
         "risk": "medium",
@@ -115,14 +84,6 @@
         "total": 4,
         "passing": 1
       },
-      "underlying-controls": [
-        "cm-3",
-        "cm-3.2",
-        "cm-3.4",
-        "cm-5",
-        "cm-7.1",
-        "cm-9"
-      ],
       "evidence-manifest-sha256": "2e5726424be9a2a951706733849b920e783295305823d8025ab96f2778adb35b",
       "remediation": {
         "risk": "medium",
@@ -141,12 +102,6 @@
         "total": 2,
         "passing": 2
       },
-      "underlying-controls": [
-        "cm-3",
-        "cm-3.2",
-        "cm-4.2",
-        "si-2"
-      ],
       "evidence-manifest-sha256": "4e6c1a68293d941c5b427aac9a6ac02a76ae4ba26a2f812e3845166831489163"
     },
     {
@@ -161,10 +116,6 @@
         "total": 2,
         "passing": 2
       },
-      "underlying-controls": [
-        "cm-2",
-        "si-3"
-      ],
       "evidence-manifest-sha256": "de4fa27efd0ad8d3694f0b88a78e3e3c444cb24fb935539b6348e70efdcff098"
     },
     {
@@ -179,10 +130,6 @@
         "total": 3,
         "passing": 3
       },
-      "underlying-controls": [
-        "ca-2.1",
-        "ca-7.1"
-      ],
       "evidence-manifest-sha256": "8700c3744ce66821ccf544d0b24c75158efe98c458c871fc97b04880cda92554"
     },
     {
@@ -197,11 +144,6 @@
         "total": 1,
         "passing": 1
       },
-      "underlying-controls": [
-        "ac-17.3",
-        "cm-2",
-        "pl-10"
-      ],
       "evidence-manifest-sha256": "2cff56bc3c6921a85638577595fd8b31af89a5bc6aa30921f53055b1527bdb12"
     },
     {
@@ -216,22 +158,6 @@
         "total": 4,
         "passing": 1
       },
-      "underlying-controls": [
-        "ac-17.3",
-        "ac-18.1",
-        "ac-18.3",
-        "ac-20.1",
-        "ca-9",
-        "sc-7.3",
-        "sc-7.4",
-        "sc-7.5",
-        "sc-7.8",
-        "sc-8",
-        "sc-10",
-        "si-10",
-        "si-11",
-        "si-16"
-      ],
       "evidence-manifest-sha256": "f98e0f2d54f47e9169b36a1819577bd487f0ae2382c135aab448f49367620730",
       "remediation": {
         "risk": "high",
@@ -250,7 +176,6 @@
         "total": 2,
         "passing": 2
       },
-      "underlying-controls": [],
       "evidence-manifest-sha256": "ee8772d236ced35fb7c670078860a37e318769f23755a8c4ebf2b27fb066cb64"
     },
     {
@@ -265,13 +190,6 @@
         "total": 1,
         "passing": 1
       },
-      "underlying-controls": [
-        "ac-17.3",
-        "ca-9",
-        "cm-7.1",
-        "sc-7.5",
-        "si-8"
-      ],
       "evidence-manifest-sha256": "b56ab7c3888e12b9efd98d54eccea5184b054974ca78f691f189907f9762f0b8"
     },
     {
@@ -286,11 +204,6 @@
         "total": 1,
         "passing": 1
       },
-      "underlying-controls": [
-        "sc-5",
-        "si-8",
-        "si-8.2"
-      ],
       "evidence-manifest-sha256": "9b41d155c5446cbce5c3435ed41f14090b817d073b5e45813fb3af126813d903"
     },
     {
@@ -305,16 +218,6 @@
         "total": 1,
         "passing": 1
       },
-      "underlying-controls": [
-        "ac-12",
-        "ac-17.3",
-        "ca-9",
-        "sc-4",
-        "sc-7",
-        "sc-7.7",
-        "sc-8",
-        "sc-10"
-      ],
       "evidence-manifest-sha256": "8b4dab8954b66d6b01e1e677f027823d822c06d8a52cb8f9fcdaaaf32bf3a5db"
     },
     {
@@ -329,17 +232,6 @@
         "total": 3,
         "passing": 3
       },
-      "underlying-controls": [
-        "ac-2.2",
-        "ac-2.3",
-        "ac-2.13",
-        "ac-6.7",
-        "ia-4.4",
-        "ia-12",
-        "ia-12.2",
-        "ia-12.3",
-        "ia-12.5"
-      ],
       "evidence-manifest-sha256": "18705a56478275e5ac776466e874202619de8a0740b292b4ea0231495cecbe95"
     },
     {
@@ -354,21 +246,6 @@
         "total": 4,
         "passing": 0
       },
-      "underlying-controls": [
-        "ac-3",
-        "ia-5.1",
-        "ia-5.2",
-        "ia-5.6",
-        "ia-6",
-        "ac-2",
-        "ia-2",
-        "ia-2.1",
-        "ia-2.2",
-        "ia-2.8",
-        "ia-5",
-        "ia-8",
-        "sc-23"
-      ],
       "evidence-manifest-sha256": "89707de0fafc03376d5d131539f37983380bb76ad49f78cfff986c85402ddad2",
       "remediation": {
         "risk": "high",
@@ -387,42 +264,6 @@
         "total": 3,
         "passing": 2
       },
-      "underlying-controls": [
-        "ac-2.5",
-        "ac-2.6",
-        "ac-3",
-        "ac-4",
-        "ac-6",
-        "ac-12",
-        "ac-14",
-        "ac-17",
-        "ac-17.1",
-        "ac-17.2",
-        "ac-17.3",
-        "ac-20",
-        "ac-20.1",
-        "cm-2.7",
-        "cm-9",
-        "ia-2",
-        "ia-3",
-        "ia-4",
-        "ia-4.4",
-        "ia-5.2",
-        "ia-5.6",
-        "ia-11",
-        "ps-2",
-        "ps-3",
-        "ps-4",
-        "ps-5",
-        "ps-6",
-        "sc-4",
-        "sc-20",
-        "sc-21",
-        "sc-22",
-        "sc-23",
-        "sc-39",
-        "si-3"
-      ],
       "evidence-manifest-sha256": "98c62e668c225b131a9586c34d48427144ecaccb2c56852d580169fb9f3da446",
       "remediation": {
         "risk": "high",
@@ -441,46 +282,6 @@
         "total": 1,
         "passing": 0
       },
-      "underlying-controls": [
-        "ac-2",
-        "ac-2.1",
-        "ac-2.2",
-        "ac-2.3",
-        "ac-2.4",
-        "ac-2.6",
-        "ac-3",
-        "ac-4",
-        "ac-5",
-        "ac-6",
-        "ac-6.1",
-        "ac-6.2",
-        "ac-6.5",
-        "ac-6.7",
-        "ac-6.9",
-        "ac-6.10",
-        "ac-7",
-        "ac-20.1",
-        "ac-17",
-        "au-9.4",
-        "cm-5",
-        "cm-7",
-        "cm-7.2",
-        "cm-7.5",
-        "cm-9",
-        "ia-4",
-        "ia-4.4",
-        "ia-7",
-        "ps-2",
-        "ps-3",
-        "ps-4",
-        "ps-5",
-        "ps-6",
-        "ps-9",
-        "ra-5.5",
-        "sc-2",
-        "sc-23",
-        "sc-39"
-      ],
       "evidence-manifest-sha256": "6d0982968329183ec971f026a9cf9db1aecf550109049e1f17bed4404ddcb438",
       "remediation": {
         "risk": "medium",
@@ -499,15 +300,6 @@
         "total": 2,
         "passing": 2
       },
-      "underlying-controls": [
-        "ac-2",
-        "ac-2.2",
-        "ac-4",
-        "ac-6.5",
-        "ia-3",
-        "ia-5.2",
-        "ra-5.5"
-      ],
       "evidence-manifest-sha256": "d49c96b87895ce0755d6176bb03bf31c7175cc65b53d51db27f40d85fc000d05"
     },
     {
@@ -522,15 +314,6 @@
         "total": 1,
         "passing": 0
       },
-      "underlying-controls": [
-        "ac-2",
-        "ac-2.1",
-        "ac-2.3",
-        "ac-2.13",
-        "ac-7",
-        "ps-4",
-        "ps-8"
-      ],
       "evidence-manifest-sha256": "bedd8fead6f4b2fa320a2e96fec93936eb86cb4eb098729254cc85bb19bd4e89",
       "remediation": {
         "risk": "medium",
@@ -549,12 +332,6 @@
         "total": 1,
         "passing": 1
       },
-      "underlying-controls": [
-        "ir-3",
-        "ir-4",
-        "ir-4.1",
-        "ir-8"
-      ],
       "evidence-manifest-sha256": "aa9838f9cde1ed426e15ecf93a25045f46d3b04af6e8bbfb52a9ab7844997561"
     },
     {
@@ -569,18 +346,6 @@
         "total": 3,
         "passing": 3
       },
-      "underlying-controls": [
-        "ir-4",
-        "ir-4.1",
-        "ir-6",
-        "ir-6.1",
-        "ir-6.3",
-        "ir-7",
-        "ir-7.1",
-        "ir-8",
-        "ir-8.1",
-        "si-4.5"
-      ],
       "evidence-manifest-sha256": "0c8d948283dfe9caeacb73bbb86734b1d3398f39cf4bcb7b9931443dc35d6646"
     },
     {
@@ -595,13 +360,6 @@
         "total": 1,
         "passing": 1
       },
-      "underlying-controls": [
-        "ir-3",
-        "ir-4",
-        "ir-4.1",
-        "ir-5",
-        "ir-8"
-      ],
       "evidence-manifest-sha256": "6897c011cd4ba3caed9df9d86c6c98cb832b44a5ba053d8313679dd3c0807d6e"
     },
     {
@@ -616,9 +374,6 @@
         "total": 1,
         "passing": 0
       },
-      "underlying-controls": [
-        "si-11"
-      ],
       "evidence-manifest-sha256": "8556652a2147500e0dfe25d8f96891905e07c22569f99cadddd71ba85af741c5",
       "remediation": {
         "risk": "medium",
@@ -637,12 +392,6 @@
         "total": 2,
         "passing": 2
       },
-      "underlying-controls": [
-        "ca-7",
-        "cm-2",
-        "cm-6",
-        "si-7.7"
-      ],
       "evidence-manifest-sha256": "50ae2c03e673ee3e19259d648101850124bf067940ef2d67b829d7da7377ab00"
     },
     {
@@ -657,18 +406,6 @@
         "total": 1,
         "passing": 1
       },
-      "underlying-controls": [
-        "ac-2.4",
-        "ac-6.9",
-        "ac-17.1",
-        "ac-20.1",
-        "au-2",
-        "au-7.1",
-        "au-12",
-        "si-4.4",
-        "si-4.5",
-        "si-7.7"
-      ],
       "evidence-manifest-sha256": "689d358c64f0c645f84c976d5f13538f0dfcdcc8c1ef5168d2706ce60713bc66"
     },
     {
@@ -683,26 +420,6 @@
         "total": 4,
         "passing": 1
       },
-      "underlying-controls": [
-        "ac-17.1",
-        "ac-20.1",
-        "au-2",
-        "au-3",
-        "au-3.1",
-        "au-4",
-        "au-5",
-        "au-6.1",
-        "au-6.3",
-        "au-7",
-        "au-7.1",
-        "au-8",
-        "au-9",
-        "au-11",
-        "ir-4.1",
-        "si-4.2",
-        "si-4.4",
-        "si-7.7"
-      ],
       "evidence-manifest-sha256": "99f4e9befd9c05d88e56e0de578693a6f285735c953d49a5c6521986150f96bb",
       "remediation": {
         "risk": "high",
@@ -721,15 +438,6 @@
         "total": 1,
         "passing": 1
       },
-      "underlying-controls": [
-        "ac-2.4",
-        "ac-6.9",
-        "au-2",
-        "au-6",
-        "au-6.1",
-        "si-4",
-        "si-4.4"
-      ],
       "evidence-manifest-sha256": "c2e5be582ef6cec3024675bff35bae4479703478f610240349b00b1641af881f"
     },
     {
@@ -744,15 +452,6 @@
         "total": 2,
         "passing": 2
       },
-      "underlying-controls": [
-        "cm-2.2",
-        "cm-7.5",
-        "cm-8",
-        "cm-8.1",
-        "cm-12",
-        "cm-12.1",
-        "cp-2.8"
-      ],
       "evidence-manifest-sha256": "ff3b06cbd006e6203c4010581b7dc7d93c152b88253cca4b7e05f4c42880aaa9"
     },
     {
@@ -767,7 +466,6 @@
         "total": 3,
         "passing": 3
       },
-      "underlying-controls": [],
       "evidence-manifest-sha256": "b05eeff2dd21ba74d71f104112a825fe357586da26cc196ecdf6a620a6e58abe"
     },
     {
@@ -782,17 +480,6 @@
         "total": 1,
         "passing": 1
       },
-      "underlying-controls": [
-        "ac-5",
-        "ca-2",
-        "cp-2.1",
-        "cp-4.1",
-        "ir-3.2",
-        "pm-3",
-        "sa-2",
-        "sa-3",
-        "sr-2.1"
-      ],
       "evidence-manifest-sha256": "b9bf9980fd430304ae15eafd90d7132efe76ea6113e362eaaedee717e1b233d1"
     },
     {
@@ -807,20 +494,6 @@
         "total": 2,
         "passing": 2
       },
-      "underlying-controls": [
-        "ac-5",
-        "au-3.3",
-        "cm-3.4",
-        "pl-8",
-        "pm-7",
-        "sa-3",
-        "sa-8",
-        "sc-4",
-        "sc-18",
-        "si-10",
-        "si-11",
-        "si-16"
-      ],
       "evidence-manifest-sha256": "ad3f2e3112f9a2f3d6a3f22a314d012776cd91665552b1040e0cbe53201bb659"
     },
     {
@@ -835,9 +508,6 @@
         "total": 2,
         "passing": 2
       },
-      "underlying-controls": [
-        "ra-5.11"
-      ],
       "evidence-manifest-sha256": "cb3a078bae79974214df2332e6e24d3d40395d602dba989c35b282881e2b53e6"
     },
     {
@@ -852,14 +522,6 @@
         "total": 3,
         "passing": 2
       },
-      "underlying-controls": [
-        "cm-2.3",
-        "cp-6",
-        "cp-9",
-        "cp-10",
-        "cp-10.2",
-        "si-12"
-      ],
       "evidence-manifest-sha256": "ddd6e13e94b216ba183d3d3bc38723ce84a08293fa098e8362a065ba89aa83e5",
       "remediation": {
         "risk": "high",
@@ -878,24 +540,6 @@
         "total": 1,
         "passing": 1
       },
-      "underlying-controls": [
-        "cp-2",
-        "cp-2.1",
-        "cp-2.3",
-        "cp-4.1",
-        "cp-6",
-        "cp-6.1",
-        "cp-6.3",
-        "cp-7",
-        "cp-7.1",
-        "cp-7.2",
-        "cp-7.3",
-        "cp-8",
-        "cp-8.1",
-        "cp-8.2",
-        "cp-10",
-        "cp-10.2"
-      ],
       "evidence-manifest-sha256": "aed4c4c549f967746ee7b7ce4937d033fc8d06eef051be0690b7c439ca50062f"
     },
     {
@@ -910,10 +554,6 @@
         "total": 2,
         "passing": 2
       },
-      "underlying-controls": [
-        "cp-2.3",
-        "cp-10"
-      ],
       "evidence-manifest-sha256": "4d25620f71b50d58bc0fdafae1bc8bf9f42098e39d5b5a173aa73eb2dd6886fb"
     },
     {
@@ -928,18 +568,6 @@
         "total": 1,
         "passing": 1
       },
-      "underlying-controls": [
-        "cp-2.1",
-        "cp-2.3",
-        "cp-4",
-        "cp-4.1",
-        "cp-6",
-        "cp-6.1",
-        "cp-9.1",
-        "cp-10",
-        "ir-3",
-        "ir-3.2"
-      ],
       "evidence-manifest-sha256": "dea20077b54186f20463c885b9e147bfc416d1b239d48ec7b8405e6043722475"
     },
     {
@@ -954,20 +582,6 @@
         "total": 3,
         "passing": 3
       },
-      "underlying-controls": [
-        "ac-20",
-        "ra-3.1",
-        "sa-9",
-        "sa-10",
-        "sa-11",
-        "sa-15.3",
-        "sa-22",
-        "si-7.1",
-        "sr-5",
-        "sr-6",
-        "ca-7.4",
-        "sc-18"
-      ],
       "evidence-manifest-sha256": "eb8b9eb99ee63d371c610387e8922f9643f7291647ad6103c7dd7027f13df1e9"
     },
     {
@@ -982,18 +596,6 @@
         "total": 3,
         "passing": 3
       },
-      "underlying-controls": [
-        "ac-20",
-        "ca-3",
-        "ir-6.3",
-        "ps-7",
-        "ra-5",
-        "sa-9",
-        "si-5",
-        "sr-5",
-        "sr-6",
-        "sr-8"
-      ],
       "evidence-manifest-sha256": "838235126b1514cab5b96396d9c92ec20bb605c0d5489765bf548f596c215391"
     },
     {
@@ -1008,19 +610,6 @@
         "total": 2,
         "passing": 2
       },
-      "underlying-controls": [
-        "ac-2.4",
-        "cm-2",
-        "cm-2.2",
-        "cm-2.3",
-        "cm-6",
-        "cm-7.1",
-        "pl-9",
-        "pl-10",
-        "sa-5",
-        "si-5",
-        "sr-10"
-      ],
       "evidence-manifest-sha256": "80c52ab3e1e5f92ae3237ee71161b82aff7297cc65f51af2f62a35ae8a53b96a"
     },
     {
@@ -1035,13 +624,6 @@
         "total": 2,
         "passing": 2
       },
-      "underlying-controls": [
-        "ac-17.2",
-        "ia-5.2",
-        "ia-5.6",
-        "sc-12",
-        "sc-17"
-      ],
       "evidence-manifest-sha256": "c44302cd3a30a35bb92fc8fcc85e0b7cdbb1caac63fd88a093d78da314b5daea"
     },
     {
@@ -1056,17 +638,6 @@
         "total": 3,
         "passing": 3
       },
-      "underlying-controls": [
-        "cm-7.1",
-        "cm-12.1",
-        "ma-2",
-        "pl-8",
-        "sc-7",
-        "sc-39",
-        "si-2.2",
-        "si-4",
-        "sr-10"
-      ],
       "evidence-manifest-sha256": "f91a4bdf870b0c5f725b1c0763638c0ff55c9e39bcf949107883ca56c15326ad"
     },
     {
@@ -1081,9 +652,6 @@
         "total": 1,
         "passing": 1
       },
-      "underlying-controls": [
-        "sc-4"
-      ],
       "evidence-manifest-sha256": "55c8b285dc9531f57ffa84a26af8b781d652e7b831c01a239797613fd783d19d"
     },
     {
@@ -1098,10 +666,6 @@
         "total": 1,
         "passing": 1
       },
-      "underlying-controls": [
-        "si-12.3",
-        "si-18.4"
-      ],
       "evidence-manifest-sha256": "86a5cfc15e4945a7c69c526e1faea8fe937115b29dbc58c52a3e5c13c4e188d0"
     },
     {
@@ -1116,20 +680,6 @@
         "total": 5,
         "passing": 3
       },
-      "underlying-controls": [
-        "ac-1",
-        "ac-17.2",
-        "cp-9.8",
-        "sc-8",
-        "sc-8.1",
-        "sc-13",
-        "sc-20",
-        "sc-21",
-        "sc-22",
-        "sc-23",
-        "sc-28",
-        "sc-28.1"
-      ],
       "evidence-manifest-sha256": "dfcf4900c923aeedd18f58f1815322167fb3ed8e1ae37aeaccd4de105e208b4c",
       "remediation": {
         "risk": "high",
@@ -1148,10 +698,6 @@
         "total": 3,
         "passing": 3
       },
-      "underlying-controls": [
-        "sc-23",
-        "si-7.1"
-      ],
       "evidence-manifest-sha256": "cb33af10c6bdbdb79180052b85e7016cd1933d4bad0d9862fdf46094a4b4cada"
     },
     {
@@ -1166,15 +712,6 @@
         "total": 2,
         "passing": 1
       },
-      "underlying-controls": [
-        "cm-2.2",
-        "cm-8.3",
-        "sc-13",
-        "sc-23",
-        "si-7",
-        "si-7.1",
-        "sr-10"
-      ],
       "evidence-manifest-sha256": "5fc7130fe493d2c0bea4027812406c2ce92fb34daf9359f8ec973dabb44a2254",
       "remediation": {
         "risk": "medium",
