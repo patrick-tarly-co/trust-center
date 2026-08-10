@@ -1,8 +1,8 @@
 {
   "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
   "serviceIdentification": {
-    "fedRampPackageId": "Tarly Cowork (TARLY)",
-    "providerName": "Pincus Technologies Inc (dba Tarly)",
+    "fedRampPackageId": "FR2628650874",
+    "providerName": "Pincus Technologies Inc",
     "ueiNumber": "RKCYVMCNUK45",
     "serviceName": "Tarly Cowork",
     "serviceAcronym": "TARLY",
@@ -26,6 +26,12 @@
       "repositoryDescription": "Tarly Trust Center — FedRAMP certification status, security posture, certification roadmap, and quarterly progress updates. Machine-readable data at https://gov.tarly.co/trust/fedramp.json. No authentication required.",
       "authenticationRequired": false
     },
+    "secureConfigurationGuidance": {
+      "repositoryType": ["Secure Configuration Guidance"],
+      "url": "https://gov.tarly.co/trust/secure-configuration-guide.html",
+      "repositoryDescription": "Public customer guidance for securely provisioning, configuring, operating, reviewing, and decommissioning Tarly Cowork administrative and privileged access.",
+      "authenticationRequired": false
+    },
     "additionalRepositories": [
       {
         "repositoryType": ["Machine Readable Package", "Git Repository"],
@@ -34,7 +40,114 @@
         "authenticationRequired": false
       }
     ],
-    "nextOngoingCertificationReportDate": "2026-10-06"
+    "nextOngoingCertificationReportDate": "2026-10-06",
+    "nextQuarterlyReview": {
+      "date": "2026-10-13",
+      "startTime": "14:00:00-04:00",
+      "registrationUrl": "mailto:patrick@tarly.co?subject=Tarly%20Cowork%20Q4%202026%20FedRAMP%20Quarterly%20Review%20registration",
+      "calendarUrl": "https://gov.tarly.co/trust/quarterly-review-2026-q4.ics"
+    },
+    "ongoingCertificationReportFeedbackUrl": "mailto:patrick@tarly.co?subject=Tarly%20Cowork%20Ongoing%20Certification%20Report%20feedback"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Tarly Cowork AI Procurement Assistant",
+      "serviceDescription": "Conversational, citation-grounded assistance for federal acquisition research, FAR and agency-supplement analysis, and procurement document development. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "dateAvailable": "2026-03-13",
+      "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
+      "includedInMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Tarly Cowork Procurement File Workspace",
+      "serviceDescription": "Role-based procurement files containing conversations, evidence, artifacts, file metadata, review status, membership, and audit history. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "dateAvailable": "2026-03-13",
+      "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
+      "includedInMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Tarly Cowork Evidence and Federal Data Research",
+      "serviceDescription": "Evidence upload, extraction, citation, and read-only research against authoritative federal sources including SAM.gov, USAspending, the FAR, and agency supplements. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "dateAvailable": "2026-03-13",
+      "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
+      "includedInMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Tarly Cowork Acquisition Workflows and Document Exports",
+      "serviceDescription": "Guided acquisition workflows and generation, versioning, validation, and export of procurement artifacts. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "dateAvailable": "2026-03-13",
+      "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
+      "includedInMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Tarly Cowork Collaboration and Controlled Sharing",
+      "serviceDescription": "Role-based collaboration within procurement files and intentional link-based sharing of selected conversations and their associated artifacts and evidence. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "dateAvailable": "2026-03-19",
+      "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
+      "includedInMinimumAssessmentScope": true
+    }
+  ],
+  "documentationOverview": [
+    {
+      "name": "Certification Package Overview",
+      "formats": ["HTML", "JSON"],
+      "availability": "Public",
+      "url": "https://gov.tarly.co/trust/"
+    },
+    {
+      "name": "Secure Configuration Guide",
+      "formats": ["HTML"],
+      "availability": "Public",
+      "url": "https://gov.tarly.co/trust/secure-configuration-guide.html"
+    },
+    {
+      "name": "Certification Data Access Guide",
+      "formats": ["HTML", "JSON"],
+      "availability": "Public access instructions; controlled artifacts delivered to authorized parties",
+      "url": "https://gov.tarly.co/trust/access.html"
+    },
+    {
+      "name": "Independent Availability Status",
+      "formats": [
+        "Markdown",
+        "JSON"
+      ],
+      "availability": "Public; hosted outside the production request path",
+      "url": "https://github.com/patrick-tarly-co/trust-center/blob/main/STATUS.md"
+    },
+    {
+      "name": "Security Decision Record",
+      "formats": ["JSON", "Human-readable rendering"],
+      "availability": "Maintained by the provider; supplied to authorized agency and assessment personnel on request"
+    },
+    {
+      "name": "Ongoing Certification Report",
+      "formats": ["JSON", "Human-readable rendering"],
+      "availability": "An example is included with the initial package; quarterly reports follow certification"
+    },
+    {
+      "name": "Authorization boundary, data flows, policies, procedures, assessment evidence, and continuous-compliance results",
+      "formats": ["Human-readable", "Machine-readable evidence"],
+      "availability": "Public summaries in the Trust Center; detailed materials supplied to authorized agency and assessment personnel on request"
+    }
+  ],
+  "servicesOutsideMinimumAssessmentScope": [
+    {
+      "serviceName": "Tarly Scanner",
+      "url": "https://tarly.co",
+      "reason": "A separate public procurement-opportunity scanning product and not part of the Tarly Cowork cloud service offering submitted for this Marketplace listing."
+    },
+    {
+      "serviceName": "Development, test, staging, and corporate business systems",
+      "reason": "They do not process production Tarly Cowork federal customer data and are outside the planned authorization boundary."
+    },
+    {
+      "serviceName": "Alternative deployment models",
+      "reason": "Customer-hosted, on-premises, and Azure Government deployments are not included in this Marketplace listing or planned Minimum Assessment Scope."
+    }
+  ],
+  "assessor": {
+    "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
+    "assessorID": "138665"
   },
   "contactInformation": [
     {
@@ -49,9 +162,5 @@
       "contactEmail": "patrick@tarly.co",
       "contactPhone": "585-474-2276"
     }
-  ],
-  "assessor": {
-    "name": "Independent assessor not yet engaged — 3PAO selection in final stage, engagement targeted August 2026",
-    "id": "TBD"
-  }
+  ]
 }
