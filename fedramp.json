@@ -51,41 +51,99 @@
   },
   "certifiedServices": [
     {
-      "serviceName": "Tarly Cowork AI Procurement Assistant",
-      "serviceDescription": "Conversational, citation-grounded assistance for federal acquisition research, FAR and agency-supplement analysis, and procurement document development. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "serviceName": "Conversations",
+      "serviceDescription": "The Tarly Cowork AI procurement assistant. Users work in threaded conversations in which the assistant performs citation-grounded acquisition research, FAR and agency-supplement analysis, and document drafting. Retrieval covers uploaded evidence, connected sources, authoritative federal data (SAM.gov, USAspending, the FAR and agency supplements), and read-only fetches of public web pages identified by the user or the assistant. Individual conversations may be shared outside their procurement file through explicit, revocable share links (available 2026-03-19). Included in the planned FedRAMP Minimum Assessment Scope.",
       "dateAvailable": "2026-03-13",
       "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
       "includedInMinimumAssessmentScope": true
     },
     {
-      "serviceName": "Tarly Cowork Procurement File Workspace",
-      "serviceDescription": "Role-based procurement files containing conversations, evidence, artifacts, file metadata, review status, membership, and audit history. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "serviceName": "Procurement Files",
+      "serviceDescription": "The system of record for an acquisition. Each procurement file holds its overview and contract data, conversations, artifacts, sources and evidence, reviews, membership and access, and an append-only audit log. Membership and privileges are role-based and enforced per file. Included in the planned FedRAMP Minimum Assessment Scope.",
       "dateAvailable": "2026-03-13",
       "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
       "includedInMinimumAssessmentScope": true
     },
     {
-      "serviceName": "Tarly Cowork Evidence and Federal Data Research",
-      "serviceDescription": "Evidence upload, extraction, citation, and read-only research against authoritative federal sources including SAM.gov, USAspending, the FAR, and agency supplements. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "serviceName": "Workflows",
+      "serviceDescription": "Guided, multi-step acquisition workflows that produce procurement artifacts — market research, independent government cost estimates, solicitations, and evaluation materials — with versioning, validation against the applicable regulation, and export to Word and PDF. Included in the planned FedRAMP Minimum Assessment Scope.",
       "dateAvailable": "2026-03-13",
       "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
       "includedInMinimumAssessmentScope": true
     },
     {
-      "serviceName": "Tarly Cowork Acquisition Workflows and Document Exports",
-      "serviceDescription": "Guided acquisition workflows and generation, versioning, validation, and export of procurement artifacts. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "serviceName": "Resources",
+      "serviceDescription": "The customer-managed reference library, together with the indexed corpus of the FAR, agency supplements, and document templates the assistant retrieves and cites from. Customer-uploaded resource documents are stored inside the authorization boundary. Included in the planned FedRAMP Minimum Assessment Scope.",
       "dateAvailable": "2026-03-13",
       "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
       "includedInMinimumAssessmentScope": true
     },
     {
-      "serviceName": "Tarly Cowork Collaboration and Controlled Sharing",
-      "serviceDescription": "Role-based collaboration within procurement files and intentional link-based sharing of selected conversations and their associated artifacts and evidence. Included in the planned FedRAMP Minimum Assessment Scope.",
-      "dateAvailable": "2026-03-19",
+      "serviceName": "Workspace",
+      "serviceDescription": "The isolated execution environment in which the assistant reads and writes working files and runs analysis over evidence the customer has supplied. Each workspace is scoped to a single procurement file or conversation, runs in a dedicated sandbox container with no direct database access, and mounts only its own storage share. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "dateAvailable": "2026-05-12",
+      "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
+      "includedInMinimumAssessmentScope": true
+    },
+    {
+      "serviceName": "Approval Paths",
+      "serviceDescription": "Administrator-defined review and approval routing for procurement files and the artifacts produced within them, with per-step assignment, approval state, and audit history. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "dateAvailable": "2026-07-29",
       "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
       "includedInMinimumAssessmentScope": true
     }
   ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "F1603047324",
+        "useCase": "Microsoft Azure Commercial (FedRAMP High, Authorized) is the sole hosting platform for the Tarly Cowork authorization boundary, which runs entirely in the tarly-prod subscription in Azure Central US. Azure services used: Container Apps (frontend, backend API, and workspace sandbox), PostgreSQL Flexible Server (primary data store), Storage Account blobs and file shares (evidence, artifacts, uploads, workspace mounts), Key Vault (secrets and the evidence-signing key), Service Bus (asynchronous jobs), Container Registry (image supply chain), Front Door Premium with managed WAF (sole public ingress, delivered over Private Link), Azure DNS, Entra ID (identity and federated sign-in), Log Analytics and Azure Monitor (audit and diagnostic logging), Microsoft Defender for Cloud (posture and vulnerability findings), Azure AI Foundry model deployments (LLM inference), Azure AI Search (retrieval over the regulation and resource corpus), Azure AI Document Intelligence (document extraction), and Azure Communication Services Email (transactional notifications). Physical, hypervisor, storage-media, and platform-cryptography controls are inherited from this package; the inheritance map is maintained in the certification package."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "SAM.gov Data Services API",
+        "provider": "U.S. General Services Administration",
+        "website": "https://open.gsa.gov/api/",
+        "useCase": "Read-only retrieval of entity registration data, contract opportunities, and opportunity attachments so the assistant can cite authoritative source records. Requests carry search parameters and public identifiers only; no federal customer content is transmitted."
+      },
+      {
+        "name": "USAspending.gov API",
+        "provider": "U.S. Department of the Treasury",
+        "website": "https://api.usaspending.gov/",
+        "useCase": "Read-only retrieval of federal award and spending records used for market research and pricing comparisons. Requests carry query parameters and public identifiers only; no federal customer content is transmitted."
+      },
+      {
+        "name": "GSA acquisition APIs (Federal Acquisition Service, FPDS)",
+        "provider": "U.S. General Services Administration",
+        "website": "https://open.gsa.gov/api/",
+        "useCase": "Read-only retrieval of schedule, catalog, and federal procurement data system records supporting market research. Requests carry query parameters and public identifiers only; no federal customer content is transmitted."
+      },
+      {
+        "name": "eCFR and Acquisition.gov regulation sources",
+        "provider": "U.S. Government Publishing Office and U.S. General Services Administration",
+        "website": "https://www.ecfr.gov/",
+        "useCase": "Read-only ingestion of the FAR and agency supplements into the in-boundary regulation corpus that the assistant retrieves and cites from. Ingestion is one-way and carries no federal customer content."
+      },
+      {
+        "name": "Brave Search API",
+        "provider": "Brave Software, Inc.",
+        "website": "https://brave.com/search/api/",
+        "useCase": "Discovery-only web search. The assistant sends a short search query string derived from the user's request and receives result titles, URLs, and snippets; results are never cited directly, and any source relied upon is subsequently fetched and captured as evidence inside the boundary. Procurement file contents, uploaded evidence, and generated artifacts are not transmitted to this provider."
+      },
+      {
+        "name": "Public web content retrieval",
+        "provider": "Various public website operators",
+        "useCase": "Read-only, outbound HTTPS retrieval of specific public web pages identified by the user or by search results, so that cited material can be captured and stored as evidence inside the boundary. Retrieval is one-way; the request URL is the only information disclosed to the destination site."
+      },
+      {
+        "name": "Customer Microsoft 365 / SharePoint Online tenant",
+        "provider": "Microsoft Corporation (operated by the agency customer)",
+        "website": "https://www.microsoft.com/microsoft-365",
+        "useCase": "Optional, customer-enabled integration that lets users search their own SharePoint site and import selected documents into a Tarly Cowork procurement file as evidence. The tenant is the customer's own information resource under the customer's own authorization; Tarly does not operate it, and the integration is inert unless the customer configures it. Access uses a registered application in the customer's tenant, and the data flow is inbound only."
+      }
+    ]
+  },
   "documentationOverview": [
     {
       "name": "Certification Package Overview",
