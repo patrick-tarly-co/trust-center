@@ -2,7 +2,7 @@
 
 Current status: **Operational**
 
-Last checked: 2026-08-10T15:55:42.850247Z
+Last checked: 2026-08-10T16:12:52.446833Z
 
 This page is generated outside the production request path and retained in the independently hosted public trust-center repository.
 
@@ -10,8 +10,8 @@ This page is generated outside the production request path and retained in the i
 
 | Service | Status | HTTP | Latency |
 | --- | --- | ---: | ---: |
-| cowork-trust | Operational | 200 | 52 ms |
-| cowork-web | Operational | 200 | 32 ms |
+| cowork-trust | Operational | 200 | 95 ms |
+| cowork-web | Operational | 200 | 71 ms |
 
 ## 30-day history
 
