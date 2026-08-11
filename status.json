@@ -3,7 +3,7 @@
   "provider": "Pincus Technologies Inc",
   "service": "Tarly Cowork",
   "fedRampPackageId": "FR2628650874",
-  "generated_at": "2026-08-11T07:03:13.711456Z",
+  "generated_at": "2026-08-11T15:22:38.549387Z",
   "current_status": "operational",
   "services": [
     {
@@ -11,14 +11,14 @@
       "url": "https://gov.tarly.co/trust/",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 106
+      "latency_ms": 111
     },
     {
       "name": "cowork-web",
       "url": "https://gov.tarly.co/health",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 148
+      "latency_ms": 91
     }
   ],
   "history_window_days": 30,
@@ -90,7 +90,7 @@
       "status": "operational"
     },
     {
-      "checked_at": "2026-08-11T07:03:13.711456Z",
+      "checked_at": "2026-08-11T15:22:38.549387Z",
       "status": "operational",
       "services": [
         {
@@ -98,17 +98,17 @@
           "url": "https://gov.tarly.co/trust/",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 106
+          "latency_ms": 111
         },
         {
           "name": "cowork-web",
           "url": "https://gov.tarly.co/health",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 148
+          "latency_ms": 91
         }
       ],
-      "sample_sha256": "77236a86957daa93795dc6997d66aaf4114dd8ee53aae67ea2fb2869a83fb4ff"
+      "sample_sha256": "741556ca4bea5c0b7f72cf9b27e62e837e1c08fd8a997ea6c396080295e62fcc"
     }
   ],
   "incidents": []
