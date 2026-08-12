@@ -1,12 +1,12 @@
 # Tarly Cowork certification-data access summary
 
-Generated: 2026-08-12T00:39:18.934781Z
+Generated: 2026-08-12T00:42:39.918798Z
 
 Access logging operational: **True**
 
 Workspace retention: 365 days
 
-Trust Center requests in the 180-day window: 116
+Trust Center requests in the 180-day window: 117
 
 Days with requests: 8
 
@@ -25,4 +25,4 @@ This desensitized summary contains no client addresses, credentials, or user ide
 | 2026-08-09 | 12 | 1 |
 | 2026-08-10 | 27 | 13 |
 | 2026-08-11 | 9 | 4 |
-| 2026-08-12 | 7 | 3 |
+| 2026-08-12 | 8 | 4 |
