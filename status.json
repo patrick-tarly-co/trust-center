@@ -3,7 +3,7 @@
   "provider": "Pincus Technologies Inc",
   "service": "Tarly Cowork",
   "fedRampPackageId": "FR2628650874",
-  "generated_at": "2026-08-13T07:03:32.414835Z",
+  "generated_at": "2026-08-14T07:03:36.022817Z",
   "current_status": "operational",
   "services": [
     {
@@ -11,19 +11,19 @@
       "url": "https://gov.tarly.co/trust/",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 130
+      "latency_ms": 124
     },
     {
       "name": "cowork-web",
       "url": "https://gov.tarly.co/health",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 111
+      "latency_ms": 84
     }
   ],
   "history_window_days": 30,
-  "observed_days": 6,
-  "expected_days_since_monitoring_started": 6,
+  "observed_days": 7,
+  "expected_days_since_monitoring_started": 7,
   "history_complete": false,
   "daily_history": [
     {
@@ -133,6 +133,27 @@
     },
     {
       "checked_at": "2026-08-13T07:03:32.414835Z",
+      "sample_sha256": "dcc56cbb27abf1cb0b9ed05c848d6032493d8d01f1f14d6bfcd10f315a607434",
+      "services": [
+        {
+          "http_status": 200,
+          "latency_ms": 130,
+          "name": "cowork-trust",
+          "operational": true,
+          "url": "https://gov.tarly.co/trust/"
+        },
+        {
+          "http_status": 200,
+          "latency_ms": 111,
+          "name": "cowork-web",
+          "operational": true,
+          "url": "https://gov.tarly.co/health"
+        }
+      ],
+      "status": "operational"
+    },
+    {
+      "checked_at": "2026-08-14T07:03:36.022817Z",
       "status": "operational",
       "services": [
         {
@@ -140,17 +161,17 @@
           "url": "https://gov.tarly.co/trust/",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 130
+          "latency_ms": 124
         },
         {
           "name": "cowork-web",
           "url": "https://gov.tarly.co/health",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 111
+          "latency_ms": 84
         }
       ],
-      "sample_sha256": "dcc56cbb27abf1cb0b9ed05c848d6032493d8d01f1f14d6bfcd10f315a607434"
+      "sample_sha256": "1b2628dbe92de34d6a6e78a883872fb01727f5a934b493cda66454353792ed86"
     }
   ],
   "incidents": []

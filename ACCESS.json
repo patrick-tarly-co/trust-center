@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-08-13T07:03:34.164394Z",
+  "generatedAt": "2026-08-14T07:03:39.027801Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "summary": {
-    "requestCount": 157,
-    "daysWithRequests": 8,
+    "requestCount": 170,
+    "daysWithRequests": 10,
     "activeAgencyAccessors": 0,
     "deniedAgencyRequests": 0
   },
@@ -52,6 +52,16 @@
       "date": "2026-08-12",
       "requestCount": 48,
       "uniqueClientAddresses": 12
+    },
+    {
+      "date": "2026-08-13",
+      "requestCount": 9,
+      "uniqueClientAddresses": 6
+    },
+    {
+      "date": "2026-08-14",
+      "requestCount": 4,
+      "uniqueClientAddresses": 2
     }
   ],
   "agencyAccessors": [],
