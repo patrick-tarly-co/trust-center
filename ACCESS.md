@@ -1,14 +1,24 @@
 # Tarly Cowork certification-data access summary
 
-Generated: 2026-08-14T07:03:39.027801Z
+FedRAMP package ID: **FR2628650874**
+
+Generated: 2026-08-15T08:30:42.740371Z
 
 Access logging operational: **True**
 
+Access logging fresh within 48 hours: **True**
+
+All certification-data channels logged: **False**
+
+Authoritative inventory reconciliation: **True**
+
+Uninterrupted necessary-party sharing verified: **False**
+
 Workspace retention: 365 days
 
-Trust Center requests in the 180-day window: 170
+Trust Center requests in the 180-day window: 504
 
-Days with requests: 10
+Days with requests: 11
 
 Active recorded agency accessors: 0
 
@@ -27,4 +37,5 @@ This desensitized summary contains no client addresses, credentials, or user ide
 | 2026-08-11 | 9 | 4 |
 | 2026-08-12 | 48 | 12 |
 | 2026-08-13 | 9 | 6 |
-| 2026-08-14 | 4 | 2 |
+| 2026-08-14 | 290 | 4 |
+| 2026-08-15 | 48 | 1 |

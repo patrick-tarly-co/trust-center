@@ -8,15 +8,15 @@
     "version": "2026.07.14.01",
     "source": "https://github.com/FedRAMP/rules"
   },
-  "generated-at": "2026-08-14T07:03:35.929253+00:00",
+  "generated-at": "2026-08-15T08:30:31.804419+00:00",
   "summary": {
-    "drifted": 0,
-    "false": 0,
+    "drifted": 16,
+    "false": 1,
     "inherited": 0,
-    "partial": 1,
+    "partial": 26,
     "total": 46,
-    "true": 45,
-    "unknown": 0
+    "true": 18,
+    "unknown": 1
   },
   "ksis": [
     {
@@ -28,24 +28,28 @@
       "status-label": "Met",
       "drift": false,
       "checks": {
-        "total": 15,
-        "passing": 15
+        "total": 16,
+        "passing": 16
       },
-      "evidence-manifest-sha256": "14856d7cd2865158f11bfe1ad00a8940dca666c4f6eb66d184b16481e698fa0d"
+      "evidence-manifest-sha256": "e1fcb8475a2e17263dd0647e623958729869df1496172a56a6c65a927939d798"
     },
     {
       "id": "KSI-CMT-LMC",
       "name": "Logging Changes",
       "category": "Change Management",
       "statement": "Modifications to the cloud service offering are logged and monitored.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 9,
+        "passing": 8
       },
-      "evidence-manifest-sha256": "c2ca7871f815255286727574f2c0759d7fc7360451337afa25510be98aeacffb"
+      "evidence-manifest-sha256": "22f0c13399d98114f9e284b4f0f06c9afc200fd319cc5cb907293e2d8162a2e5",
+      "remediation": {
+        "risk": "medium",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-CMT-RMV",
@@ -59,7 +63,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "7c27443e344ded4036f0faa55e855a387a6619453a84bdd4e67db310ebf89270"
+      "evidence-manifest-sha256": "3d6b9d5365225495daa00e0a23d0ef811cc87c254d85bb9fc391cca55e1b4701"
     },
     {
       "id": "KSI-CMT-RVP",
@@ -73,7 +77,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "800cadf6e7902e1cac628ddc5590a6723cb7d5d20167fcdadc0b457efb9fbffe"
+      "evidence-manifest-sha256": "5f0f3ebba245be82fb5875a34c983777339727a866a27e137bcb8eb56cd48008"
     },
     {
       "id": "KSI-CMT-VTD",
@@ -87,7 +91,7 @@
         "total": 2,
         "passing": 2
       },
-      "evidence-manifest-sha256": "51039c5fac1f10c57c7a0b5734626ce7301ec7fa98da3f0ebd1a237d48b0aafd"
+      "evidence-manifest-sha256": "5969ef6ab6974e9bd885ff1c73b42c9cae10be0ac135ba89c5a07704ab2f2f98"
     },
     {
       "id": "KSI-CNA-DFP",
@@ -98,66 +102,78 @@
       "status-label": "Met",
       "drift": false,
       "checks": {
-        "total": 4,
-        "passing": 4
+        "total": 6,
+        "passing": 6
       },
-      "evidence-manifest-sha256": "8f809c31a7c4275606f10e92cca36d9520989e1e93fdb05ae0aed861e7635bfd"
+      "evidence-manifest-sha256": "1d44a25d83ca6ecd71cc11e669b0785e39c7caab93e2e59a79142e4dad34e7ec"
     },
     {
       "id": "KSI-CNA-EIS",
       "name": "Enforcing Intended State",
       "category": "Cloud Native Architecture",
       "statement": "Automated services are used to persistently assess the security of all machine-based information resources and automatically enforce their intended operational state.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "unknown",
+      "status-label": "Unknown",
       "drift": false,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 5,
+        "passing": 4
       },
-      "evidence-manifest-sha256": "8e5989deb5906dc262d48745c9d6a38c6844a611ff79aaa78d2ba80d3463ba64"
+      "evidence-manifest-sha256": "7e5ec1c0d5009dc2ff1bdd56e27cecbff60126a6b7cacefaa96ebdc6f1689f03"
     },
     {
       "id": "KSI-CNA-IBP",
       "name": "Implementing Best Practices",
       "category": "Cloud Native Architecture",
       "statement": "The use and configuration of third-party machine-based information resources is persistently compared against the original provider's best practices and guidance.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
-        "total": 2,
-        "passing": 2
+        "total": 7,
+        "passing": 5
       },
-      "evidence-manifest-sha256": "a23460e16319460ecedd0161af6d72a654fdea0b0f277521196571c8ad485adc"
+      "evidence-manifest-sha256": "2e93ea1d2d70060c5a9823ba476fca8f4a2a00c37e597aaa705b8ac9c466ea65",
+      "remediation": {
+        "risk": "medium",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-CNA-MAT",
       "name": "Minimizing Attack Surface",
       "category": "Cloud Native Architecture",
       "statement": "Machine-based information resources are persistently reviewed to ensure they have a minimal attack surface and that lateral movement is minimized if compromised.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "partial",
+      "status-label": "Partially met",
       "drift": false,
       "checks": {
-        "total": 5,
-        "passing": 5
+        "total": 8,
+        "passing": 7
       },
-      "evidence-manifest-sha256": "6be5a6535c632effa98c9cbe0b6a2a0acf1891f2f9bc31ddf3471199d1a9b069"
+      "evidence-manifest-sha256": "b9defdd9122c15a47a8a20db0acd007b2624f47d10c2d69bf6de7830c25cd68d",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-CNA-OFA",
       "name": "Optimizing for Availability",
       "category": "Cloud Native Architecture",
       "statement": "Machine-based information resources are persistently reviewed to ensure they are appropriately optimized for high availability and rapid recovery.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "partial",
+      "status-label": "Partially met",
       "drift": false,
       "checks": {
-        "total": 2,
-        "passing": 2
+        "total": 6,
+        "passing": 5
       },
-      "evidence-manifest-sha256": "95045effaadefc3037502593034f421f9acb7db3edb673eaa8aedf07fe0d9d84"
+      "evidence-manifest-sha256": "a48425749cbb5318ae6a946d9075f6d86c6ffdb0f25dcc2699f60ed06484df67",
+      "remediation": {
+        "risk": "medium",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-CNA-RNT",
@@ -166,26 +182,30 @@
       "statement": "Machine-based information resources are persistently reviewed to ensure they are appropriately configured to limit inbound and outbound network traffic.",
       "status": "true",
       "status-label": "Met",
-      "drift": false,
+      "drift": true,
       "checks": {
         "total": 5,
         "passing": 5
       },
-      "evidence-manifest-sha256": "46d2af390d277f8de9b3163670831ac29a6b1993b5a4988a4447f5cf259f7448"
+      "evidence-manifest-sha256": "a8750a40914c94b14682fe64ee75767b35f2d388900fa531432fd232e30c2875"
     },
     {
       "id": "KSI-CNA-RVP",
       "name": "Reviewing Protections",
       "category": "Cloud Native Architecture",
       "statement": "The effectiveness of protection against denial of service attacks and other unwanted activity for machine-based information resources is persistently reviewed.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "partial",
+      "status-label": "Partially met",
       "drift": false,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 7,
+        "passing": 6
       },
-      "evidence-manifest-sha256": "05e0ea2449b2aa9ab15a26fb2f58bf589fbd8456894d0db9a6cff4fba858796e"
+      "evidence-manifest-sha256": "d344a4eadefdd787ae4b5dff5e310bca2236cdb57dc62556735994223029f83e",
+      "remediation": {
+        "risk": "medium",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-CNA-ULN",
@@ -199,21 +219,25 @@
         "total": 8,
         "passing": 8
       },
-      "evidence-manifest-sha256": "f3de4c7a555c86f523f6f11eef407db287d40d57ace86ec515afb2c0d92a9fb7"
+      "evidence-manifest-sha256": "9330eb17379358425dbd93634866cadda4f93d0d18a359af8fea018df9e1d7a0"
     },
     {
       "id": "KSI-IAM-AAM",
       "name": "Automating Account Management",
       "category": "Identity and Access Management",
       "statement": "The lifecycle and privileges of all accounts, roles, and groups are securely managed using automation.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
-        "total": 5,
-        "passing": 5
+        "total": 7,
+        "passing": 6
       },
-      "evidence-manifest-sha256": "35c133a9efe351e6c5013b9cb3ba6216b1497edce7f5d37091d7e49200615cfb"
+      "evidence-manifest-sha256": "be99fbbee9e6ef78cd83e5e62a503f7e2e323eef80c21d90d64f107a59eeb90d",
+      "remediation": {
+        "risk": "medium",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-IAM-APM",
@@ -227,49 +251,61 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "d7c9ec83f48d591cf2e2d1bcf298263eeb44abbb0809317eed32b3d47ab6413a"
+      "evidence-manifest-sha256": "2b3b328443bf4c4f90a94ac3db84e0a0ec9f0dd62f0c320acc7e7bb4c7937e2c"
     },
     {
       "id": "KSI-IAM-ELP",
       "name": "Ensuring Least Privilege",
       "category": "Identity and Access Management",
       "statement": "Identity and access management measures are used and persistently reviewed to ensure each user or device can only access the resources they need.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
         "total": 5,
-        "passing": 5
+        "passing": 4
       },
-      "evidence-manifest-sha256": "e33ecb24db5152812f181c328de0b75627c413e56f021801f15b78b3e816eb69"
+      "evidence-manifest-sha256": "8e5a9cf0be4debf18fb06211ecf1ba196fda5bb6c78e578823a7f243e0a2471f",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-IAM-JIT",
       "name": "Authorizing Just-in-Time",
       "category": "Identity and Access Management",
       "statement": "A least-privileged, role and attribute-based, and just-in-time security authorization model is used and persistently reviewed for all user and non-user accounts and services.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "partial",
+      "status-label": "Partially met",
       "drift": false,
       "checks": {
-        "total": 4,
-        "passing": 4
+        "total": 6,
+        "passing": 5
       },
-      "evidence-manifest-sha256": "be3144904e781aad043d0065340677322a1d73db5c4dafa8751aed792edfba47"
+      "evidence-manifest-sha256": "0152d92c8dd71bf71c8e5da485906065e7e6bbbb217c182067fb06e46fab70f9",
+      "remediation": {
+        "risk": "medium",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-IAM-SNU",
       "name": "Securing Non-User Authentication",
       "category": "Identity and Access Management",
       "statement": "Appropriately secure authentication methods are used and persistently reviewed for non-user accounts and services.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "partial",
+      "status-label": "Partially met",
       "drift": false,
       "checks": {
-        "total": 2,
-        "passing": 2
+        "total": 6,
+        "passing": 4
       },
-      "evidence-manifest-sha256": "bf8f516ebed32898502861c5da9368629409d160e54d66024782c6de26bf3d7c"
+      "evidence-manifest-sha256": "1604289144ab9d81def8cef6b11f7fc50285ccedbee4428c3b82da4fd8096ea6",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-IAM-SUS",
@@ -283,7 +319,7 @@
         "total": 3,
         "passing": 3
       },
-      "evidence-manifest-sha256": "1e3ef8c1015bf32f2d83f7744b3a96b7cd7af3b3ad803e250a5a65139a443829"
+      "evidence-manifest-sha256": "163f152af7f0b2871ac4b42ab5c4626680eb0b4946f9ef28e791e2c5713b1c00"
     },
     {
       "id": "KSI-INR-AAR",
@@ -292,12 +328,12 @@
       "statement": "Incident after action reports are generated and lessons learned are persistently incorporated.",
       "status": "true",
       "status-label": "Met",
-      "drift": false,
+      "drift": true,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 11,
+        "passing": 11
       },
-      "evidence-manifest-sha256": "4149feee9c82380162a1145d0d3f341f45ef9b12f2162565eae7c816affe9639"
+      "evidence-manifest-sha256": "16b357643f14fa1c1d978d3a174d90cddc65928947c63bbc4cf429042a2040c7"
     },
     {
       "id": "KSI-INR-RIR",
@@ -308,10 +344,10 @@
       "status-label": "Met",
       "drift": false,
       "checks": {
-        "total": 5,
-        "passing": 5
+        "total": 10,
+        "passing": 10
       },
-      "evidence-manifest-sha256": "6120fd8e9d9f9f0ab98adb073e6566ebcd01151b1b86d71a7c27fdaedd9ec479"
+      "evidence-manifest-sha256": "47cc1badec71d79751a97c35ee4fc6c8e39b7eab5c31604c8cd942e9d40a15a6"
     },
     {
       "id": "KSI-INR-RPI",
@@ -322,10 +358,10 @@
       "status-label": "Met",
       "drift": false,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 7,
+        "passing": 7
       },
-      "evidence-manifest-sha256": "e6575cdb42c17813ce648d9b467eb3d1ea7c40c8f89bbcff45284fa17fbd84b5"
+      "evidence-manifest-sha256": "6633ec6db134c6c2bcb640128c35b2aa82eb2e2bb75071b3d6398ea752a3bc94"
     },
     {
       "id": "KSI-MLA-ALA",
@@ -336,10 +372,10 @@
       "status-label": "Met",
       "drift": false,
       "checks": {
-        "total": 2,
-        "passing": 2
+        "total": 10,
+        "passing": 10
       },
-      "evidence-manifest-sha256": "c1da0f96c03ed8fa8c2beb15472341df5a9c1a54b9959480cb35e05b089140ad"
+      "evidence-manifest-sha256": "d0814706da32cacde3608f9fd41352ecb1772f4c1313f46fb96dfe55fef688fe"
     },
     {
       "id": "KSI-MLA-EVC",
@@ -348,54 +384,66 @@
       "statement": "The configuration of machine-based information resources, especially infrastructure as code, is persistently evaluated and tested.",
       "status": "true",
       "status-label": "Met",
-      "drift": false,
+      "drift": true,
       "checks": {
-        "total": 2,
-        "passing": 2
+        "total": 7,
+        "passing": 7
       },
-      "evidence-manifest-sha256": "63c48dd8657f8940928bf9296361468705439c723b7ab9cdde7305941d2c814c"
+      "evidence-manifest-sha256": "45407b35fb731331d62eae21cbcb3698a20ac4fb6989215b37a125c05418bf4a"
     },
     {
       "id": "KSI-MLA-LET",
       "name": "Logging Event Types",
       "category": "Monitoring, Logging, and Auditing",
       "statement": "A list of information resources and event types that will be logged, monitored, and audited is maintained and persistently reviewed to ensure these activities occur.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "partial",
+      "status-label": "Partially met",
       "drift": false,
       "checks": {
-        "total": 3,
+        "total": 4,
         "passing": 3
       },
-      "evidence-manifest-sha256": "351bdf978c02422604cec763584e03f97110f26825c7bd17943f6ce37a6541c9"
+      "evidence-manifest-sha256": "2fb87588f4dc5d4b4b4f75ccdf898546183a90873a272c59ec77a215ae33f613",
+      "remediation": {
+        "risk": "low",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-MLA-OSM",
       "name": "Operating SIEM Capability",
       "category": "Monitoring, Logging, and Auditing",
       "statement": "A Security Information and Event Management (SIEM) or similar system(s) is used and persistently reviewed for centralized, tamper-resistant logging of events, activities, and changes.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
-        "total": 4,
-        "passing": 4
+        "total": 13,
+        "passing": 6
       },
-      "evidence-manifest-sha256": "08bfdbc88a38b29590e02831e38d0bba9bfe4f61fd00b97ebaa8c002b85d2c47"
+      "evidence-manifest-sha256": "63a7fbeca0143fa09fc6e26aa1900ba7af10ef2bb5a084df6c2ab9f01c48fba3",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-MLA-RVL",
       "name": "Reviewing Logs",
       "category": "Monitoring, Logging, and Auditing",
       "statement": "Logs are persistently reviewed and audited.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 11,
+        "passing": 4
       },
-      "evidence-manifest-sha256": "e1945bc127861649f7bf2b0bd52d71ba6d458bdc847fddaec50ecb460a335389"
+      "evidence-manifest-sha256": "8acfee7a0e5667491925b7fdafab2257643533adaa21866687d6aa61560f38f7",
+      "remediation": {
+        "risk": "low",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-PIY-GIV",
@@ -406,24 +454,28 @@
       "status-label": "Met",
       "drift": false,
       "checks": {
-        "total": 2,
-        "passing": 2
+        "total": 8,
+        "passing": 8
       },
-      "evidence-manifest-sha256": "33fa571a2f6136b07b102e4333fd8ce5e8aad27cb19af48751a73912dcd02fd9"
+      "evidence-manifest-sha256": "8a5b1f968150e926b2ae5d0b1e6b68c85ae6a18e5c7794464acf58e9b222b96f"
     },
     {
       "id": "KSI-PIY-RES",
       "name": "Reviewing Executive Support",
       "category": "Policy and Inventory",
       "statement": "Executive support for achieving the provider's security goals is persistently reviewed and demonstrated.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "partial",
+      "status-label": "Partially met",
       "drift": false,
       "checks": {
-        "total": 5,
-        "passing": 5
+        "total": 9,
+        "passing": 4
       },
-      "evidence-manifest-sha256": "a5ab662e0d719615eeb7271db045723fd66e254c9fb099a4a042e3b4baaccb64"
+      "evidence-manifest-sha256": "8c26e178e8a0197b95521b579c948064a58653cc63d272a7a145bdb106c328c1",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-PIY-RIS",
@@ -434,10 +486,10 @@
       "status-label": "Met",
       "drift": false,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 8,
+        "passing": 8
       },
-      "evidence-manifest-sha256": "bdcd6897256e1b573f5e5871ec90d7bdf1b10138f4a70542c93d3aef70a98426"
+      "evidence-manifest-sha256": "eb8b6ee9b872a39a6d77bc0a9212559adb2a9ccdd2d3cd64859234afec5ffe50"
     },
     {
       "id": "KSI-PIY-RSD",
@@ -446,96 +498,120 @@
       "statement": "The effectiveness of building security and privacy considerations into the Software Development Lifecycle and aligning with CISA Secure By Design principles is persistently reviewed.",
       "status": "true",
       "status-label": "Met",
-      "drift": false,
+      "drift": true,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 12,
+        "passing": 12
       },
-      "evidence-manifest-sha256": "168a0d6842a421931525e0e5e11d3500e270c81779a91f11aeca903624ac85e2"
+      "evidence-manifest-sha256": "cb7d20cbd9d0f89002e5dcac80ad382df0159d61dacfd6e00115e0bf4087b498"
     },
     {
       "id": "KSI-PIY-RVD",
       "name": "Reviewing Vulnerability Disclosures",
       "category": "Policy and Inventory",
       "statement": "The effectiveness of the provider's vulnerability disclosure program is persistently reviewed.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "partial",
+      "status-label": "Partially met",
       "drift": false,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 12,
+        "passing": 4
       },
-      "evidence-manifest-sha256": "cb09038c81f466c7b20980ca2cd036bdb504c915916038d2d70315565750b3fd"
+      "evidence-manifest-sha256": "cc7d6e5a7cea233f8f2f21cf4194e705a96757e0f2d9f140fe766c702cbbd66e",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-RPL-ABO",
       "name": "Aligning Backups with Objectives",
       "category": "Recovery Planning",
       "statement": "The alignment of machine-based information resource backups with defined recovery objectives is persistently reviewed.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 14,
+        "passing": 7
       },
-      "evidence-manifest-sha256": "7955399135709e9d3300ecd515fa9eee99149d5b8efb308108fb95534a426da2"
+      "evidence-manifest-sha256": "f1f5eb6a5ac611808266ac5ff1a9cb4f29a18c88a1d84d4135ccf05dbad11e6f",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-RPL-ARP",
       "name": "Aligning Recovery Plan",
       "category": "Recovery Planning",
       "statement": "The alignment of recovery plans with defined recovery objectives is persistently reviewed.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 14,
+        "passing": 5
       },
-      "evidence-manifest-sha256": "9fdc3ab566cf35f6a1c1c76569dfff4221b6f4db0bb08edd86e8f345362f9d9f"
+      "evidence-manifest-sha256": "3bf0029e530c9e0ed27023d702bd9bd06ee8c163447de8e8bfe03dd0e5aa556d",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-RPL-RRO",
       "name": "Reviewing Recovery Objectives",
       "category": "Recovery Planning",
       "statement": "The desired Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO) are defined and persistently reviewed for alignment with the provider's business needs and capabilities.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "partial",
+      "status-label": "Partially met",
       "drift": false,
       "checks": {
-        "total": 4,
-        "passing": 4
+        "total": 12,
+        "passing": 5
       },
-      "evidence-manifest-sha256": "7bb2324cbd3b001cca895b306fbd451b9d82aad8fd244911d6cb7fe87e6135ed"
+      "evidence-manifest-sha256": "440b67be59e536128dabfb17d72f52fe88b79661418eaa570c57bbb2521de816",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-RPL-TRC",
       "name": "Testing Recovery Capabilities",
       "category": "Recovery Planning",
       "statement": "The capability to recover from incidents and contingencies aligned with defined recovery objectives is persistently tested.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "partial",
+      "status-label": "Partially met",
       "drift": false,
       "checks": {
-        "total": 3,
+        "total": 5,
         "passing": 3
       },
-      "evidence-manifest-sha256": "71526bc71f0e5fbebef2d18419d0a3cde0bcc494b52870cff2ce04ea244f8542"
+      "evidence-manifest-sha256": "2c464b0412f5d295e6442312ec77630370c03bbb31bd42f274a856b9275f7c3e",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-SCR-MIT",
       "name": "Mitigating Supply Chain Risk",
       "category": "Supply Chain Risk",
       "statement": "Persistently identify, review, and mitigate potential supply chain risks.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
-        "total": 3,
+        "total": 11,
         "passing": 3
       },
-      "evidence-manifest-sha256": "56eddff442a25c354c327b7331e5b5c93cc4e25f95928743768802821cabb18f"
+      "evidence-manifest-sha256": "1eebea1685c7486e1f7dee5056b8bb43d4404911c2186522db607ea5e12a8691",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-SCR-MON",
@@ -549,77 +625,97 @@
         "total": 3,
         "passing": 3
       },
-      "evidence-manifest-sha256": "305eeb43ac42c8a1bb5efe68e4df9685cbaf2bdd0cae472924c053fef5e84be5"
+      "evidence-manifest-sha256": "cc1f0a8e221eb8104bea63be640a39016d8ce833347629645c09c73d64ff9f79"
     },
     {
       "id": "KSI-SVC-ACM",
       "name": "Automating Configuration Management",
       "category": "Service Configuration",
       "statement": "The configuration of machine-based information resources is managed using automation and persistently reviewed for drift.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 4,
+        "passing": 1
       },
-      "evidence-manifest-sha256": "aafef6d2e3db4a821d863789d062facb71a4fd03f02cf7e99a823f59a1d847b3"
+      "evidence-manifest-sha256": "b47b5bd57ffbbb6d93107457ce8817a88c3db15ffa1c03afdafaf6fb5b296335",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-SVC-ASM",
       "name": "Automating Secret Management",
       "category": "Service Configuration",
       "statement": "Management, protection, and regular rotation of digital keys, certificates, and other secrets is automated and persistently reviewed.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "partial",
+      "status-label": "Partially met",
       "drift": false,
       "checks": {
-        "total": 2,
+        "total": 15,
         "passing": 2
       },
-      "evidence-manifest-sha256": "e732dda43b40faeb408dd2257bf868b5c39c9968343f3d828021c3c8f6289548"
+      "evidence-manifest-sha256": "dc611460f1888c181c72ac001dc5d959756c2f8fb5b7102f4f8dae68654ca73a",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-SVC-EIS",
       "name": "Evaluating and Improving Security",
       "category": "Service Configuration",
       "statement": "Information resources are persistently evaluated for opportunities to improve security and those improvements are persistently made.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 6,
+        "passing": 2
       },
-      "evidence-manifest-sha256": "13e81353e3d45127e54a3d896aa6975cfd7c364d2a845918f27382c9ed82f212"
+      "evidence-manifest-sha256": "fc4f1c630d255d008d1189db974528366e0d9c74085779ef4b0a32b1a5b2af33",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-SVC-PRR",
       "name": "Preventing Residual Risk",
       "category": "Service Configuration",
       "statement": "Plans, procedures, and the state of information resources are persistently reviewed after making changes to limit and remove unwanted residual elements that would likely negatively affect the confidentiality, integrity, or availability of federal customer data.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "partial",
+      "status-label": "Partially met",
       "drift": false,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 15,
+        "passing": 6
       },
-      "evidence-manifest-sha256": "679c217a825f6b20e0ac781f2e448f840fc16f741e9ca76aaf3afa0e61acb5f6"
+      "evidence-manifest-sha256": "bc41c1d8be1bc1d494a85c56ef422ddda963943a09ae26adf8555c4519f7129a",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-SVC-RUD",
       "name": "Removing Unwanted Data",
       "category": "Service Configuration",
       "statement": "Unwanted federal customer data is removed promptly when requested by an agency in alignment with customer agreements, including from backups if appropriate; this typically applies when a customer spills information or when a customer seeks to remove information from a service due to a change in usage.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "false",
+      "status-label": "Not met",
       "drift": false,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 15,
+        "passing": 0
       },
-      "evidence-manifest-sha256": "798040623ae540a6fb33af3df0aab02bca11fe19d438e425066c71ef63ad15d0"
+      "evidence-manifest-sha256": "4b3f959cb049ba79e85aac19a03ce5b3cf501598f3e1cd8ff7991d71fd73738b",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-SVC-SIN",
@@ -633,7 +729,7 @@
         "total": 5,
         "passing": 4
       },
-      "evidence-manifest-sha256": "74eea7360d3bf2f24d76130a57772ea48a8ac1c187a039083f5c3c1cec26effe",
+      "evidence-manifest-sha256": "936f41408382265a03cb44a703379036d9e4bf7a925c9784ee9e9a01f8d907e3",
       "remediation": {
         "risk": "high",
         "scheduled-completion": null
@@ -644,28 +740,36 @@
       "name": "Validating Communications",
       "category": "Service Configuration",
       "statement": "The authenticity and integrity of communications between machine-based information resources is persistently validated using automation.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
-        "total": 5,
-        "passing": 5
+        "total": 8,
+        "passing": 2
       },
-      "evidence-manifest-sha256": "72a453b72ef2cfaf7fbc0b1bbe8ccbcb594c5900d538a664eb23fb8236db94e2"
+      "evidence-manifest-sha256": "4f0ab188b53110e98220babb20914ebe3f4eed39eb192e98b415d355adb5bf2b",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-SVC-VRI",
       "name": "Validating Resource Integrity",
       "category": "Service Configuration",
       "statement": "Use cryptographic methods to validate the integrity of machine-based information resources.",
-      "status": "true",
-      "status-label": "Met",
+      "status": "partial",
+      "status-label": "Partially met",
       "drift": false,
       "checks": {
-        "total": 3,
-        "passing": 3
+        "total": 9,
+        "passing": 2
       },
-      "evidence-manifest-sha256": "2fe0e0e7a5d9f76a5578ae0d6c4cff1650e97a9fc44c8812b3bdcca1b512f64d"
+      "evidence-manifest-sha256": "5baaf803e3f6f7b2ae515655ee003855ab144dba5374b7838848e44e47d16ed0",
+      "remediation": {
+        "risk": "critical",
+        "scheduled-completion": null
+      }
     }
   ]
 }

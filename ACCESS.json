@@ -1,67 +1,121 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-08-14T07:03:39.027801Z",
+  "generatedAt": "2026-08-15T08:30:42.740371Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
+  "loggingFreshWithinHours": 48,
+  "loggingFresh": true,
+  "latestAccessAt": "2026-08-15T08:22:57Z",
+  "allCertificationDataChannelsLogged": false,
+  "publicChannelLoggingCoverage": [
+    {
+      "id": "gov-tarly-trust-center",
+      "retrievalLoggingVerified": true,
+      "assertedVerified": true,
+      "summaryRetentionDays": 365,
+      "loggingLastVerifiedAt": "2026-08-14T18:19:39Z",
+      "gap": ""
+    },
+    {
+      "id": "independent-trust-repository",
+      "retrievalLoggingVerified": false,
+      "assertedVerified": false,
+      "summaryRetentionDays": null,
+      "loggingLastVerifiedAt": null,
+      "gap": "Anonymous raw reads cannot be provider-logged; GitHub's own traffic statistics are the authoritative summary. This claim flips to verified only after the nightly capture succeeds with the configured credential and its archived summary evidence is current."
+    }
+  ],
+  "controlledRetrievalLoggingVerified": false,
+  "continuityEvidenceVersion": 1,
+  "uninterruptedSharingVerified": false,
+  "continuityFindings": [
+    "controlled access still requires repeated manual approval",
+    "complete-certification-data-catalog is not verified",
+    "controlled-path-failover-tested is not verified",
+    "no-repeated-manual-approval is not verified",
+    "persistent-entitlement-or-on-demand-jit is not verified"
+  ],
+  "inventoryMaintained": true,
+  "accessRequestControlImplemented": true,
+  "denialNotificationControlImplemented": true,
+  "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 170,
-    "daysWithRequests": 10,
+    "requestCount": 504,
+    "daysWithRequests": 11,
     "activeAgencyAccessors": 0,
-    "deniedAgencyRequests": 0
+    "approvedAgencyRequests": 0,
+    "deniedAgencyRequests": 0,
+    "denialsPendingFedRAMPNotice": 0
   },
   "dailyAccess": [
     {
       "date": "2026-08-05",
       "requestCount": 6,
-      "uniqueClientAddresses": 4
+      "uniqueClientAddresses": 4,
+      "lastRequestAt": "2026-08-05T23:45:57Z"
     },
     {
       "date": "2026-08-06",
       "requestCount": 23,
-      "uniqueClientAddresses": 4
+      "uniqueClientAddresses": 4,
+      "lastRequestAt": "2026-08-06T18:41:13Z"
     },
     {
       "date": "2026-08-07",
       "requestCount": 5,
-      "uniqueClientAddresses": 3
+      "uniqueClientAddresses": 3,
+      "lastRequestAt": "2026-08-07T17:56:42Z"
     },
     {
       "date": "2026-08-08",
       "requestCount": 27,
-      "uniqueClientAddresses": 3
+      "uniqueClientAddresses": 3,
+      "lastRequestAt": "2026-08-08T21:50:37Z"
     },
     {
       "date": "2026-08-09",
       "requestCount": 12,
-      "uniqueClientAddresses": 1
+      "uniqueClientAddresses": 1,
+      "lastRequestAt": "2026-08-09T18:16:05Z"
     },
     {
       "date": "2026-08-10",
       "requestCount": 27,
-      "uniqueClientAddresses": 13
+      "uniqueClientAddresses": 13,
+      "lastRequestAt": "2026-08-10T18:53:26Z"
     },
     {
       "date": "2026-08-11",
       "requestCount": 9,
-      "uniqueClientAddresses": 4
+      "uniqueClientAddresses": 4,
+      "lastRequestAt": "2026-08-11T21:11:13Z"
     },
     {
       "date": "2026-08-12",
       "requestCount": 48,
-      "uniqueClientAddresses": 12
+      "uniqueClientAddresses": 12,
+      "lastRequestAt": "2026-08-12T23:01:33Z"
     },
     {
       "date": "2026-08-13",
       "requestCount": 9,
-      "uniqueClientAddresses": 6
+      "uniqueClientAddresses": 6,
+      "lastRequestAt": "2026-08-13T21:02:40Z"
     },
     {
       "date": "2026-08-14",
-      "requestCount": 4,
-      "uniqueClientAddresses": 2
+      "requestCount": 290,
+      "uniqueClientAddresses": 4,
+      "lastRequestAt": "2026-08-14T21:39:47Z"
+    },
+    {
+      "date": "2026-08-15",
+      "requestCount": 48,
+      "uniqueClientAddresses": 1,
+      "lastRequestAt": "2026-08-15T08:22:57Z"
     }
   ],
   "agencyAccessors": [],
@@ -70,14 +124,40 @@
       "id": "gov-tarly-trust-center",
       "type": "public-https",
       "url": "https://gov.tarly.co/trust/",
-      "logging-source": "Azure Front Door FrontDoorAccessLog"
+      "logging-source": "Azure Front Door FrontDoorAccessLog",
+      "retrieval-logging-verified": true,
+      "logging-evidence-uri": "https://management.azure.com/subscriptions/30d72441-592f-4f2c-a873-5c8db43b7ac7/resourceGroups/rg-tarly-prod/providers/Microsoft.Cdn/profiles/fd-tarly-prod/providers/Microsoft.Insights/diagnosticSettings/diag-tarly-frontdoor-prod",
+      "logging-last-verified-at": "2026-08-14T18:19:39Z",
+      "summary-retention-days": 365
     },
     {
       "id": "independent-trust-repository",
       "type": "public-git-https",
       "url": "https://github.com/patrick-tarly-co/trust-center",
-      "logging-source": "GitHub repository access and commit history"
+      "logging-source": "GitHub repository traffic statistics (views, clones, popular paths) captured nightly by compliance/scripts/github_traffic_report.py and archived with the trust-access evidence set",
+      "retrieval-logging-verified": false,
+      "retrieval-logging-gap": "Anonymous raw reads cannot be provider-logged; GitHub's own traffic statistics are the authoritative summary. This claim flips to verified only after the nightly capture succeeds with the configured credential and its archived summary evidence is current."
     }
   ],
+  "controlledAccessPolicy": {
+    "decision-owner": "FedRAMP Program Owner",
+    "presumption": "Approve verified agency requests for the Tarly Cowork FedRAMP Certification Package.",
+    "identity-verification": "Verify the requester's agency affiliation and official contact channel before delivery.",
+    "approval-criteria": [
+      "Requester is acting for a government agency or its authorized assessor.",
+      "Request concerns Tarly Cowork package FR2628650874 and supports an authorization, assessment, oversight, or procurement decision.",
+      "Requester accepts the handling restrictions and time-limited authenticated HTTPS delivery method."
+    ],
+    "denial-criteria": [
+      "Identity or agency affiliation cannot be verified.",
+      "Requested material is unrelated to the Tarly Cowork Certification Package or the stated official purpose.",
+      "Requested delivery would violate law, contract, FedRAMP direction, or another agency's confidentiality; offer a safe subset when possible."
+    ],
+    "target-response-business-days": 5,
+    "approved-delivery-method": "Time-limited authenticated HTTPS bundle with manifest, SHA-256 hashes, schema and media-type metadata, signature verification metadata, and retained delivery receipt.",
+    "retrieval-logging-verified": false,
+    "retrieval-logging-gap": "The controlled bundle endpoint and its immutable retrieval log are implemented and were exercised against the staging data plane on 2026-08-14 (12 immutable rows retained); production (gov.tarly.co) retrieval logging begins with the staging-to-main promotion, so this production-channel claim stays false until a production retrieval-log artifact is retained.",
+    "fedramp-denial-form": "https://help.fedramp.gov/hc/en-us/requests/new?ticket_form_id=51829826617243"
+  },
   "privacy": "No client address, token, or user identity is included in this desensitized summary."
 }
