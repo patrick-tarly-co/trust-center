@@ -2,7 +2,7 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-08-16T06:00:58.612016+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-08-16T06:09:36.402057+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
@@ -12,13 +12,13 @@ Generated 2026-08-16T06:00:58.612016+00:00 by the nightly compliance pipeline. M
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
 | KSI-CED-RAT | Reviewing All Training | Met |  |
-| KSI-CMT-LMC | Logging Changes | Met |  |
+| KSI-CMT-LMC | Logging Changes | Partially met | None |
 | KSI-CMT-RMV | Redeploying vs Modifying | Met |  |
 | KSI-CMT-RVP | Reviewing Change Procedures | Met |  |
 | KSI-CMT-VTD | Validating Throughout Deployment | Met |  |
 | KSI-CNA-DFP | Defining Functionality and Privileges | Met |  |
 | KSI-CNA-EIS | Enforcing Intended State | Partially met | None |
-| KSI-CNA-IBP | Implementing Best Practices | Met |  |
+| KSI-CNA-IBP | Implementing Best Practices | Partially met | None |
 | KSI-CNA-MAT | Minimizing Attack Surface | Met |  |
 | KSI-CNA-OFA | Optimizing for Availability | Met |  |
 | KSI-CNA-RNT | Restricting Network Traffic | Met |  |
@@ -54,6 +54,6 @@ Generated 2026-08-16T06:00:58.612016+00:00 by the nightly compliance pipeline. M
 | KSI-SVC-EIS | Evaluating and Improving Security | Met |  |
 | KSI-SVC-PRR | Preventing Residual Risk | Met |  |
 | KSI-SVC-RUD | Removing Unwanted Data | Met |  |
-| KSI-SVC-SIN | Securing Information | Partially met | None |
-| KSI-SVC-VCM | Validating Communications | Partially met | None |
+| KSI-SVC-SIN | Securing Information | Met |  |
+| KSI-SVC-VCM | Validating Communications | Met |  |
 | KSI-SVC-VRI | Validating Resource Integrity | Met |  |
