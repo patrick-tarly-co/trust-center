@@ -8,7 +8,7 @@
     "version": "2026.07.14.01",
     "source": "https://github.com/FedRAMP/rules"
   },
-  "generated-at": "2026-08-16T01:42:41.111079+00:00",
+  "generated-at": "2026-08-16T01:50:37.679020+00:00",
   "summary": {
     "drifted": 7,
     "false": 0,
@@ -31,7 +31,7 @@
         "total": 16,
         "passing": 16
       },
-      "evidence-manifest-sha256": "f0417c90a0db1b93cffb0000fb338474a0dbe5a61eb46fbac1674dbde60bf83d"
+      "evidence-manifest-sha256": "dbe1db706f5847072bbf01b34476ab9610d01ec6b49cd9982a6e34373dcaaa0a"
     },
     {
       "id": "KSI-CMT-LMC",
@@ -45,7 +45,7 @@
         "total": 9,
         "passing": 8
       },
-      "evidence-manifest-sha256": "c5e1a27f8b5bb452eec058ac01d68e650ec220aa28fed1cf29b8b7559003afe4",
+      "evidence-manifest-sha256": "a62e6f7f34bdecdcc3a04ad047821de0d17fa3b4f163955d42d129bf32d32c10",
       "remediation": {
         "risk": "medium",
         "scheduled-completion": null
@@ -63,7 +63,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "7617ea4193d00b672371092f8c7f8284d6c8df67eccaadf0eaaed6bfd59efcdf"
+      "evidence-manifest-sha256": "c7118b2fa95c84c862864ace67a05341634083fd637e56ccb70b3a902302fbfe"
     },
     {
       "id": "KSI-CMT-RVP",
@@ -77,7 +77,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "391cf7d5e990e3c5b17dd5f9c67c84d4db5be1c630ca20469e4890fcc5212c67"
+      "evidence-manifest-sha256": "95ff65dd698cf16cbb4b5b5977871c4ffe7b3d89d3b12bd2772bf83fcdde4a97"
     },
     {
       "id": "KSI-CMT-VTD",
@@ -91,7 +91,7 @@
         "total": 2,
         "passing": 2
       },
-      "evidence-manifest-sha256": "e9c0895f85ea1087e0c05adb63571877f107ee5126b1ea07ae07856b140e3325"
+      "evidence-manifest-sha256": "3bb8aa378c662e96d3697b1c6203d1f86eb98068c91b0f677e0c4b2810437eb9"
     },
     {
       "id": "KSI-CNA-DFP",
@@ -105,7 +105,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "78b4355e7f38b7e14d1e8bcd3436824d7c91c24d8fcb889936876afbf4372f2b"
+      "evidence-manifest-sha256": "1e1ebbfe547dd2b40f017fc6e7f060fb41ed2ebeac1de623c687ce01e6dc79a7"
     },
     {
       "id": "KSI-CNA-EIS",
@@ -119,7 +119,7 @@
         "total": 5,
         "passing": 4
       },
-      "evidence-manifest-sha256": "fe4e07ccb964fb005d221cf7739b1d424589f5d06d9353b5c82a6e52c1337848"
+      "evidence-manifest-sha256": "7acff463c34c98c2188c7d64a4b9a3e608c04356260d791456da4f2db5108240"
     },
     {
       "id": "KSI-CNA-IBP",
@@ -133,7 +133,7 @@
         "total": 7,
         "passing": 6
       },
-      "evidence-manifest-sha256": "f782c4e0791b3d37116c71a6f05a41424f7b60079333960a0c747e837774e2cc",
+      "evidence-manifest-sha256": "c9a227d567120c141868f31260f3f6121b885f095287c57c3c7eacf3ae44bc86",
       "remediation": {
         "risk": "medium",
         "scheduled-completion": null
@@ -151,7 +151,7 @@
         "total": 7,
         "passing": 7
       },
-      "evidence-manifest-sha256": "b49de1612633461c89e0a3cf627c2ff973bf11b269eb3c53d2701c8b2a69f289"
+      "evidence-manifest-sha256": "e841526f962de1708b07769a2c045957755560413e9096ddde265516022fbdba"
     },
     {
       "id": "KSI-CNA-OFA",
@@ -165,7 +165,7 @@
         "total": 7,
         "passing": 7
       },
-      "evidence-manifest-sha256": "90f4cc71009b5641f4c44190397dcccae9c75f34348af50b050f4fc1e0eb5972"
+      "evidence-manifest-sha256": "8aae99b08e6931dc0f607a3d9064a1f753628780ab293ee2a94d4334d11d41ed"
     },
     {
       "id": "KSI-CNA-RNT",
@@ -179,7 +179,7 @@
         "total": 5,
         "passing": 5
       },
-      "evidence-manifest-sha256": "c506d3a42b47f3b7ddfd5337c26a6215e81bb5916f99238903a22182808254b4"
+      "evidence-manifest-sha256": "9a87735b42650466705aaf0467dd058c796ed46a1523afc2c631f4bfa830477f"
     },
     {
       "id": "KSI-CNA-RVP",
@@ -193,7 +193,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "a1e077f9cc43d67389b9124c3148e030265995c327058105908618b9d1b18a02"
+      "evidence-manifest-sha256": "1b0ae15832e7472cd8604a0112b03ce3f3e3326d8e43856f64a6e657e556f808"
     },
     {
       "id": "KSI-CNA-ULN",
@@ -207,7 +207,7 @@
         "total": 8,
         "passing": 8
       },
-      "evidence-manifest-sha256": "2dc04fb79301bcbf399b6eab386138064dae6bb0a6453c88e47160529212448e"
+      "evidence-manifest-sha256": "ea9f62ca29cb5046465d46cbab555da539bc6c9affeb1a05e796d9c906829e4a"
     },
     {
       "id": "KSI-IAM-AAM",
@@ -221,7 +221,7 @@
         "total": 7,
         "passing": 7
       },
-      "evidence-manifest-sha256": "aa31b1c0319ba7426e6aad01c864c015ddda040d2c672ad3696b80facdeb574b"
+      "evidence-manifest-sha256": "0957692d4a9c793c3a0ee51f6430654c065d3328a8cba96d2467e2786773dded"
     },
     {
       "id": "KSI-IAM-APM",
@@ -235,7 +235,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "33a9a1542ab0e40a5c8f184599f64a1c98a70b713905a1bd558d055d8f42a059"
+      "evidence-manifest-sha256": "10a17fbf638774c6660e50c423dc14fb334945250901dc99e7d957507aa399ce"
     },
     {
       "id": "KSI-IAM-ELP",
@@ -249,7 +249,7 @@
         "total": 5,
         "passing": 5
       },
-      "evidence-manifest-sha256": "788295b27d32a42326a811d0e2c10b87882b0af57a4dfc08fec9950c6ece1c3e"
+      "evidence-manifest-sha256": "1978959f0608c7777db41e151ed0134c43c3f0b24eccd3bd9ff4012851c6bda7"
     },
     {
       "id": "KSI-IAM-JIT",
@@ -263,7 +263,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "cdb688715fdda749536ffbfe2f5d5b429bca0c014b7241602c9006620587f4b9"
+      "evidence-manifest-sha256": "15601fe1eae6ab272f0b771bb76b7160769eb2e338a63741d4933a3ae208185a"
     },
     {
       "id": "KSI-IAM-SNU",
@@ -277,7 +277,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "0298ef9a086329a1b7f82500434a1c4f1d85a7d7a475ca3f18ae5d15fe5d82bd"
+      "evidence-manifest-sha256": "39c9b04f36ddb4bc1ca7f4cce8c2414a4e557260dee720254d716f4136434002"
     },
     {
       "id": "KSI-IAM-SUS",
@@ -291,7 +291,7 @@
         "total": 3,
         "passing": 3
       },
-      "evidence-manifest-sha256": "ead29d3c5e942113dc586897584044f3115e322716278f51d707a53a791b27f3"
+      "evidence-manifest-sha256": "7e236af8a3e6df2f34939df13d3e2f73813a528f419af1af20292eb8882f554b"
     },
     {
       "id": "KSI-INR-AAR",
@@ -305,7 +305,7 @@
         "total": 11,
         "passing": 11
       },
-      "evidence-manifest-sha256": "b5f86bed94b8203407b9b8e8db232323a5af36df6e148de14d951f07109abd7a"
+      "evidence-manifest-sha256": "0c783fa4ef6cdc7084aa205ab51a4f3ffc9b8974a1ec13dcb9d369cd4730b7a3"
     },
     {
       "id": "KSI-INR-RIR",
@@ -319,7 +319,7 @@
         "total": 10,
         "passing": 10
       },
-      "evidence-manifest-sha256": "1bb788121be64e1f0a220a59dfbfdb0fcb791b5ff193c8eefe45076739cab779"
+      "evidence-manifest-sha256": "a18034db798bd05600efc5e5d81f77436e907aee3b8b958f6f1ba4ddec424d5a"
     },
     {
       "id": "KSI-INR-RPI",
@@ -333,7 +333,7 @@
         "total": 7,
         "passing": 7
       },
-      "evidence-manifest-sha256": "51bd1062a392360da4f230c43b1385ce4cddc4fdfdff05a31fbb2d6e14d1597f"
+      "evidence-manifest-sha256": "3edca8a97273cfdd7920612e59e46c2f65afa3dbabde6a81a26b8fc9510580ef"
     },
     {
       "id": "KSI-MLA-ALA",
@@ -347,7 +347,7 @@
         "total": 10,
         "passing": 10
       },
-      "evidence-manifest-sha256": "7b5883d2316e920044b79317f026ec7b9f3f104a7c136c4c06a28acaca39e83a"
+      "evidence-manifest-sha256": "4d0ae3665fad93e702e7e866b6c1e6f0e5ee8c0c7ebd5b2823d0064472b78ac5"
     },
     {
       "id": "KSI-MLA-EVC",
@@ -361,7 +361,7 @@
         "total": 7,
         "passing": 2
       },
-      "evidence-manifest-sha256": "d4178b11bde6ad5c3852e32ba84003cf6f1f611e578fc02fc3b083475564b13c",
+      "evidence-manifest-sha256": "a4775d6d988506774ad6a4a46c587ecb68a159a72a89d65a4e4a196328956c5e",
       "remediation": {
         "risk": "medium",
         "scheduled-completion": null
@@ -379,7 +379,7 @@
         "total": 3,
         "passing": 3
       },
-      "evidence-manifest-sha256": "1a6f0f04ab32fa3e2f6b772e12eb7d3f6c1f04c7be4345c0c255fbd1d6ec1305"
+      "evidence-manifest-sha256": "a833e44d919dc3b41f3b31a13db8e0843d67c345a06ca7ec899094c195e76ab8"
     },
     {
       "id": "KSI-MLA-OSM",
@@ -393,7 +393,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "2f0b5c97e474fef87bcc951b0d4c3cedcfdb81cea46dc3b7554c581886e8e306"
+      "evidence-manifest-sha256": "15c86fda3fd56df3cd3f1f67037effdbb00bd58644b10e9f8a27e7c3ad23bbcf"
     },
     {
       "id": "KSI-MLA-RVL",
@@ -407,7 +407,7 @@
         "total": 5,
         "passing": 5
       },
-      "evidence-manifest-sha256": "c20f05b0e21867e251e3755946c485e746944b0b7cedde6c9129a5873b43d002"
+      "evidence-manifest-sha256": "d71eadad329869c5b6dcf21d19c9827cf78202e10ed537a0fef592764833d429"
     },
     {
       "id": "KSI-PIY-GIV",
@@ -421,7 +421,7 @@
         "total": 8,
         "passing": 1
       },
-      "evidence-manifest-sha256": "49cbec19ab32d67cc435c5d11c9eb5ac20046f3ac7bd099686ba1ddbf91d7e97",
+      "evidence-manifest-sha256": "45e96bc6993c94638d6a863e3bacf7472a786ada007d3a0d4dea2336ad1a25c7",
       "remediation": {
         "risk": "medium",
         "scheduled-completion": null
@@ -439,7 +439,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "e1282d682153bae437e984cacabf558803b98706605b099992c0a2ede9f01db2"
+      "evidence-manifest-sha256": "75852f94d013f85425541b48b90a14c19840433dcb0cb56c6c681f2d52430771"
     },
     {
       "id": "KSI-PIY-RIS",
@@ -453,7 +453,7 @@
         "total": 8,
         "passing": 8
       },
-      "evidence-manifest-sha256": "51ae23efd1035cc56093dae31f46093e0d88d1ab2d58a77f6fb5e6489a254132"
+      "evidence-manifest-sha256": "60e51c1d88651561aba65033f872c76d977776a49a719ff4276aeafa2a8ead15"
     },
     {
       "id": "KSI-PIY-RSD",
@@ -467,7 +467,7 @@
         "total": 12,
         "passing": 4
       },
-      "evidence-manifest-sha256": "32d2f6c6885f97af3fe7b8d9a39530b718b23f799785bd10fe5b87cf1eda0804",
+      "evidence-manifest-sha256": "75e26923e3e7fee260e400a3eef0721434b6f8486eb6012f7b6f6090c44869b5",
       "remediation": {
         "risk": "low",
         "scheduled-completion": null
@@ -485,7 +485,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "8514a8b5f977728d0cdcba9204419709d11ab8f2047cdffe4a310517a153d9e0"
+      "evidence-manifest-sha256": "8e5450ffd9e6862fd8f87b15bfd13eb26b3e3be0cdc426582d4012518451bc57"
     },
     {
       "id": "KSI-RPL-ABO",
@@ -499,7 +499,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "41cd3e140e4d575629031b2d8fef9aea44fc2f17539f93bf5a40376d9202b97b"
+      "evidence-manifest-sha256": "0daa4ca404a28871dfaa17b2ecb5dd67331c5d608c7c5486893ff6b1882a4b40"
     },
     {
       "id": "KSI-RPL-ARP",
@@ -513,7 +513,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "76bac59cb92bf8d5c4337c269e819fbd78f7abf945d833791e7cc8a4f708c3d7"
+      "evidence-manifest-sha256": "6b5227d7438e185f60eadc4d7bd17b7300715bb58c23919fb65d22c296c0e587"
     },
     {
       "id": "KSI-RPL-RRO",
@@ -527,7 +527,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "1b059ba55e905273fa14810baf692e70436818e3c865468926605cd0b4495e01"
+      "evidence-manifest-sha256": "edc0f73a857cf5162a982dc041af97b794a2763b90f2803ef027f7f4c8ebb8ee"
     },
     {
       "id": "KSI-RPL-TRC",
@@ -541,7 +541,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "933013bbe94acc70d9216254374df3fc01ea869559ea13e02eaa28f4efa3bedd"
+      "evidence-manifest-sha256": "f229fc882309298b0c4b335081e73e6b8fafe2545e242e1c15dcb0ae6d7a2d65"
     },
     {
       "id": "KSI-SCR-MIT",
@@ -555,7 +555,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "c9d8a31a6e239eee4a7bafdd035547532c46c28f85cf8f3bdd62ce6e2504f19c"
+      "evidence-manifest-sha256": "e83fb0333862c24b59fa8082f575861c4123e7e8d5d13986811f71b707d5171a"
     },
     {
       "id": "KSI-SCR-MON",
@@ -569,7 +569,7 @@
         "total": 3,
         "passing": 3
       },
-      "evidence-manifest-sha256": "8af6911eb1c80a13fb62312b87957f8dff1d304d9c6f9a85dd314e60881937b0"
+      "evidence-manifest-sha256": "d4187eed6f71c2fd0a40bfd237eb12bfe8891139615497074ed4b754b82fd7a2"
     },
     {
       "id": "KSI-SVC-ACM",
@@ -583,7 +583,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "510b5efb864440e13cafbbc64ad9c68e3d56baabd19ae972b570256e0c40bad4"
+      "evidence-manifest-sha256": "243658740915bc737fe481224eb8b31e89980bfe842de53ed5aa7800b3dcbbe5"
     },
     {
       "id": "KSI-SVC-ASM",
@@ -597,7 +597,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "4c0214038d045da11e6f8d6c2e3b5940a7aa28d8fc77b54733117c4c4d78a41c"
+      "evidence-manifest-sha256": "652847989bfe60f2d0bae3bcc7cf576f41076e2872650cb2f331d7254d8a8644"
     },
     {
       "id": "KSI-SVC-EIS",
@@ -611,7 +611,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "39f2cb23a6a1244b4db38b2df771781797d5bfbd722824cf76d8b03600f0c6dd"
+      "evidence-manifest-sha256": "9f277fcc95f5e2e20ae3bfa186e6564508d7b2fdceacf6d7ff5c93aea781773f"
     },
     {
       "id": "KSI-SVC-PRR",
@@ -625,7 +625,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "2a41b2ab373290db80c4bbd8f66a01e68e5e655d1739b37320901fce84ab8c0d"
+      "evidence-manifest-sha256": "26b0e18883eeddfccd43d113e66570fd0144b32eea9297e744fb629fc26eedf3"
     },
     {
       "id": "KSI-SVC-RUD",
@@ -639,7 +639,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "d3cc89a0e25b911ffc622218d8bdb1e72503b0acaa1be2fa2e0ba3da4764a3c6"
+      "evidence-manifest-sha256": "8e6641286ab256806e3d18b4524c876225c9ccc3743805ee3433e16794c7d2b1"
     },
     {
       "id": "KSI-SVC-SIN",
@@ -653,7 +653,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "c4350aefb431d5958c422d84dee8b311acc1427e84f5eba512eee8e3738dd4f8"
+      "evidence-manifest-sha256": "a8c685fc697c5545e9c3541a8e3f48b4960077dc3cee8ed036c69f7af8c03e09"
     },
     {
       "id": "KSI-SVC-VCM",
@@ -667,7 +667,7 @@
         "total": 5,
         "passing": 5
       },
-      "evidence-manifest-sha256": "8c6bdc5cbb76c8cb91a9f282db5e20f34c62e329be8d697556bc4b91ebcef5bc"
+      "evidence-manifest-sha256": "d3fa6abdc3dbf1edceddf04f74ee9723aefe0baf9579f9b45d6b8697482e01d4"
     },
     {
       "id": "KSI-SVC-VRI",
@@ -681,7 +681,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "84df01c73867c9ac7f10651febbf28f07496fcc2e0939feb92e02438e7449758"
+      "evidence-manifest-sha256": "8cb1a9ac76b4d2684d8f7f0318f7cef8a83604a8ad6c0a26d755969458601e67"
     }
   ]
 }
