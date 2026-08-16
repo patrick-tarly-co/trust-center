@@ -3,7 +3,7 @@
   "provider": "Pincus Technologies Inc",
   "service": "Tarly Cowork",
   "fedRampPackageId": "FR2628650874",
-  "generated_at": "2026-08-16T13:54:02.503930Z",
+  "generated_at": "2026-08-16T14:04:53.990832Z",
   "current_status": "operational",
   "services": [
     {
@@ -11,7 +11,7 @@
       "url": "https://gov.tarly.co/trust/",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 119,
+      "latency_ms": 93,
       "content_check": "text-markers",
       "content_verified": true
     },
@@ -20,7 +20,7 @@
       "url": "https://gov.tarly.co/health",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 91,
+      "latency_ms": 73,
       "content_check": "json-field",
       "content_verified": true
     }
@@ -205,7 +205,7 @@
     },
     {
       "fedRampPackageId": "FR2628650874",
-      "checked_at": "2026-08-16T13:54:02.503930Z",
+      "checked_at": "2026-08-16T14:04:53.990832Z",
       "status": "operational",
       "services": [
         {
@@ -213,7 +213,7 @@
           "url": "https://gov.tarly.co/trust/",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 119,
+          "latency_ms": 93,
           "content_check": "text-markers",
           "content_verified": true
         },
@@ -222,12 +222,12 @@
           "url": "https://gov.tarly.co/health",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 91,
+          "latency_ms": 73,
           "content_check": "json-field",
           "content_verified": true
         }
       ],
-      "sample_sha256": "8348d295c65ac61050318f6a4386e09744c073add2fb3cc1740515860aa1508b"
+      "sample_sha256": "9404073f2f5cbee1776a3fe33326fa0fea3e14906cdc3df8afd45aea937942d4"
     }
   ],
   "incidents": [
