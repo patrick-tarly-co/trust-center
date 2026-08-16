@@ -2,9 +2,9 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Current status: **Operational**
+Current status: **Degraded**
 
-Last checked: 2026-08-16T04:35:14.796853Z
+Last checked: 2026-08-16T04:44:33.361017Z
 
 This page is generated outside the production request path and retained in the independently hosted public trust-center repository.
 
@@ -12,8 +12,8 @@ This page is generated outside the production request path and retained in the i
 
 | Service | Status | HTTP | Latency |
 | --- | --- | ---: | ---: |
-| cowork-trust | Operational | 200 | 56 ms |
-| cowork-web | Operational | 200 | 89 ms |
+| cowork-trust | Operational | 200 | 132 ms |
+| cowork-web | Unavailable | 404 | 116 ms |
 
 ## 30-day history
 
@@ -21,7 +21,7 @@ Observed 9 of 30 required daily status points. Full-history requirement met: **F
 
 | Date | Status |
 | --- | --- |
-| 2026-08-16 | Operational |
+| 2026-08-16 | Degraded |
 | 2026-08-15 | Operational |
 | 2026-08-14 | Operational |
 | 2026-08-13 | Operational |
@@ -33,4 +33,4 @@ Observed 9 of 30 required daily status points. Full-history requirement met: **F
 
 ## Availability incidents
 
-No availability incidents were observed in the retained window.
+- 2026-08-16T04:44:33.361017Z to ongoing: degraded (cowork-web)
