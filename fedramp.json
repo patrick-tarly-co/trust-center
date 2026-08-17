@@ -291,6 +291,14 @@
     "name": "A-LIGN Compliance and Security, Inc. dba A-LIGN",
     "assessorID": "138665"
   },
+  "changeNotificationMechanism": {
+    "mechanism": "Controlled certification-data distribution channel",
+    "description": "Tarly supplies every formal Significant Change Notification to FedRAMP and to each necessary agency or assessment party through a single mechanism: the controlled certification-data distribution channel. Each notice is retained with its exact sent bytes and SHA-256, the complete recipient population, one digest-bound delivery receipt per party, delivery timestamps, and an immutable archive URI and SHA-256.",
+    "publishedAt": "https://gov.tarly.co/trust/index.html#change-notification-mechanism",
+    "accessGuide": "https://gov.tarly.co/trust/access.html",
+    "machineReadableAccessGuide": "https://gov.tarly.co/trust/access.json",
+    "procedure": "compliance/docs/significant-change-procedure.md"
+  },
   "contactInformation": [
     {
       "contactType": "Sales",
