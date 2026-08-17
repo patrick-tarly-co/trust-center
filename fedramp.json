@@ -252,7 +252,10 @@
     {
       "name": "Ongoing Certification Report",
       "formats": ["JSON", "Human-readable rendering"],
-      "availability": "An example is included with the initial package; quarterly reports follow certification"
+      "availability": "Public example report covering all required sections; the first quarterly report is targeted for 2026-10-06 and each report is published under its own quarter",
+      "url": "https://github.com/patrick-tarly-co/trust-center/blob/main/ocr/example/REPORT.md",
+      "machineReadableUrl": "https://raw.githubusercontent.com/patrick-tarly-co/trust-center/main/ocr/example/report.json",
+      "isExample": true
     },
     {
       "name": "Authorization boundary, data flows, policies, procedures, assessment evidence, and continuous-compliance results",
