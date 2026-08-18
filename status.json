@@ -3,7 +3,7 @@
   "provider": "Pincus Technologies Inc",
   "service": "Tarly Cowork",
   "fedRampPackageId": "FR2628650874",
-  "generated_at": "2026-08-18T13:12:54.274910Z",
+  "generated_at": "2026-08-18T13:26:06.762618Z",
   "current_status": "operational",
   "services": [
     {
@@ -11,7 +11,7 @@
       "url": "https://gov.tarly.co/trust/",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 93,
+      "latency_ms": 89,
       "content_check": "text-markers",
       "content_verified": true
     },
@@ -257,7 +257,7 @@
     },
     {
       "fedRampPackageId": "FR2628650874",
-      "checked_at": "2026-08-18T13:12:54.274910Z",
+      "checked_at": "2026-08-18T13:26:06.762618Z",
       "status": "operational",
       "services": [
         {
@@ -265,7 +265,7 @@
           "url": "https://gov.tarly.co/trust/",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 93,
+          "latency_ms": 89,
           "content_check": "text-markers",
           "content_verified": true
         },
@@ -279,7 +279,7 @@
           "content_verified": true
         }
       ],
-      "sample_sha256": "ae011a42121a5db0039861709dd31c984fdb2898b3ac003a22a4fd538015ab94"
+      "sample_sha256": "a0bb9db486bd93104f49277751395147fb33c3b2912201c626118a57e4bbfaaa"
     }
   ],
   "incidents": [
