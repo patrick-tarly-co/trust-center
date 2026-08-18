@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-08-18T03:38:12.232923Z",
+  "generatedAt": "2026-08-18T03:51:08.306055Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-08-18T03:37:27Z",
+  "latestAccessAt": "2026-08-18T03:50:23Z",
   "allCertificationDataChannelsLogged": false,
   "publicChannelLoggingCoverage": [
     {
@@ -25,7 +25,7 @@
       "assertedVerified": false,
       "summaryRetentionDays": null,
       "loggingLastVerifiedAt": null,
-      "gap": "Anonymous raw reads cannot be provider-logged; GitHub's own traffic statistics are the authoritative summary. This claim flips to verified only after the nightly capture succeeds with the configured credential and its archived summary evidence is current."
+      "gap": "Anonymous raw reads cannot be provider-logged; GitHub's own traffic statistics are the authoritative summary. This claim flips to verified from the first archived successful capture and holds only while that archived summary evidence stays current."
     }
   ],
   "controlledRetrievalLoggingVerified": false,
@@ -43,7 +43,7 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 3006,
+    "requestCount": 3029,
     "daysWithRequests": 14,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 0,
@@ -132,9 +132,9 @@
     },
     {
       "date": "2026-08-18",
-      "requestCount": 173,
+      "requestCount": 196,
       "uniqueClientAddresses": 4,
-      "lastRequestAt": "2026-08-18T03:37:27Z"
+      "lastRequestAt": "2026-08-18T03:50:23Z"
     }
   ],
   "agencyAccessors": [],
@@ -154,8 +154,9 @@
       "type": "public-git-https",
       "url": "https://github.com/patrick-tarly-co/trust-center",
       "logging-source": "GitHub repository traffic statistics (views, clones, popular paths) captured nightly by compliance/scripts/github_traffic_report.py and archived with the trust-access evidence set",
+      "logging-credential": "GH_TRUST_TOKEN, a fine-grained token carrying Administration read on this repository, the permission GitHub's traffic endpoints require, alongside the Contents permission the publish step uses",
       "retrieval-logging-verified": false,
-      "retrieval-logging-gap": "Anonymous raw reads cannot be provider-logged; GitHub's own traffic statistics are the authoritative summary. This claim flips to verified only after the nightly capture succeeds with the configured credential and its archived summary evidence is current."
+      "retrieval-logging-gap": "Anonymous raw reads cannot be provider-logged; GitHub's own traffic statistics are the authoritative summary. This claim flips to verified from the first archived successful capture and holds only while that archived summary evidence stays current."
     }
   ],
   "controlledAccessPolicy": {
