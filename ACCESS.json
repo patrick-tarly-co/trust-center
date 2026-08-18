@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-08-18T04:03:52.326214Z",
+  "generatedAt": "2026-08-18T04:22:32.599743Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-08-18T04:03:07Z",
-  "allCertificationDataChannelsLogged": false,
+  "latestAccessAt": "2026-08-18T04:21:44Z",
+  "allCertificationDataChannelsLogged": true,
   "publicChannelLoggingCoverage": [
     {
       "id": "gov-tarly-trust-center",
@@ -21,14 +21,14 @@
     },
     {
       "id": "independent-trust-repository",
-      "retrievalLoggingVerified": false,
-      "assertedVerified": false,
-      "summaryRetentionDays": null,
-      "loggingLastVerifiedAt": null,
-      "gap": "Anonymous raw reads cannot be provider-logged; GitHub's own traffic statistics are the authoritative summary. This claim flips to verified from the first archived successful capture and holds only while that archived summary evidence stays current."
+      "retrievalLoggingVerified": true,
+      "assertedVerified": true,
+      "summaryRetentionDays": 400,
+      "loggingLastVerifiedAt": "2026-08-18T03:38:14Z",
+      "gap": ""
     }
   ],
-  "controlledRetrievalLoggingVerified": false,
+  "controlledRetrievalLoggingVerified": true,
   "continuityEvidenceVersion": 1,
   "uninterruptedSharingVerified": false,
   "continuityFindings": [
@@ -43,7 +43,7 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 3099,
+    "requestCount": 3170,
     "daysWithRequests": 14,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 0,
@@ -132,9 +132,9 @@
     },
     {
       "date": "2026-08-18",
-      "requestCount": 266,
+      "requestCount": 337,
       "uniqueClientAddresses": 4,
-      "lastRequestAt": "2026-08-18T04:03:07Z"
+      "lastRequestAt": "2026-08-18T04:21:44Z"
     }
   ],
   "agencyAccessors": [],
@@ -155,8 +155,11 @@
       "url": "https://github.com/patrick-tarly-co/trust-center",
       "logging-source": "GitHub repository traffic statistics (views, clones, popular paths) captured nightly by compliance/scripts/github_traffic_report.py and archived with the trust-access evidence set",
       "logging-credential": "GH_TRUST_TOKEN, a fine-grained token carrying Administration read on this repository, the permission GitHub's traffic endpoints require, alongside the Contents permission the publish step uses",
-      "retrieval-logging-verified": false,
-      "retrieval-logging-gap": "Anonymous raw reads cannot be provider-logged; GitHub's own traffic statistics are the authoritative summary. This claim flips to verified from the first archived successful capture and holds only while that archived summary evidence stays current."
+      "retrieval-logging-verified": true,
+      "logging-evidence-uri": "https://sttarlyprodzs37m1.blob.core.windows.net/compliance-evidence/trust-access/summaries/2026/08/2598/github-traffic.json",
+      "logging-last-verified-at": "2026-08-18T03:38:14Z",
+      "summary-retention-days": 400,
+      "logging-note": "Anonymous raw reads cannot be provider-logged, so GitHub's own repository traffic statistics are the authoritative summary for this channel and the documented limit of what the host provides - an owner determination recorded as ATT-2026-08-18-07, not an assumption. The nightly capture archives to the Locked 400-day compliance-evidence container, building the continuous history GitHub's own rolling 14-day window cannot hold. First archived capture: build 2598, 32 views from 4 unique visitors and 141 clones from 59 unique cloners, all three endpoints HTTP 200. A capture that is not fully available is archived as an explicit coverage gap with its per-endpoint statuses, never as zero traffic."
     }
   ],
   "controlledAccessPolicy": {
@@ -175,8 +178,12 @@
     ],
     "target-response-business-days": 5,
     "approved-delivery-method": "Time-limited authenticated HTTPS bundle with manifest, SHA-256 hashes, schema and media-type metadata, signature verification metadata, and retained delivery receipt.",
-    "retrieval-logging-verified": false,
-    "retrieval-logging-gap": "The controlled bundle endpoint and its immutable retrieval log are implemented and were exercised against the staging data plane on 2026-08-14 (12 immutable rows retained); production (gov.tarly.co) retrieval logging begins with the staging-to-main promotion, so this production-channel claim stays false until a production retrieval-log artifact is retained.",
+    "retrieval-logging-verified": true,
+    "logging-evidence-uri": "https://dev.azure.com/pincus/tarly/_git/tarly-apps?path=/compliance/evidence/certification-data/cds-trc-acl-production-retrieval-log-2026-08-18.json&version=GC12f3ef4c468649d1ac419d0c13a8bad1a5d65e3b",
+    "logging-evidence-sha256": "5a86385fa1acd39449ad0df0a9de0faa3b940a008f9672630a4b7404c86ab2bf",
+    "logging-last-verified-at": "2026-08-18T03:40:31Z",
+    "summary-retention-days": 400,
+    "logging-note": "Every controlled attempt, served or denied, appends an immutable trust_retrieval_log row before the caller is answered. The retained production summary carries 22 rows from 2026-08-15T19:33:40Z to 2026-08-18T02:51:41Z with both immutability triggers enabled; all are denials, because no production entitlement has been issued and no external party has requested controlled access. The served path is retained from the 2026-08-14 staging lifecycle exercise (12 rows, 7 served with digests). Rows cannot be updated or deleted, so the underlying retention is unbounded; desensitized summaries archive with the trust-access evidence set in the Locked 400-day compliance-evidence container.",
     "fedramp-denial-form": "https://help.fedramp.gov/hc/en-us/requests/new?ticket_form_id=51829826617243"
   },
   "privacy": "No client address, token, or user identity is included in this desensitized summary."
