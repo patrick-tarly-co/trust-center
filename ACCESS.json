@@ -1,21 +1,20 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-08-18T05:41:14.975849Z",
+  "generatedAt": "2026-08-18T05:54:14.843564Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-08-18T05:40:26Z",
+  "latestAccessAt": "2026-08-18T05:53:25Z",
   "allCertificationDataChannelsLogged": true,
   "publicChannelLoggingCoverage": [
     {
       "id": "gov-tarly-trust-center",
       "retrievalLoggingVerified": true,
       "assertedVerified": true,
-      "liveObservation": "front-door-access-log",
       "summaryRetentionDays": 365,
       "loggingLastVerifiedAt": "2026-08-14T18:19:39Z",
       "gap": ""
@@ -24,7 +23,6 @@
       "id": "independent-trust-repository",
       "retrievalLoggingVerified": true,
       "assertedVerified": true,
-      "liveObservation": "",
       "summaryRetentionDays": 400,
       "loggingLastVerifiedAt": "2026-08-18T03:38:14Z",
       "gap": ""
@@ -32,14 +30,20 @@
   ],
   "controlledRetrievalLoggingVerified": true,
   "continuityEvidenceVersion": 1,
-  "uninterruptedSharingVerified": true,
-  "continuityFindings": [],
+  "uninterruptedSharingVerified": false,
+  "continuityFindings": [
+    "controlled access still requires repeated manual approval",
+    "complete-certification-data-catalog is not verified",
+    "controlled-path-failover-tested is not verified",
+    "no-repeated-manual-approval is not verified",
+    "persistent-entitlement-or-on-demand-jit is not verified"
+  ],
   "inventoryMaintained": true,
   "accessRequestControlImplemented": true,
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 3423,
+    "requestCount": 3450,
     "daysWithRequests": 14,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 0,
@@ -128,9 +132,9 @@
     },
     {
       "date": "2026-08-18",
-      "requestCount": 590,
+      "requestCount": 617,
       "uniqueClientAddresses": 6,
-      "lastRequestAt": "2026-08-18T05:40:26Z"
+      "lastRequestAt": "2026-08-18T05:53:25Z"
     }
   ],
   "agencyAccessors": [],
@@ -141,7 +145,6 @@
       "url": "https://gov.tarly.co/trust/",
       "logging-source": "Azure Front Door FrontDoorAccessLog",
       "retrieval-logging-verified": true,
-      "logging-live-observation": "front-door-access-log",
       "logging-evidence-uri": "https://management.azure.com/subscriptions/30d72441-592f-4f2c-a873-5c8db43b7ac7/resourceGroups/rg-tarly-prod/providers/Microsoft.Cdn/profiles/fd-tarly-prod/providers/Microsoft.Insights/diagnosticSettings/diag-tarly-frontdoor-prod",
       "logging-last-verified-at": "2026-08-14T18:19:39Z",
       "summary-retention-days": 365
