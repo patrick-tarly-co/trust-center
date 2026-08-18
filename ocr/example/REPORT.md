@@ -21,19 +21,19 @@ Planning horizon through: 2026-11-18
 ### Accepted decision 1 of 3: approved by FedRAMP Program Owner on 2026-08-17
 
 - **Accepted:**
-  - Azure Backup should be enabled for virtual machines (defender-group-ad0290184eef11353984fe46, PAIN rating N2)
+  - Microsoft Defender for servers should be enabled (defender-group-8d1e6fae1be7aa208a5951c3, PAIN rating N4)
+  - EDR solution should be installed on Virtual Machines (defender-group-486357d0a4918d453a80bc84, PAIN rating N4)
 - **Next review:** no later than 2027-02-25
-- **Rationale:** No Recovery Services vault exists and no virtual machine has point-in-time restore. Every VM in the boundary is an Azure Pipelines runner whose state is reproducible or disposable: two have no data disk, and the other two attach only a Docker layer cache that is rebuilt on demand. All four are provisioned from IaC with cloud-init, so the supported recovery action is redeploy rather than restore, and backing them up would preserve build caches the pipeline reconstructs anyway.
-- **Residual risk:** Losing a runner costs a redeploy and cache rewarm, and any state left on a runner outside the pipeline working directories is unrecoverable. Customer and certification data are covered separately by PostgreSQL backups and the locked 400-day compliance-evidence archive.
+- **Rationale:** Microsoft Defender for Servers is not licensed, so no EDR agent runs on the four Azure Pipelines runner VMs — the only virtual machines in the boundary. Cowork itself runs on Container Apps, and no VM serves customer traffic or stores customer data, so the accepted exposure is confined to the build and deployment plane. Plan 2 across four continuously running machines costs on the order of the entire production compute footprint for a control whose value is largely inapplicable to hosts that execute only pipeline-mediated workloads and are rebuilt from IaC.
+- **Residual risk:** Malicious build-time code would not be detected or blocked at the host level, and host forensic telemetry is limited to platform and pipeline logs.
 
 ### Accepted decision 2 of 3: approved by FedRAMP Program Owner on 2026-08-17
 
 - **Accepted:**
-  - EDR solution should be installed on Virtual Machines (defender-group-486357d0a4918d453a80bc84, PAIN rating N4)
-  - Microsoft Defender for servers should be enabled (defender-group-8d1e6fae1be7aa208a5951c3, PAIN rating N4)
+  - Azure Backup should be enabled for virtual machines (defender-group-ad0290184eef11353984fe46, PAIN rating N2)
 - **Next review:** no later than 2027-02-25
-- **Rationale:** Microsoft Defender for Servers is not licensed, so no EDR agent runs on the four Azure Pipelines runner VMs — the only virtual machines in the boundary. Cowork itself runs on Container Apps, and no VM serves customer traffic or stores customer data, so the accepted exposure is confined to the build and deployment plane. Plan 2 across four continuously running machines costs on the order of the entire production compute footprint for a control whose value is largely inapplicable to hosts that execute only pipeline-mediated workloads and are rebuilt from IaC.
-- **Residual risk:** Malicious build-time code would not be detected or blocked at the host level, and host forensic telemetry is limited to platform and pipeline logs.
+- **Rationale:** No Recovery Services vault exists and no virtual machine has point-in-time restore. Every VM in the boundary is an Azure Pipelines runner whose state is reproducible or disposable: two have no data disk, and the other two attach only a Docker layer cache that is rebuilt on demand. All four are provisioned from IaC with cloud-init, so the supported recovery action is redeploy rather than restore, and backing them up would preserve build caches the pipeline reconstructs anyway.
+- **Residual risk:** Losing a runner costs a redeploy and cache rewarm, and any state left on a runner outside the pipeline working directories is unrecoverable. Customer and certification data are covered separately by PostgreSQL backups and the locked 400-day compliance-evidence archive.
 
 ### Accepted decision 3 of 3: approved by FedRAMP Program Owner on 2026-08-17
 
