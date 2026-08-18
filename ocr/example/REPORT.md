@@ -18,20 +18,20 @@ Planning horizon through: 2026-11-18
 
 4 provider risk-acceptance decision(s) covering 4 vulnerability record(s) are in force, each with a named approving role, an approval timestamp, and controlled approval evidence retained outside this report.
 
-### Accepted decision 1 of 4: approved by FedRAMP Program Owner on 2026-08-17
+### Accepted decision 1 of 4: approved by FedRAMP Program Owner on 2026-08-18
+
+- **Accepted:**
+  - EDR solution should be installed on Virtual Machines (defender-group-486357d0a4918d453a80bc84, PAIN rating N4)
+- **Next review:** no later than 2027-02-26
+- **Rationale:** Defender for Servers Plan 1 is licensed and the endpoint-protection extension is healthy on the three runners that can take it, including the production runner. vm-tarly-ci-azdo runs Ubuntu Pro FIPS and the extension will not onboard it; two attempts failed, the second with settings matched byte-for-byte to a runner where onboarding succeeded, and the correlation across the four machines is exact. The host is on the FIPS image deliberately because it is the build host for the Ubuntu Pro FIPS application runtime, so rebuilding it on the standard image would remove Tarly's ability to build a FIPS runtime. It serves no customer traffic, holds no federal customer data, and is outside the production boundary.
+
+### Accepted decision 2 of 4: approved by FedRAMP Program Owner on 2026-08-17
 
 - **Accepted:**
   - Microsoft Defender for servers should be enabled (defender-group-8d1e6fae1be7aa208a5951c3, PAIN rating N4)
 - **Next review:** no later than 2027-02-25
 - **Rationale:** Microsoft Defender for Servers is not licensed, so no EDR agent runs on the four Azure Pipelines runner VMs — the only virtual machines in the boundary. Cowork itself runs on Container Apps, and no VM serves customer traffic or stores customer data, so the accepted exposure is confined to the build and deployment plane. Plan 2 across four continuously running machines costs on the order of the entire production compute footprint for a control whose value is largely inapplicable to hosts that execute only pipeline-mediated workloads and are rebuilt from IaC.
 - **Residual risk:** Malicious build-time code would not be detected or blocked at the host level, and host forensic telemetry is limited to platform and pipeline logs.
-
-### Accepted decision 2 of 4: approved by FedRAMP Program Owner on 2026-08-18
-
-- **Accepted:**
-  - EDR solution should be installed on Virtual Machines (defender-group-486357d0a4918d453a80bc84, PAIN rating N4)
-- **Next review:** no later than 2027-02-26
-- **Rationale:** Defender for Servers Plan 1 is licensed and the endpoint-protection extension is healthy on the three runners that can take it, including the production runner. vm-tarly-ci-azdo runs Ubuntu Pro FIPS and the extension will not onboard it; two attempts failed, the second with settings matched byte-for-byte to a runner where onboarding succeeded, and the correlation across the four machines is exact. The host is on the FIPS image deliberately because it is the build host for the Ubuntu Pro FIPS application runtime, so rebuilding it on the standard image would remove Tarly's ability to build a FIPS runtime. It serves no customer traffic, holds no federal customer data, and is outside the production boundary.
 
 ### Accepted decision 3 of 4: approved by FedRAMP Program Owner on 2026-08-17
 
