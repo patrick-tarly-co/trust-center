@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-08-18T21:48:21.531565Z",
+  "generatedAt": "2026-08-19T03:11:33.951119Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-08-18T21:47:31Z",
+  "latestAccessAt": "2026-08-19T03:10:41Z",
   "allCertificationDataChannelsLogged": true,
   "publicChannelLoggingCoverage": [
     {
@@ -39,8 +39,8 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 5259,
-    "daysWithRequests": 14,
+    "requestCount": 5300,
+    "daysWithRequests": 15,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 0,
     "deniedAgencyRequests": 0,
@@ -128,9 +128,15 @@
     },
     {
       "date": "2026-08-18",
-      "requestCount": 2426,
+      "requestCount": 2452,
       "uniqueClientAddresses": 8,
-      "lastRequestAt": "2026-08-18T21:47:31Z"
+      "lastRequestAt": "2026-08-18T22:27:56Z"
+    },
+    {
+      "date": "2026-08-19",
+      "requestCount": 15,
+      "uniqueClientAddresses": 2,
+      "lastRequestAt": "2026-08-19T03:10:41Z"
     }
   ],
   "agencyAccessors": [],
