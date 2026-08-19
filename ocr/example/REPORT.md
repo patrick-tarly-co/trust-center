@@ -14,6 +14,7 @@ Planning horizon through: 2026-11-19
 
 - KSI-CNA-IBP: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-MLA-EVC: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-SVC-ACM: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
@@ -27,20 +28,20 @@ Planning horizon through: 2026-11-19
 - **Rationale:** No Azure Firewall is deployed, so outbound traffic from the Cowork virtual networks is not filtered, FQDN-restricted, or IDPS-inspected. Azure Firewall Standard exceeds the total infrastructure spend of the offering for controls substantially duplicated by the existing design: inbound traffic reaches only Front Door with managed WAF rules, the Container Apps environments are private, and Storage, Key Vault, PostgreSQL, and ACR are reachable only through private endpoints with public access denied.
 - **Residual risk:** A compromised workload could reach an arbitrary internet endpoint, and detection of that would depend on platform and application telemetry rather than network-layer inspection.
 
-### Accepted decision 2 of 4: approved by FedRAMP Program Owner on 2026-08-17
+### Accepted decision 2 of 4: approved by FedRAMP Program Owner on 2026-08-18
+
+- **Accepted:**
+  - EDR solution should be installed on Virtual Machines (defender-group-486357d0a4918d453a80bc84, PAIN rating N4)
+- **Next review:** no later than 2027-02-26
+- **Rationale:** Defender for Servers Plan 1 is licensed and the endpoint-protection extension is healthy on the three runners that can take it, including the production runner. vm-tarly-ci-azdo runs Ubuntu Pro FIPS and the extension will not onboard it; two attempts failed, the second with settings matched byte-for-byte to a runner where onboarding succeeded, and the correlation across the four machines is exact. The host is on the FIPS image deliberately because it is the build host for the Ubuntu Pro FIPS application runtime, so rebuilding it on the standard image would remove Tarly's ability to build a FIPS runtime. It serves no customer traffic, holds no federal customer data, and is outside the production boundary.
+
+### Accepted decision 3 of 4: approved by FedRAMP Program Owner on 2026-08-17
 
 - **Accepted:**
   - Microsoft Defender for servers should be enabled (defender-group-8d1e6fae1be7aa208a5951c3, PAIN rating N4)
 - **Next review:** no later than 2027-02-25
 - **Rationale:** Microsoft Defender for Servers is not licensed, so no EDR agent runs on the four Azure Pipelines runner VMs — the only virtual machines in the boundary. Cowork itself runs on Container Apps, and no VM serves customer traffic or stores customer data, so the accepted exposure is confined to the build and deployment plane. Plan 2 across four continuously running machines costs on the order of the entire production compute footprint for a control whose value is largely inapplicable to hosts that execute only pipeline-mediated workloads and are rebuilt from IaC.
 - **Residual risk:** Malicious build-time code would not be detected or blocked at the host level, and host forensic telemetry is limited to platform and pipeline logs.
-
-### Accepted decision 3 of 4: approved by FedRAMP Program Owner on 2026-08-18
-
-- **Accepted:**
-  - EDR solution should be installed on Virtual Machines (defender-group-486357d0a4918d453a80bc84, PAIN rating N4)
-- **Next review:** no later than 2027-02-26
-- **Rationale:** Defender for Servers Plan 1 is licensed and the endpoint-protection extension is healthy on the three runners that can take it, including the production runner. vm-tarly-ci-azdo runs Ubuntu Pro FIPS and the extension will not onboard it; two attempts failed, the second with settings matched byte-for-byte to a runner where onboarding succeeded, and the correlation across the four machines is exact. The host is on the FIPS image deliberately because it is the build host for the Ubuntu Pro FIPS application runtime, so rebuilding it on the standard image would remove Tarly's ability to build a FIPS runtime. It serves no customer traffic, holds no federal customer data, and is outside the production boundary.
 
 ### Accepted decision 4 of 4: approved by FedRAMP Program Owner on 2026-08-17
 
@@ -58,7 +59,7 @@ Planning horizon through: 2026-11-19
 - Under provider risk acceptance: 4
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 2 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 3 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
