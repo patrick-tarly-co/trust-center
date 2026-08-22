@@ -4,7 +4,7 @@ FedRAMP package ID: **FR2628650874**
 
 Current status: **Operational**
 
-Last checked: 2026-08-22T14:01:20.103724Z
+Last checked: 2026-08-22T14:15:33.716881Z
 
 This page is generated outside the production request path and retained in the independently hosted public trust-center repository.
 
@@ -12,8 +12,8 @@ This page is generated outside the production request path and retained in the i
 
 | Service | Status | HTTP | Latency |
 | --- | --- | ---: | ---: |
-| cowork-trust | Operational | 200 | 46 ms |
-| cowork-web | Operational | 200 | 91 ms |
+| cowork-trust | Operational | 200 | 104 ms |
+| cowork-web | Operational | 200 | 138 ms |
 
 ## 30-day history
 
