@@ -14,7 +14,6 @@ Planning horizon through: 2026-11-22
 
 - KSI-CNA-IBP: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-MLA-ALA: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-MLA-RVL: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
@@ -44,7 +43,7 @@ Planning horizon through: 2026-11-22
 - Under provider risk acceptance: 2
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 3 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 2 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
