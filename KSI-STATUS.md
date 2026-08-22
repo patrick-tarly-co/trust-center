@@ -2,7 +2,7 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-08-22T13:18:40.578852+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-08-22T13:32:43.123733+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
@@ -33,7 +33,7 @@ Generated 2026-08-22T13:18:40.578852+00:00 by the nightly compliance pipeline. M
 | KSI-INR-AAR | Generating After Action Reports | Met |  |
 | KSI-INR-RIR | Reviewing Incident Response Procedures | Met |  |
 | KSI-INR-RPI | Reviewing Past Incidents | Met |  |
-| KSI-MLA-ALA | Authorizing Log Access | Partially met | None |
+| KSI-MLA-ALA | Authorizing Log Access | Met |  |
 | KSI-MLA-EVC | Evaluating Configurations | Met |  |
 | KSI-MLA-LET | Logging Event Types | Met |  |
 | KSI-MLA-OSM | Operating SIEM Capability | Met |  |
@@ -56,4 +56,4 @@ Generated 2026-08-22T13:18:40.578852+00:00 by the nightly compliance pipeline. M
 | KSI-SVC-RUD | Removing Unwanted Data | Met |  |
 | KSI-SVC-SIN | Securing Information | Met |  |
 | KSI-SVC-VCM | Validating Communications | Met |  |
-| KSI-SVC-VRI | Validating Resource Integrity | Met |  |
+| KSI-SVC-VRI | Validating Resource Integrity | Partially met | None |
