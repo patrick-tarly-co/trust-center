@@ -21,18 +21,18 @@ Planning horizon through: 2026-11-23
 ### Accepted decision 1 of 2: approved by FedRAMP Program Owner on 2026-08-17
 
 - **Accepted:**
-  - Virtual networks should be protected by Azure Firewall (defender-group-6557fc98debafa727527876d, PAIN rating N2)
-- **Next review:** no later than 2027-02-25
-- **Rationale:** No Azure Firewall is deployed, so outbound traffic from the Cowork virtual networks is not filtered, FQDN-restricted, or IDPS-inspected. Azure Firewall Standard exceeds the total infrastructure spend of the offering for controls substantially duplicated by the existing design: inbound traffic reaches only Front Door with managed WAF rules, the Container Apps environments are private, and Storage, Key Vault, PostgreSQL, and ACR are reachable only through private endpoints with public access denied.
-- **Residual risk:** A compromised workload could reach an arbitrary internet endpoint, and detection of that would depend on platform and application telemetry rather than network-layer inspection.
-
-### Accepted decision 2 of 2: approved by FedRAMP Program Owner on 2026-08-17
-
-- **Accepted:**
   - Azure Backup should be enabled for virtual machines (defender-group-ad0290184eef11353984fe46, PAIN rating N2)
 - **Next review:** no later than 2027-02-25
 - **Rationale:** No Recovery Services vault exists and no virtual machine has point-in-time restore. Every VM in the boundary is an Azure Pipelines runner whose state is reproducible or disposable: two have no data disk, and the other two attach only a Docker layer cache that is rebuilt on demand. All four are provisioned from IaC with cloud-init, so the supported recovery action is redeploy rather than restore, and backing them up would preserve build caches the pipeline reconstructs anyway.
 - **Residual risk:** Losing a runner costs a redeploy and cache rewarm, and any state left on a runner outside the pipeline working directories is unrecoverable. Customer and certification data are covered separately by PostgreSQL backups and the locked 400-day compliance-evidence archive.
+
+### Accepted decision 2 of 2: approved by FedRAMP Program Owner on 2026-08-17
+
+- **Accepted:**
+  - Virtual networks should be protected by Azure Firewall (defender-group-6557fc98debafa727527876d, PAIN rating N2)
+- **Next review:** no later than 2027-02-25
+- **Rationale:** No Azure Firewall is deployed, so outbound traffic from the Cowork virtual networks is not filtered, FQDN-restricted, or IDPS-inspected. Azure Firewall Standard exceeds the total infrastructure spend of the offering for controls substantially duplicated by the existing design: inbound traffic reaches only Front Door with managed WAF rules, the Container Apps environments are private, and Storage, Key Vault, PostgreSQL, and ACR are reachable only through private endpoints with public access denied.
+- **Residual risk:** A compromised workload could reach an arbitrary internet endpoint, and detection of that would depend on platform and application telemetry rather than network-layer inspection.
 
 ### Population reconciliation
 
