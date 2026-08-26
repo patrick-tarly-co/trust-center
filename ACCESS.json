@@ -1,15 +1,35 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-08-26T20:44:39.753809Z",
+  "generatedAt": "2026-08-26T22:37:57.788819Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-08-26T20:43:28Z",
+  "latestAccessAt": "2026-08-26T22:36:33Z",
   "allCertificationDataChannelsLogged": true,
+  "githubTrafficCaptureVerified": true,
+  "githubTrafficCapture": {
+    "expectedRepository": "patrick-tarly-co/trust-center",
+    "maxAgeHours": 48,
+    "repository": "patrick-tarly-co/trust-center",
+    "collectedAt": "2026-08-26T22:36:32.701455Z",
+    "trafficDataAvailable": true,
+    "ageHours": 0.02,
+    "endpointStatus": {
+      "traffic/views": 200,
+      "traffic/clones": 200,
+      "traffic/popular/paths": 200
+    },
+    "summary": {
+      "viewCount": 251,
+      "viewUniques": 5,
+      "cloneCount": 988,
+      "cloneUniques": 263
+    }
+  },
   "publicChannelLoggingCoverage": [
     {
       "id": "gov-tarly-trust-center",
@@ -24,9 +44,9 @@
       "id": "independent-trust-repository",
       "retrievalLoggingVerified": true,
       "assertedVerified": true,
-      "liveObservation": "",
+      "liveObservation": "github-traffic-capture",
       "summaryRetentionDays": 400,
-      "loggingLastVerifiedAt": "2026-08-18T03:38:14Z",
+      "loggingLastVerifiedAt": "2026-08-26T21:12:30.330889Z",
       "gap": ""
     }
   ],
@@ -39,7 +59,7 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 9946,
+    "requestCount": 10293,
     "daysWithRequests": 22,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 0,
@@ -176,9 +196,9 @@
     },
     {
       "date": "2026-08-26",
-      "requestCount": 1085,
-      "uniqueClientAddresses": 16,
-      "lastRequestAt": "2026-08-26T20:43:28Z"
+      "requestCount": 1432,
+      "uniqueClientAddresses": 19,
+      "lastRequestAt": "2026-08-26T22:36:33Z"
     }
   ],
   "agencyAccessors": [],
@@ -201,10 +221,12 @@
       "logging-source": "GitHub repository traffic statistics (views, clones, popular paths) captured nightly by compliance/scripts/github_traffic_report.py and archived with the trust-access evidence set",
       "logging-credential": "GH_TRUST_TOKEN, a fine-grained token carrying Administration read on this repository, the permission GitHub's traffic endpoints require, alongside the Contents permission the publish step uses",
       "retrieval-logging-verified": true,
-      "logging-evidence-uri": "https://sttarlyprodzs37m1.blob.core.windows.net/compliance-evidence/trust-access/summaries/2026/08/2598/github-traffic.json",
-      "logging-last-verified-at": "2026-08-18T03:38:14Z",
+      "logging-live-observation": "github-traffic-capture",
+      "logging-evidence-uri": "https://dev.azure.com/pincus/tarly/_git/tarly-apps?path=/compliance/evidence/certification-data/cds-trc-acl-github-traffic-2026-08-26.json",
+      "logging-evidence-sha256": "3a8f87433db00be113f14036e2da3dfd99dcd28193b018d5e9a09e280ceea3bc",
+      "logging-last-verified-at": "2026-08-26T21:12:30.330889Z",
       "summary-retention-days": 400,
-      "logging-note": "Anonymous raw reads cannot be provider-logged, so GitHub's own repository traffic statistics are the authoritative summary for this channel and the documented limit of what the host provides - an owner determination recorded as ATT-2026-08-18-07, not an assumption. The nightly capture archives to the Locked 400-day compliance-evidence container, building the continuous history GitHub's own rolling 14-day window cannot hold. First archived capture: build 2598, 32 views from 4 unique visitors and 141 clones from 59 unique cloners, all three endpoints HTTP 200. A capture that is not fully available is archived as an explicit coverage gap with its per-endpoint statuses, never as zero traffic."
+      "logging-note": "Anonymous raw reads cannot be provider-logged, so GitHub's own repository traffic statistics are the authoritative summary for this channel and the documented limit of what the host provides - an owner determination recorded as ATT-2026-08-18-07, not an assumption. The nightly capture archives to the Locked 400-day compliance-evidence container, building the continuous history GitHub's own rolling 14-day window cannot hold. The fresh 2026-08-26 capture records 251 views from 5 unique visitors and 988 clones from 263 unique cloners, with views, clones and popular paths all HTTP 200. The daily rule reads that run's capture and fails if it is missing, stale or unsuccessful; the inventory assertion alone cannot pass."
     }
   ],
   "controlledAccessPolicy": {
