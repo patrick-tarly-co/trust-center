@@ -2,12 +2,13 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-08-26T20:20:29.739109+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-08-26T20:44:13.407279+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 45 |
-| Partially met | 1 |
+| Met | 43 |
+| Partially met | 2 |
+| Unknown | 1 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -36,7 +37,7 @@ Generated 2026-08-26T20:20:29.739109+00:00 by the nightly compliance pipeline. M
 | KSI-MLA-ALA | Authorizing Log Access | Met |  |
 | KSI-MLA-EVC | Evaluating Configurations | Met |  |
 | KSI-MLA-LET | Logging Event Types | Met |  |
-| KSI-MLA-OSM | Operating SIEM Capability | Met |  |
+| KSI-MLA-OSM | Operating SIEM Capability | Unknown |  |
 | KSI-MLA-RVL | Reviewing Logs | Met |  |
 | KSI-PIY-GIV | Generating Inventories | Met |  |
 | KSI-PIY-RES | Reviewing Executive Support | Met |  |
@@ -47,7 +48,7 @@ Generated 2026-08-26T20:20:29.739109+00:00 by the nightly compliance pipeline. M
 | KSI-RPL-ARP | Aligning Recovery Plan | Met |  |
 | KSI-RPL-RRO | Reviewing Recovery Objectives | Met |  |
 | KSI-RPL-TRC | Testing Recovery Capabilities | Met |  |
-| KSI-SCR-MIT | Mitigating Supply Chain Risk | Met |  |
+| KSI-SCR-MIT | Mitigating Supply Chain Risk | Partially met | None |
 | KSI-SCR-MON | Monitoring Supply Chain Risk | Met |  |
 | KSI-SVC-ACM | Automating Configuration Management | Partially met | None |
 | KSI-SVC-ASM | Automating Secret Management | Met |  |
