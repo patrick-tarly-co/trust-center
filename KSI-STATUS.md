@@ -2,12 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-08-26T14:30:09.547834+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-08-26T15:02:48.299227+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 38 |
-| Partially met | 8 |
+| Met | 39 |
+| Partially met | 7 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -53,7 +53,7 @@ Generated 2026-08-26T14:30:09.547834+00:00 by the nightly compliance pipeline. M
 | KSI-SVC-ASM | Automating Secret Management | Partially met | None |
 | KSI-SVC-EIS | Evaluating and Improving Security | Partially met | None |
 | KSI-SVC-PRR | Preventing Residual Risk | Met |  |
-| KSI-SVC-RUD | Removing Unwanted Data | Partially met | None |
+| KSI-SVC-RUD | Removing Unwanted Data | Met |  |
 | KSI-SVC-SIN | Securing Information | Met |  |
 | KSI-SVC-VCM | Validating Communications | Met |  |
 | KSI-SVC-VRI | Validating Resource Integrity | Met |  |
