@@ -16,17 +16,9 @@ Planning horizon through: 2026-11-26
 
 ## Accepted vulnerabilities
 
-2 provider risk-acceptance decision(s) covering 2 vulnerability record(s) are in force, each with a named approving role, an approval timestamp, and controlled approval evidence retained outside this report.
+3 provider risk-acceptance decision(s) covering 3 vulnerability record(s) are in force, each with a named approving role, an approval timestamp, and controlled approval evidence retained outside this report.
 
-### Accepted decision 1 of 2: approved by FedRAMP Program Owner on 2026-08-17
-
-- **Accepted:**
-  - Azure Backup should be enabled for virtual machines (defender-group-ad0290184eef11353984fe46, PAIN rating N2)
-- **Next review:** no later than 2027-02-25
-- **Rationale:** No Recovery Services vault exists and no virtual machine has point-in-time restore. Every VM in the boundary is an Azure Pipelines runner whose state is reproducible or disposable: two have no data disk, and the other two attach only a Docker layer cache that is rebuilt on demand. All four are provisioned from IaC with cloud-init, so the supported recovery action is redeploy rather than restore, and backing them up would preserve build caches the pipeline reconstructs anyway.
-- **Residual risk:** Losing a runner costs a redeploy and cache rewarm, and any state left on a runner outside the pipeline working directories is unrecoverable. Customer and certification data are covered separately by PostgreSQL backups and the locked 400-day compliance-evidence archive.
-
-### Accepted decision 2 of 2: approved by FedRAMP Program Owner on 2026-08-17
+### Accepted decision 1 of 3: approved by FedRAMP Program Owner on 2026-08-17
 
 - **Accepted:**
   - Virtual networks should be protected by Azure Firewall (defender-group-6557fc98debafa727527876d, PAIN rating N2)
@@ -34,12 +26,27 @@ Planning horizon through: 2026-11-26
 - **Rationale:** No Azure Firewall is deployed, so outbound traffic from the Cowork virtual networks is not filtered, FQDN-restricted, or IDPS-inspected. Azure Firewall Standard exceeds the total infrastructure spend of the offering for controls substantially duplicated by the existing design: inbound traffic reaches only Front Door with managed WAF rules, the Container Apps environments are private, and Storage, Key Vault, PostgreSQL, and ACR are reachable only through private endpoints with public access denied.
 - **Residual risk:** A compromised workload could reach an arbitrary internet endpoint, and detection of that would depend on platform and application telemetry rather than network-layer inspection.
 
+### Accepted decision 2 of 3: approved by FedRAMP Program Owner on 2026-08-17
+
+- **Accepted:**
+  - Azure Backup should be enabled for virtual machines (defender-group-ad0290184eef11353984fe46, PAIN rating N2)
+- **Next review:** no later than 2027-02-25
+- **Rationale:** No Recovery Services vault exists and no virtual machine has point-in-time restore. Every VM in the boundary is an Azure Pipelines runner whose state is reproducible or disposable: two have no data disk, and the other two attach only a Docker layer cache that is rebuilt on demand. All four are provisioned from IaC with cloud-init, so the supported recovery action is redeploy rather than restore, and backing them up would preserve build caches the pipeline reconstructs anyway.
+- **Residual risk:** Losing a runner costs a redeploy and cache rewarm, and any state left on a runner outside the pipeline working directories is unrecoverable. Customer and certification data are covered separately by PostgreSQL backups and the locked 400-day compliance-evidence archive.
+
+### Accepted decision 3 of 3: approved by FedRAMP Program Owner on 2026-08-18
+
+- **Accepted:**
+  - EDR solution should be installed on Virtual Machines (risk-acceptance-TARLY-RA-2026-004, PAIN rating N4)
+- **Next review:** no later than 2027-02-26
+- **Rationale:** Defender for Servers Plan 1 is licensed and the endpoint-protection extension is healthy on the three runners that can take it, including the production runner. vm-tarly-ci-azdo runs Ubuntu Pro FIPS and the extension will not onboard it; two attempts failed, the second with settings matched byte-for-byte to a runner where onboarding succeeded, and the correlation across the four machines is exact. The host is on the FIPS image deliberately because it is the build host for the Ubuntu Pro FIPS application runtime, so rebuilding it on the standard image would remove Tarly's ability to build a FIPS runtime. It serves no customer traffic, holds no federal customer data, and is outside the production boundary.
+
 ### Population reconciliation
 
-- Grouped vulnerability record(s) reconciled: 16
+- Grouped vulnerability record(s) reconciled: 17
 - Under active remediation with a recorded owner and target date: 12
 - Carrying a final disposition: 2
-- Under provider risk acceptance: 2
+- Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
 Separately, 1 KSI implementation gap(s) remain under remediation and independent review.
