@@ -12,6 +12,8 @@ Report period: 2026-05-29 through 2026-08-26
 
 Planning horizon through: 2026-11-26
 
+- KSI-MLA-OSM: Unrated-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-SCR-MIT: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-SVC-ACM: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
@@ -43,13 +45,13 @@ Planning horizon through: 2026-11-26
 
 ### Population reconciliation
 
-- Grouped vulnerability record(s) reconciled: 17
-- Under active remediation with a recorded owner and target date: 12
+- Grouped vulnerability record(s) reconciled: 18
+- Under active remediation with a recorded owner and target date: 13
 - Carrying a final disposition: 2
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 1 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 3 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
