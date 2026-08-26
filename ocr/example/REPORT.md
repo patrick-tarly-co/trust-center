@@ -12,9 +12,21 @@ Report period: 2026-05-29 through 2026-08-26
 
 Planning horizon through: 2026-11-26
 
-- KSI-MLA-OSM: Unrated-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-CNA-EIS: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-CNA-IBP: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-CNA-OFA: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-CNA-RVP: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-CNA-ULN: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-MLA-EVC: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-MLA-OSM: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-PIY-GIV: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-PIY-RVD: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-RPL-ABO: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-SCR-MIT: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-SVC-ACM: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-SVC-ASM: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-SVC-EIS: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-SVC-PRR: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
@@ -45,13 +57,13 @@ Planning horizon through: 2026-11-26
 
 ### Population reconciliation
 
-- Grouped vulnerability record(s) reconciled: 18
-- Under active remediation with a recorded owner and target date: 13
+- Grouped vulnerability record(s) reconciled: 16
+- Under active remediation with a recorded owner and target date: 11
 - Carrying a final disposition: 2
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 3 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 15 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
