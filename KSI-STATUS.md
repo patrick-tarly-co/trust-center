@@ -2,12 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-08-26T16:24:58.396298+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-08-26T16:49:30.732083+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 39 |
-| Partially met | 7 |
+| Met | 45 |
+| Partially met | 1 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -20,9 +20,9 @@ Generated 2026-08-26T16:24:58.396298+00:00 by the nightly compliance pipeline. M
 | KSI-CNA-EIS | Enforcing Intended State | Met |  |
 | KSI-CNA-IBP | Implementing Best Practices | Met |  |
 | KSI-CNA-MAT | Minimizing Attack Surface | Met |  |
-| KSI-CNA-OFA | Optimizing for Availability | Partially met | None |
+| KSI-CNA-OFA | Optimizing for Availability | Met |  |
 | KSI-CNA-RNT | Restricting Network Traffic | Met |  |
-| KSI-CNA-RVP | Reviewing Protections | Partially met | None |
+| KSI-CNA-RVP | Reviewing Protections | Met |  |
 | KSI-CNA-ULN | Using Logical Networking | Met |  |
 | KSI-IAM-AAM | Automating Account Management | Met |  |
 | KSI-IAM-APM | Adopting Passwordless Methods | Met |  |
@@ -43,15 +43,15 @@ Generated 2026-08-26T16:24:58.396298+00:00 by the nightly compliance pipeline. M
 | KSI-PIY-RIS | Reviewing Investments in Security | Met |  |
 | KSI-PIY-RSD | Reviewing Security in the SDLC | Met |  |
 | KSI-PIY-RVD | Reviewing Vulnerability Disclosures | Met |  |
-| KSI-RPL-ABO | Aligning Backups with Objectives | Partially met | None |
-| KSI-RPL-ARP | Aligning Recovery Plan | Partially met | None |
+| KSI-RPL-ABO | Aligning Backups with Objectives | Met |  |
+| KSI-RPL-ARP | Aligning Recovery Plan | Met |  |
 | KSI-RPL-RRO | Reviewing Recovery Objectives | Met |  |
 | KSI-RPL-TRC | Testing Recovery Capabilities | Met |  |
 | KSI-SCR-MIT | Mitigating Supply Chain Risk | Met |  |
 | KSI-SCR-MON | Monitoring Supply Chain Risk | Met |  |
 | KSI-SVC-ACM | Automating Configuration Management | Partially met | None |
-| KSI-SVC-ASM | Automating Secret Management | Partially met | None |
-| KSI-SVC-EIS | Evaluating and Improving Security | Partially met | None |
+| KSI-SVC-ASM | Automating Secret Management | Met |  |
+| KSI-SVC-EIS | Evaluating and Improving Security | Met |  |
 | KSI-SVC-PRR | Preventing Residual Risk | Met |  |
 | KSI-SVC-RUD | Removing Unwanted Data | Met |  |
 | KSI-SVC-SIN | Securing Information | Met |  |
