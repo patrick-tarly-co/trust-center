@@ -2,7 +2,7 @@
 
 FedRAMP package ID: FR2628650874
 
-Report period: 2026-05-29 through 2026-08-26
+Report period: 2026-05-30 through 2026-08-27
 
 ## Certification data changes
 
@@ -10,20 +10,14 @@ Report period: 2026-05-29 through 2026-08-26
 
 ## Planned certification data changes
 
-Planning horizon through: 2026-11-26
+Planning horizon through: 2026-11-27
 
 - KSI-CNA-EIS: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-CNA-IBP: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-CNA-OFA: High-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-CNA-RVP: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-CNA-ULN: High-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-MLA-EVC: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-MLA-OSM: High-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-PIY-GIV: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-PIY-RVD: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-RPL-ABO: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-SCR-MIT: High-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-SVC-ACM: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-SVC-ASM: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-SVC-EIS: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-SVC-PRR: High-risk implementation gap; remediation detail is retained in controlled certification data.
@@ -63,7 +57,7 @@ Planning horizon through: 2026-11-26
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 15 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 9 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
