@@ -12,8 +12,7 @@ Report period: 2026-05-30 through 2026-08-27
 
 Planning horizon through: 2026-11-27
 
-- KSI-MLA-OSM: High-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-SVC-ACM: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- No certification-data changes are currently planned during this horizon.
 
 ## Accepted vulnerabilities
 
@@ -50,7 +49,7 @@ Planning horizon through: 2026-11-27
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 2 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 0 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
