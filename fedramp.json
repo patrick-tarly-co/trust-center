@@ -303,6 +303,16 @@
     "machineReadableAccessGuide": "https://gov.tarly.co/trust/access.json",
     "procedure": "compliance/docs/significant-change-procedure.md"
   },
+  "incidentNotificationMechanism": {
+    "status": "Implemented; no real FedRAMP Reportable Incident or real incident report has occurred",
+    "mechanism": "FedRAMP email, verified agency-specific procedures, and the controlled certification-data distribution channel",
+    "description": "Tarly sends every approved Initial, Ongoing, and Final Incident Report to fedramp_security@fedramp.gov, to every affected agency through its verified agency-specific procedure, and to all necessary parties through an update to the entitlement-gated controlled Trust Center. The controlled update contains the exact validated human-readable and JSON pair in the signed incident-reports manifest category; publication is generation-first and pointer-last, and the operator verifies served bytes and retains a digest-bound delivery result per recipient. No real report exists when no reportable incident has occurred.",
+    "publishedAt": "https://gov.tarly.co/trust/index.html#incident-notification-mechanism",
+    "accessGuide": "https://gov.tarly.co/trust/access.html#incident-notification-mechanism",
+    "machineReadableAccessGuide": "https://gov.tarly.co/trust/access.json",
+    "controlledManifestEndpoint": "https://gov.tarly.co/api/trust/controlled/manifest",
+    "procedure": "compliance/docs/incident-reporting-procedure.md"
+  },
   "contactInformation": [
     {
       "contactType": "Sales",

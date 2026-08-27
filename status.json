@@ -3,25 +3,26 @@
   "provider": "Pincus Technologies Inc",
   "service": "Tarly Cowork",
   "fedRampPackageId": "FR2628650874",
-  "generated_at": "2026-08-27T02:30:57.828265Z",
-  "current_status": "degraded",
+  "generated_at": "2026-08-27T03:52:16.048418Z",
+  "current_status": "operational",
   "services": [
     {
       "name": "cowork-trust",
       "url": "https://gov.tarly.co/trust/",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 71,
+      "latency_ms": 75,
       "content_check": "text-markers",
       "content_verified": true
     },
     {
       "name": "cowork-web",
       "url": "https://gov.tarly.co/health",
-      "operational": false,
-      "http_status": 504,
-      "latency_ms": 4029,
-      "error": "HTTP 504"
+      "operational": true,
+      "http_status": 200,
+      "latency_ms": 244,
+      "content_check": "json-field",
+      "content_verified": true
     }
   ],
   "history_window_days": 30,
@@ -490,28 +491,29 @@
     },
     {
       "fedRampPackageId": "FR2628650874",
-      "checked_at": "2026-08-27T02:30:57.828265Z",
-      "status": "degraded",
+      "checked_at": "2026-08-27T03:52:16.048418Z",
+      "status": "operational",
       "services": [
         {
           "name": "cowork-trust",
           "url": "https://gov.tarly.co/trust/",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 71,
+          "latency_ms": 75,
           "content_check": "text-markers",
           "content_verified": true
         },
         {
           "name": "cowork-web",
           "url": "https://gov.tarly.co/health",
-          "operational": false,
-          "http_status": 504,
-          "latency_ms": 4029,
-          "error": "HTTP 504"
+          "operational": true,
+          "http_status": 200,
+          "latency_ms": 244,
+          "content_check": "json-field",
+          "content_verified": true
         }
       ],
-      "sample_sha256": "b366a5a3dfd8749ab2a6941c33a91894e1a56e969a1acdbc95e3768c4b62c9e7"
+      "sample_sha256": "deb6600aa011853ec060efd113a7e48a8cd52733beadc48c85f5d0f143fa493b"
     }
   ],
   "incidents": [
@@ -525,7 +527,7 @@
     },
     {
       "started_at": "2026-08-27T02:30:57.828265Z",
-      "ended_at": null,
+      "ended_at": "2026-08-27T03:52:16.048418Z",
       "status": "degraded",
       "affected_services": [
         "cowork-web"
