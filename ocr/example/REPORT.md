@@ -12,7 +12,7 @@ Report period: 2026-05-31 through 2026-08-28
 
 Planning horizon through: 2026-11-28
 
-- No certification-data changes are currently planned during this horizon.
+- KSI-MLA-RVL: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
@@ -49,7 +49,7 @@ Planning horizon through: 2026-11-28
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 0 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 1 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
