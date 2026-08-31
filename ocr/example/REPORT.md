@@ -12,7 +12,7 @@ Report period: 2026-06-03 through 2026-08-31
 
 Planning horizon through: 2026-12-01
 
-- KSI-SVC-ACM: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-SCR-MON: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
