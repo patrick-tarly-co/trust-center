@@ -12,7 +12,7 @@ Report period: 2026-06-03 through 2026-08-31
 
 Planning horizon through: 2026-12-01
 
-- KSI-SCR-MON: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- No certification-data changes are currently planned during this horizon.
 
 ## Accepted vulnerabilities
 
@@ -49,7 +49,7 @@ Planning horizon through: 2026-12-01
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 1 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 0 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
