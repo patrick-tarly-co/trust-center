@@ -2,7 +2,7 @@
 
 FedRAMP package ID: FR2628650874
 
-Report period: 2026-06-02 through 2026-08-30
+Report period: 2026-06-03 through 2026-08-31
 
 ## Certification data changes
 
@@ -10,10 +10,10 @@ Report period: 2026-06-02 through 2026-08-30
 
 ## Planned certification data changes
 
-Planning horizon through: 2026-11-30
+Planning horizon through: 2026-12-01
 
+- KSI-IAM-JIT: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-MLA-RVL: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-SVC-ACM: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
