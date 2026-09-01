@@ -12,7 +12,7 @@ Report period: 2026-06-04 through 2026-09-01
 
 Planning horizon through: 2026-12-02
 
-- KSI-SVC-ACM: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-SVC-RUD: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
@@ -43,8 +43,8 @@ Planning horizon through: 2026-12-02
 
 ### Population reconciliation
 
-- Grouped vulnerability record(s) reconciled: 20
-- Under active remediation with a recorded owner and target date: 15
+- Grouped vulnerability record(s) reconciled: 18
+- Under active remediation with a recorded owner and target date: 13
 - Carrying a final disposition: 2
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
