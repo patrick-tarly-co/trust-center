@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-08-31T15:41:45.179004Z",
+  "generatedAt": "2026-09-01T07:12:06.798942Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-08-31T15:40:33Z",
+  "latestAccessAt": "2026-09-01T07:11:03Z",
   "allCertificationDataChannelsLogged": true,
   "githubTrafficCaptureVerified": true,
   "githubTrafficCapture": {
     "expectedRepository": "patrick-tarly-co/trust-center",
     "maxAgeHours": 48,
     "repository": "patrick-tarly-co/trust-center",
-    "collectedAt": "2026-08-31T15:40:32.884320Z",
+    "collectedAt": "2026-09-01T07:11:02.505102Z",
     "trafficDataAvailable": true,
     "ageHours": 0.02,
     "endpointStatus": {
@@ -24,10 +24,10 @@
       "traffic/popular/paths": 200
     },
     "summary": {
-      "viewCount": 305,
-      "viewUniques": 6,
-      "cloneCount": 878,
-      "cloneUniques": 258
+      "viewCount": 291,
+      "viewUniques": 8,
+      "cloneCount": 801,
+      "cloneUniques": 233
     }
   },
   "publicChannelLoggingCoverage": [
@@ -59,8 +59,8 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 12843,
-    "daysWithRequests": 27,
+    "requestCount": 12897,
+    "daysWithRequests": 28,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 0,
     "deniedAgencyRequests": 0,
@@ -226,9 +226,15 @@
     },
     {
       "date": "2026-08-31",
-      "requestCount": 200,
-      "uniqueClientAddresses": 8,
-      "lastRequestAt": "2026-08-31T15:40:33Z"
+      "requestCount": 237,
+      "uniqueClientAddresses": 15,
+      "lastRequestAt": "2026-08-31T22:44:14Z"
+    },
+    {
+      "date": "2026-09-01",
+      "requestCount": 17,
+      "uniqueClientAddresses": 3,
+      "lastRequestAt": "2026-09-01T07:11:03Z"
     }
   ],
   "agencyAccessors": [],
