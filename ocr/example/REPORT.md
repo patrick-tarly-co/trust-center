@@ -12,7 +12,8 @@ Report period: 2026-06-05 through 2026-09-02
 
 Planning horizon through: 2026-12-03
 
-- No certification-data changes are currently planned during this horizon.
+- KSI-CNA-EIS: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-SVC-ACM: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
@@ -49,7 +50,7 @@ Planning horizon through: 2026-12-03
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 0 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 2 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
