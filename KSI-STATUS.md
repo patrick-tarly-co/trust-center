@@ -2,12 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-09-02T17:00:59.894176+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-09-03T00:44:31.381828+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 45 |
-| Partially met | 1 |
+| Met | 44 |
+| Partially met | 2 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -36,7 +36,7 @@ Generated 2026-09-02T17:00:59.894176+00:00 by the nightly compliance pipeline. M
 | KSI-MLA-ALA | Authorizing Log Access | Met |  |
 | KSI-MLA-EVC | Evaluating Configurations | Met |  |
 | KSI-MLA-LET | Logging Event Types | Met |  |
-| KSI-MLA-OSM | Operating SIEM Capability | Met |  |
+| KSI-MLA-OSM | Operating SIEM Capability | Partially met |  |
 | KSI-MLA-RVL | Reviewing Logs | Met |  |
 | KSI-PIY-GIV | Generating Inventories | Met |  |
 | KSI-PIY-RES | Reviewing Executive Support | Met |  |
