@@ -2,7 +2,7 @@
 
 FedRAMP package ID: FR2628650874
 
-Report period: 2026-06-06 through 2026-09-03
+Report period: 2026-06-07 through 2026-09-04
 
 ## Certification data changes
 
@@ -10,9 +10,9 @@ Report period: 2026-06-06 through 2026-09-03
 
 ## Planned certification data changes
 
-Planning horizon through: 2026-12-04
+Planning horizon through: 2026-12-05
 
-- No certification-data changes are currently planned during this horizon.
+- KSI-MLA-OSM: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
@@ -49,7 +49,7 @@ Planning horizon through: 2026-12-04
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 0 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 1 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
