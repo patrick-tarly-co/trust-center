@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-09-04T07:14:15.829824Z",
+  "generatedAt": "2026-09-05T02:31:26.169085Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-09-04T07:10:12Z",
+  "latestAccessAt": "2026-09-05T02:30:22Z",
   "allCertificationDataChannelsLogged": true,
   "githubTrafficCaptureVerified": true,
   "githubTrafficCapture": {
     "expectedRepository": "patrick-tarly-co/trust-center",
     "maxAgeHours": 48,
     "repository": "patrick-tarly-co/trust-center",
-    "collectedAt": "2026-09-04T07:10:10.990605Z",
+    "collectedAt": "2026-09-05T02:30:21.385334Z",
     "trafficDataAvailable": true,
-    "ageHours": 0.07,
+    "ageHours": 0.02,
     "endpointStatus": {
       "traffic/views": 200,
       "traffic/clones": 200,
       "traffic/popular/paths": 200
     },
     "summary": {
-      "viewCount": 221,
-      "viewUniques": 8,
-      "cloneCount": 569,
-      "cloneUniques": 181
+      "viewCount": 240,
+      "viewUniques": 9,
+      "cloneCount": 549,
+      "cloneUniques": 179
     }
   },
   "publicChannelLoggingCoverage": [
@@ -59,8 +59,8 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 14076,
-    "daysWithRequests": 31,
+    "requestCount": 14172,
+    "daysWithRequests": 32,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 0,
     "deniedAgencyRequests": 0,
@@ -250,9 +250,15 @@
     },
     {
       "date": "2026-09-04",
-      "requestCount": 30,
-      "uniqueClientAddresses": 6,
-      "lastRequestAt": "2026-09-04T07:10:12Z"
+      "requestCount": 66,
+      "uniqueClientAddresses": 10,
+      "lastRequestAt": "2026-09-04T18:08:06Z"
+    },
+    {
+      "date": "2026-09-05",
+      "requestCount": 60,
+      "uniqueClientAddresses": 2,
+      "lastRequestAt": "2026-09-05T02:30:22Z"
     }
   ],
   "agencyAccessors": [],
