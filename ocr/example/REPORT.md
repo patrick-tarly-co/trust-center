@@ -2,7 +2,7 @@
 
 FedRAMP package ID: FR2628650874
 
-Report period: 2026-06-08 through 2026-09-05
+Report period: 2026-06-09 through 2026-09-06
 
 ## Certification data changes
 
@@ -10,9 +10,9 @@ Report period: 2026-06-08 through 2026-09-05
 
 ## Planned certification data changes
 
-Planning horizon through: 2026-12-06
+Planning horizon through: 2026-12-07
 
-- KSI-SVC-ACM: Unrated-risk implementation gap; remediation detail is retained in controlled certification data.
+- No certification-data changes are currently planned during this horizon.
 
 ## Accepted vulnerabilities
 
@@ -49,7 +49,7 @@ Planning horizon through: 2026-12-06
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 1 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 0 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
