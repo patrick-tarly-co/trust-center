@@ -4,7 +4,7 @@ FedRAMP package ID: **FR2628650874**
 
 Current status: **Operational**
 
-Last checked: 2026-09-07T07:11:47.511682Z
+Last checked: 2026-09-07T14:18:07.396166Z
 
 This page is generated outside the production request path and retained in the independently hosted public trust-center repository.
 
@@ -12,8 +12,8 @@ This page is generated outside the production request path and retained in the i
 
 | Service | Status | HTTP | Latency |
 | --- | --- | ---: | ---: |
-| cowork-trust | Operational | 200 | 57 ms |
-| cowork-web | Operational | 200 | 188 ms |
+| cowork-trust | Operational | 200 | 110 ms |
+| cowork-web | Operational | 200 | 263 ms |
 
 ## 30-day history
 
@@ -52,7 +52,11 @@ Observed 30 of 30 required daily status points. Full-history requirement met: **
 | 2026-08-10 | Operational |
 | 2026-08-09 | Operational |
 
+Scheduled daily probes, with additional run-triggered observations. Each daily row is the latest retained point observation, not a claim of uninterrupted availability. Incidents include retained failed probes and documented outages between probes; approximate incident times are labelled with their evidence source.
+
 ## Availability incidents
 
+- 2026-08-15T06:29:17Z to 2026-08-15T07:14:40Z: degraded (cowork-web)
+  Documented incident IR-2026-08-15; timing: approximate. Source: `compliance/docs/incident-after-actions/IR-2026-08-15-cowork-api-outage.md` (SHA-256 `841b291eb47da722aab369ba03d85559713bb06e368f4f2a03221aff034686c3`).
 - 2026-08-16T04:44:33.361017Z to 2026-08-16T04:53:10.780012Z: degraded (cowork-web)
 - 2026-08-27T02:30:57.828265Z to 2026-08-27T03:52:16.048418Z: degraded (cowork-web)

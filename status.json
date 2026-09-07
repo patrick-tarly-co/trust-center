@@ -3,7 +3,7 @@
   "provider": "Pincus Technologies Inc",
   "service": "Tarly Cowork",
   "fedRampPackageId": "FR2628650874",
-  "generated_at": "2026-09-07T07:11:47.511682Z",
+  "generated_at": "2026-09-07T14:18:07.396166Z",
   "current_status": "operational",
   "services": [
     {
@@ -11,7 +11,7 @@
       "url": "https://gov.tarly.co/trust/",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 57,
+      "latency_ms": 110,
       "content_check": "text-markers",
       "content_verified": true
     },
@@ -20,7 +20,7 @@
       "url": "https://gov.tarly.co/health",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 188,
+      "latency_ms": 263,
       "content_check": "json-field",
       "content_verified": true
     }
@@ -756,7 +756,7 @@
     },
     {
       "fedRampPackageId": "FR2628650874",
-      "checked_at": "2026-09-07T07:11:47.511682Z",
+      "checked_at": "2026-09-07T14:18:07.396166Z",
       "status": "operational",
       "services": [
         {
@@ -764,7 +764,7 @@
           "url": "https://gov.tarly.co/trust/",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 57,
+          "latency_ms": 110,
           "content_check": "text-markers",
           "content_verified": true
         },
@@ -773,15 +773,32 @@
           "url": "https://gov.tarly.co/health",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 188,
+          "latency_ms": 263,
           "content_check": "json-field",
           "content_verified": true
         }
       ],
-      "sample_sha256": "6d928c8c993f1e54d7bc039e743184e82e60e3af78b3e5ce0890725748906e66"
+      "sample_sha256": "7d6243a924edd8b83136e7e086ae76040d5afb7829d504f75c058f9d6fe89e7f"
     }
   ],
+  "observation_basis": "Scheduled daily probes, with additional run-triggered observations. Each daily row is the latest retained point observation, not a claim of uninterrupted availability. Incidents include retained failed probes and documented outages between probes; approximate incident times are labelled with their evidence source.",
   "incidents": [
+    {
+      "started_at": "2026-08-15T06:29:17Z",
+      "ended_at": "2026-08-15T07:14:40Z",
+      "status": "degraded",
+      "affected_services": [
+        "cowork-web"
+      ],
+      "provenance": [
+        {
+          "incident_id": "IR-2026-08-15",
+          "source": "compliance/docs/incident-after-actions/IR-2026-08-15-cowork-api-outage.md",
+          "sha256": "841b291eb47da722aab369ba03d85559713bb06e368f4f2a03221aff034686c3",
+          "timing_precision": "approximate"
+        }
+      ]
+    },
     {
       "started_at": "2026-08-16T04:44:33.361017Z",
       "ended_at": "2026-08-16T04:53:10.780012Z",
