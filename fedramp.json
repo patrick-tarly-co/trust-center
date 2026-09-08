@@ -7,8 +7,8 @@
       "email": "security@tarly.co",
       "phone": "585-474-2276"
     },
-    "version": "2026.09.01.1",
-    "lastUpdated": "2026-09-01T00:00:00Z",
+    "version": "2026.09.08.1",
+    "lastUpdated": "2026-09-08T14:55:00Z",
     "sourceOfUpdate": "Tarly compliance repository source revision"
   },
   "serviceIdentification": {
@@ -52,6 +52,15 @@
         "url": "https://github.com/patrick-tarly-co/trust-center",
         "repositoryDescription": "Public git repository with machine-readable Key Security Indicator (KSI) evaluation results, updated nightly by Tarly's automated compliance pipeline. Commit history is the public record of security-posture changes over time. No authentication required.",
         "authenticationRequired": false
+      },
+      {
+        "repositoryType": [
+          "Controlled Certification Package"
+        ],
+        "url": "https://gov.tarly.co/trust/package.html",
+        "repositoryDescription": "Authenticated browser and downloads for the SDR, policies, rule/KSI supporting packages, and other published certification data.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Request a per-party access token from security@tarly.co, identifying your organization, official purpose, and package FR2628650874. Instructions: https://gov.tarly.co/trust/access.html"
       }
     ],
     "nextOngoingCertificationReportDate": "2026-10-06",
