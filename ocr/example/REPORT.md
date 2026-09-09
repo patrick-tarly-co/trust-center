@@ -2,7 +2,7 @@
 
 FedRAMP package ID: FR2628650874
 
-Report period: 2026-06-11 through 2026-09-08
+Report period: 2026-06-12 through 2026-09-09
 
 ## Certification data changes
 
@@ -10,7 +10,7 @@ Report period: 2026-06-11 through 2026-09-08
 
 ## Planned certification data changes
 
-Planning horizon through: 2026-12-09
+Planning horizon through: 2026-12-10
 
 - No certification-data changes are currently planned during this horizon.
 
@@ -43,8 +43,8 @@ Planning horizon through: 2026-12-09
 
 ### Population reconciliation
 
-- Grouped vulnerability record(s) reconciled: 18
-- Under active remediation with a recorded owner and target date: 13
+- Grouped vulnerability record(s) reconciled: 37
+- Under active remediation with a recorded owner and target date: 32
 - Carrying a final disposition: 2
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
