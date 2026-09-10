@@ -12,7 +12,7 @@ Report period: 2026-06-13 through 2026-09-10
 
 Planning horizon through: 2026-12-11
 
-- KSI-IAM-JIT: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-SCR-MON: Unrated-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
@@ -43,9 +43,9 @@ Planning horizon through: 2026-12-11
 
 ### Population reconciliation
 
-- Grouped vulnerability record(s) reconciled: 18
+- Grouped vulnerability record(s) reconciled: 19
 - Under active remediation with a recorded owner and target date: 13
-- Carrying a final disposition: 2
+- Carrying a final disposition: 3
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
