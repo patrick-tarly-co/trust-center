@@ -3,7 +3,7 @@
   "provider": "Pincus Technologies Inc",
   "service": "Tarly Cowork",
   "fedRampPackageId": "FR2628650874",
-  "generated_at": "2026-09-11T17:16:38.008810Z",
+  "generated_at": "2026-09-12T07:10:32.169387Z",
   "current_status": "operational",
   "services": [
     {
@@ -11,7 +11,7 @@
       "url": "https://gov.tarly.co/trust/",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 47,
+      "latency_ms": 104,
       "content_check": "text-markers",
       "content_verified": true
     },
@@ -20,7 +20,7 @@
       "url": "https://gov.tarly.co/health",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 283,
+      "latency_ms": 266,
       "content_check": "json-field",
       "content_verified": true
     }
@@ -30,27 +30,6 @@
   "expected_days_since_monitoring_started": 30,
   "history_complete": true,
   "daily_history": [
-    {
-      "checked_at": "2026-08-13T07:03:32.414835Z",
-      "sample_sha256": "dcc56cbb27abf1cb0b9ed05c848d6032493d8d01f1f14d6bfcd10f315a607434",
-      "services": [
-        {
-          "http_status": 200,
-          "latency_ms": 130,
-          "name": "cowork-trust",
-          "operational": true,
-          "url": "https://gov.tarly.co/trust/"
-        },
-        {
-          "http_status": 200,
-          "latency_ms": 111,
-          "name": "cowork-web",
-          "operational": true,
-          "url": "https://gov.tarly.co/health"
-        }
-      ],
-      "status": "operational"
-    },
     {
       "checked_at": "2026-08-14T07:03:36.022817Z",
       "sample_sha256": "1b2628dbe92de34d6a6e78a883872fb01727f5a934b493cda66454353792ed86",
@@ -775,8 +754,34 @@
       "status": "operational"
     },
     {
-      "fedRampPackageId": "FR2628650874",
       "checked_at": "2026-09-11T17:16:38.008810Z",
+      "fedRampPackageId": "FR2628650874",
+      "sample_sha256": "db7ad21050b74e5dc770f53784c4c44cc762aadc8d7d24b4f2e9b409bedc5d78",
+      "services": [
+        {
+          "content_check": "text-markers",
+          "content_verified": true,
+          "http_status": 200,
+          "latency_ms": 47,
+          "name": "cowork-trust",
+          "operational": true,
+          "url": "https://gov.tarly.co/trust/"
+        },
+        {
+          "content_check": "json-field",
+          "content_verified": true,
+          "http_status": 200,
+          "latency_ms": 283,
+          "name": "cowork-web",
+          "operational": true,
+          "url": "https://gov.tarly.co/health"
+        }
+      ],
+      "status": "operational"
+    },
+    {
+      "fedRampPackageId": "FR2628650874",
+      "checked_at": "2026-09-12T07:10:32.169387Z",
       "status": "operational",
       "services": [
         {
@@ -784,7 +789,7 @@
           "url": "https://gov.tarly.co/trust/",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 47,
+          "latency_ms": 104,
           "content_check": "text-markers",
           "content_verified": true
         },
@@ -793,12 +798,12 @@
           "url": "https://gov.tarly.co/health",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 283,
+          "latency_ms": 266,
           "content_check": "json-field",
           "content_verified": true
         }
       ],
-      "sample_sha256": "db7ad21050b74e5dc770f53784c4c44cc762aadc8d7d24b4f2e9b409bedc5d78"
+      "sample_sha256": "3b4a3b4e7e26a4e59a80864f61522df4f3c2aad47c233d3a27efb3cea221cc9c"
     }
   ],
   "observation_basis": "Scheduled daily probes, with additional run-triggered observations. Each daily row is the latest retained point observation, not a claim of uninterrupted availability. Incidents include retained failed probes and documented outages between probes; approximate incident times are labelled with their evidence source.",
