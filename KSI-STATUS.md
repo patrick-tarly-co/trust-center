@@ -2,12 +2,11 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-09-12T07:09:59.561818+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-09-13T01:21:28.444821+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 45 |
-| Partially met | 1 |
+| Met | 46 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -18,7 +17,7 @@ Generated 2026-09-12T07:09:59.561818+00:00 by the nightly compliance pipeline. M
 | KSI-CMT-VTD | Validating Throughout Deployment | Met |  |
 | KSI-CNA-DFP | Defining Functionality and Privileges | Met |  |
 | KSI-CNA-EIS | Enforcing Intended State | Met |  |
-| KSI-CNA-IBP | Implementing Best Practices | Partially met |  |
+| KSI-CNA-IBP | Implementing Best Practices | Met |  |
 | KSI-CNA-MAT | Minimizing Attack Surface | Met |  |
 | KSI-CNA-OFA | Optimizing for Availability | Met |  |
 | KSI-CNA-RNT | Restricting Network Traffic | Met |  |
