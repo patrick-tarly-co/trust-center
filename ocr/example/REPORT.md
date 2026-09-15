@@ -12,8 +12,7 @@ Report period: 2026-06-18 through 2026-09-15
 
 Planning horizon through: 2026-12-16
 
-- KSI-IAM-AAM: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-IAM-JIT: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- No certification-data changes are currently planned during this horizon.
 
 ## Accepted vulnerabilities
 
@@ -50,7 +49,7 @@ Planning horizon through: 2026-12-16
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 2 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 0 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
