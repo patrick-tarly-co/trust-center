@@ -2,11 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-09-14T07:10:44.467745+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-09-15T07:10:15.155699+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 46 |
+| Met | 43 |
+| Partially met | 3 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -17,7 +18,7 @@ Generated 2026-09-14T07:10:44.467745+00:00 by the nightly compliance pipeline. M
 | KSI-CMT-VTD | Validating Throughout Deployment | Met |  |
 | KSI-CNA-DFP | Defining Functionality and Privileges | Met |  |
 | KSI-CNA-EIS | Enforcing Intended State | Met |  |
-| KSI-CNA-IBP | Implementing Best Practices | Met |  |
+| KSI-CNA-IBP | Implementing Best Practices | Partially met |  |
 | KSI-CNA-MAT | Minimizing Attack Surface | Met |  |
 | KSI-CNA-OFA | Optimizing for Availability | Met |  |
 | KSI-CNA-RNT | Restricting Network Traffic | Met |  |
@@ -32,9 +33,9 @@ Generated 2026-09-14T07:10:44.467745+00:00 by the nightly compliance pipeline. M
 | KSI-INR-AAR | Generating After Action Reports | Met |  |
 | KSI-INR-RIR | Reviewing Incident Response Procedures | Met |  |
 | KSI-INR-RPI | Reviewing Past Incidents | Met |  |
-| KSI-MLA-ALA | Authorizing Log Access | Met |  |
+| KSI-MLA-ALA | Authorizing Log Access | Partially met |  |
 | KSI-MLA-EVC | Evaluating Configurations | Met |  |
-| KSI-MLA-LET | Logging Event Types | Met |  |
+| KSI-MLA-LET | Logging Event Types | Partially met |  |
 | KSI-MLA-OSM | Operating SIEM Capability | Met |  |
 | KSI-MLA-RVL | Reviewing Logs | Met |  |
 | KSI-PIY-GIV | Generating Inventories | Met |  |
