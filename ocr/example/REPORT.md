@@ -12,7 +12,7 @@ Report period: 2026-06-18 through 2026-09-15
 
 Planning horizon through: 2026-12-16
 
-- No certification-data changes are currently planned during this horizon.
+- KSI-SVC-ACM: Unrated-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
@@ -44,12 +44,12 @@ Planning horizon through: 2026-12-16
 ### Population reconciliation
 
 - Grouped vulnerability record(s) reconciled: 11
-- Under active remediation with a recorded owner and target date: 5
-- Carrying a final disposition: 3
+- Under active remediation with a recorded owner and target date: 4
+- Carrying a final disposition: 4
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 0 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 1 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
