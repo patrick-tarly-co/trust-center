@@ -2,12 +2,11 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-09-15T18:19:34.055002+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-09-15T18:56:11.240900+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 44 |
-| Partially met | 2 |
+| Met | 46 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -16,7 +15,7 @@ Generated 2026-09-15T18:19:34.055002+00:00 by the nightly compliance pipeline. M
 | KSI-CMT-RMV | Redeploying vs Modifying | Met |  |
 | KSI-CMT-RVP | Reviewing Change Procedures | Met |  |
 | KSI-CMT-VTD | Validating Throughout Deployment | Met |  |
-| KSI-CNA-DFP | Defining Functionality and Privileges | Partially met |  |
+| KSI-CNA-DFP | Defining Functionality and Privileges | Met |  |
 | KSI-CNA-EIS | Enforcing Intended State | Met |  |
 | KSI-CNA-IBP | Implementing Best Practices | Met |  |
 | KSI-CNA-MAT | Minimizing Attack Surface | Met |  |
@@ -43,7 +42,7 @@ Generated 2026-09-15T18:19:34.055002+00:00 by the nightly compliance pipeline. M
 | KSI-PIY-RIS | Reviewing Investments in Security | Met |  |
 | KSI-PIY-RSD | Reviewing Security in the SDLC | Met |  |
 | KSI-PIY-RVD | Reviewing Vulnerability Disclosures | Met |  |
-| KSI-RPL-ABO | Aligning Backups with Objectives | Partially met |  |
+| KSI-RPL-ABO | Aligning Backups with Objectives | Met |  |
 | KSI-RPL-ARP | Aligning Recovery Plan | Met |  |
 | KSI-RPL-RRO | Reviewing Recovery Objectives | Met |  |
 | KSI-RPL-TRC | Testing Recovery Capabilities | Met |  |
