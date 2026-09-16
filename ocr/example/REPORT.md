@@ -2,7 +2,7 @@
 
 FedRAMP package ID: FR2628650874
 
-Report period: 2026-06-18 through 2026-09-15
+Report period: 2026-06-19 through 2026-09-16
 
 ## Certification data changes
 
@@ -10,9 +10,12 @@ Report period: 2026-06-18 through 2026-09-15
 
 ## Planned certification data changes
 
-Planning horizon through: 2026-12-16
+Planning horizon through: 2026-12-17
 
-- KSI-SVC-ACM: Unrated-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-IAM-AAM: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-IAM-ELP: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-IAM-JIT: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-SVC-ACM: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
@@ -23,7 +26,7 @@ Planning horizon through: 2026-12-16
 - **Accepted:**
   - Virtual networks should be protected by Azure Firewall (defender-group-6557fc98debafa727527876d, PAIN rating N2)
 - **Next review:** no later than 2027-02-25
-- **Rationale:** No Azure Firewall is deployed, so outbound traffic from the Cowork virtual networks is not filtered, FQDN-restricted, or IDPS-inspected. Azure Firewall Standard exceeds the total infrastructure spend of the offering for controls substantially duplicated by the existing design: inbound traffic reaches only Front Door with managed WAF rules, the Container Apps environments are private, and Storage, Key Vault, PostgreSQL, and ACR are reachable only through private endpoints with public access denied.
+- **Rationale:** No Azure Firewall is deployed, so outbound traffic from the Cowork virtual networks is not filtered, FQDN-restricted, or IDPS-inspected. Azure Firewall Standard exceeds the total infrastructure spend of the offering for controls substantially duplicated by the existing design: inbound traffic reaches only Front Door with managed WAF rules, the Container Apps environments are private, and the main customer storage account, Key Vault, PostgreSQL and ACR restrict public network access. The separate logging accounts use default-deny public endpoints with an Azure trusted-service writer bypass; private Blob reader endpoints are being added and verified separately.
 - **Residual risk:** A compromised workload could reach an arbitrary internet endpoint, and detection of that would depend on platform and application telemetry rather than network-layer inspection.
 
 ### Accepted decision 2 of 3: approved by FedRAMP Program Owner on 2026-08-17
@@ -39,17 +42,17 @@ Planning horizon through: 2026-12-16
 - **Accepted:**
   - EDR solution should be installed on Virtual Machines (risk-acceptance-TARLY-RA-2026-004, PAIN rating N4)
 - **Next review:** no later than 2027-02-26
-- **Rationale:** Defender for Servers Plan 1 is licensed and the endpoint-protection extension is healthy on the three runners that can take it, including the production runner. vm-tarly-ci-azdo runs Ubuntu Pro FIPS and the extension will not onboard it; two attempts failed, the second with settings matched byte-for-byte to a runner where onboarding succeeded, and the correlation across the four machines is exact. The host is on the FIPS image deliberately because it is the build host for the Ubuntu Pro FIPS application runtime, so rebuilding it on the standard image would remove Tarly's ability to build a FIPS runtime. It serves no customer traffic, holds no federal customer data, and is outside the production boundary.
+- **Rationale:** Defender for Servers Plan 1 is licensed and the endpoint-protection extension is healthy on the three runners that can take it, including the production runner. vm-tarly-ci-azdo runs Ubuntu Pro FIPS and the extension will not onboard it; two attempts failed, the second with settings matched byte-for-byte to a runner where onboarding succeeded, and the correlation across the four machines is exact. The host is on the FIPS image deliberately because it is the build host for the Ubuntu Pro FIPS application runtime, so rebuilding it on the standard image would remove Tarly's ability to build a FIPS runtime. It serves no customer traffic and is a supporting build-plane dependency; its absence from rg-tarly-prod does not exclude its build-chain risk from the offering assessment.
 
 ### Population reconciliation
 
 - Grouped vulnerability record(s) reconciled: 11
-- Under active remediation with a recorded owner and target date: 4
-- Carrying a final disposition: 4
+- Under active remediation with a recorded owner and target date: 0
+- Carrying a final disposition: 8
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 1 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 4 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
