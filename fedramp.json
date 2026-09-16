@@ -7,8 +7,8 @@
       "email": "security@tarly.co",
       "phone": "585-474-2276"
     },
-    "version": "2026.09.15.1",
-    "lastUpdated": "2026-09-15T18:28:14Z",
+    "version": "2026.09.16.1",
+    "lastUpdated": "2026-09-16T01:22:28Z",
     "sourceOfUpdate": "Tarly compliance repository source revision"
   },
   "serviceIdentification": {
@@ -23,7 +23,9 @@
     "logo": "https://gov.tarly.co/tarly-logo.png"
   },
   "serviceProperties": {
-    "serviceType": ["SaaS"],
+    "serviceType": [
+      "SaaS"
+    ],
     "deploymentModel": "Public Cloud",
     "digitalIdentityLevel": "IAL1/AAL1 (federated sign-in; target IAL2/AAL2 at certification)",
     "businessCategory": [
@@ -35,20 +37,27 @@
       "Research"
     ],
     "trustCenter": {
-      "repositoryType": ["Trust Center"],
+      "repositoryType": [
+        "Trust Center"
+      ],
       "url": "https://gov.tarly.co/trust/",
-      "repositoryDescription": "Tarly Trust Center — FedRAMP certification status, security posture, certification roadmap, and quarterly progress updates. Machine-readable data at https://gov.tarly.co/trust/fedramp.json. No authentication required.",
+      "repositoryDescription": "Tarly Trust Center \u2014 FedRAMP certification status, security posture, certification roadmap, and quarterly progress updates. Machine-readable data at https://gov.tarly.co/trust/fedramp.json. No authentication required.",
       "authenticationRequired": false
     },
     "secureConfigurationGuidance": {
-      "repositoryType": ["Secure Configuration Guidance"],
+      "repositoryType": [
+        "Secure Configuration Guidance"
+      ],
       "url": "https://gov.tarly.co/trust/secure-configuration-guide.html",
       "repositoryDescription": "Public customer guidance for securely provisioning, configuring, operating, reviewing, and decommissioning Tarly Cowork administrative and privileged access. Machine-readable guidance: https://gov.tarly.co/trust/secure-configuration-guide.json.",
       "authenticationRequired": false
     },
     "additionalRepositories": [
       {
-        "repositoryType": ["Machine Readable Package", "Git Repository"],
+        "repositoryType": [
+          "Machine Readable Package",
+          "Git Repository"
+        ],
         "url": "https://github.com/patrick-tarly-co/trust-center",
         "repositoryDescription": "Public git repository with machine-readable Key Security Indicator (KSI) evaluation results, updated nightly by Tarly's automated compliance pipeline. Commit history is the public record of security-posture changes over time. No authentication required.",
         "authenticationRequired": false
@@ -89,7 +98,7 @@
     },
     {
       "serviceName": "Workflows",
-      "serviceDescription": "Guided, multi-step acquisition workflows that produce procurement artifacts — market research, independent government cost estimates, solicitations, and evaluation materials — with versioning, validation against the applicable regulation, and export to Word and PDF. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "serviceDescription": "Guided, multi-step acquisition workflows that produce procurement artifacts \u2014 market research, independent government cost estimates, solicitations, and evaluation materials \u2014 with versioning, validation against the applicable regulation, and export to Word and PDF. Included in the planned FedRAMP Minimum Assessment Scope.",
       "dateAvailable": "2026-03-13",
       "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
       "includedInMinimumAssessmentScope": true
@@ -143,8 +152,13 @@
         "useCase": "Read-only retrieval of entity registration data, contract opportunities, and opportunity attachments so the assistant can cite authoritative source records. Requests carry search parameters and public identifiers only; no federal customer content is transmitted.",
         "generalUsageAndConfiguration": "The backend makes outbound HTTPS GET requests to documented public GSA endpoints and stores selected returned public records or attachments as cited evidence inside the authorization boundary.",
         "justification": "SAM.gov is the authoritative federal source for entity registrations and contract opportunities used in acquisition research.",
-        "mitigationMeasures": ["Send only public identifiers and search parameters; do not send customer documents, prompts, or procurement-file content.", "Treat responses as untrusted input and retain relied-upon records as in-boundary evidence."],
-        "compensatingControls": ["Read-only integration, TLS transport, application egress controls, citation provenance, and in-boundary access control on retained evidence."]
+        "mitigationMeasures": [
+          "Send only public identifiers and search parameters; do not send customer documents, prompts, or procurement-file content.",
+          "Treat responses as untrusted input and retain relied-upon records as in-boundary evidence."
+        ],
+        "compensatingControls": [
+          "Read-only integration, TLS transport, application egress controls, citation provenance, and in-boundary access control on retained evidence."
+        ]
       },
       {
         "name": "USAspending.gov API",
@@ -153,8 +167,13 @@
         "useCase": "Read-only retrieval of federal award and spending records used for market research and pricing comparisons. Requests carry query parameters and public identifiers only; no federal customer content is transmitted.",
         "generalUsageAndConfiguration": "The backend submits outbound HTTPS queries to the public USAspending API and ingests returned public award records for analysis and citation.",
         "justification": "USAspending.gov is the authoritative source for federal award and spending data used in defensible market research.",
-        "mitigationMeasures": ["Limit requests to public query parameters and identifiers and prohibit transmission of customer content.", "Validate and normalize returned records before use."],
-        "compensatingControls": ["Read-only integration, TLS transport, source attribution, and in-boundary authorization for saved research artifacts."]
+        "mitigationMeasures": [
+          "Limit requests to public query parameters and identifiers and prohibit transmission of customer content.",
+          "Validate and normalize returned records before use."
+        ],
+        "compensatingControls": [
+          "Read-only integration, TLS transport, source attribution, and in-boundary authorization for saved research artifacts."
+        ]
       },
       {
         "name": "GSA acquisition APIs (Federal Acquisition Service, FPDS)",
@@ -163,8 +182,13 @@
         "useCase": "Read-only retrieval of schedule, catalog, and federal procurement data system records supporting market research. Requests carry query parameters and public identifiers only; no federal customer content is transmitted.",
         "generalUsageAndConfiguration": "The backend uses outbound HTTPS read operations against documented GSA public-data endpoints and imports selected public records into customer research results.",
         "justification": "These government-operated sources provide authoritative schedule, catalog, and procurement records not maintained by Tarly.",
-        "mitigationMeasures": ["Send only public search terms and record identifiers.", "Parse responses as untrusted external data and preserve source provenance."],
-        "compensatingControls": ["Read-only access, TLS, application-layer validation, citations, and access-controlled in-boundary storage of relied-upon records."]
+        "mitigationMeasures": [
+          "Send only public search terms and record identifiers.",
+          "Parse responses as untrusted external data and preserve source provenance."
+        ],
+        "compensatingControls": [
+          "Read-only access, TLS, application-layer validation, citations, and access-controlled in-boundary storage of relied-upon records."
+        ]
       },
       {
         "name": "eCFR and Acquisition.gov regulation sources",
@@ -173,8 +197,13 @@
         "useCase": "Read-only ingestion of the FAR and agency supplements into the in-boundary regulation corpus that the assistant retrieves and cites from. Ingestion is one-way and carries no federal customer content.",
         "generalUsageAndConfiguration": "Scheduled or operator-initiated HTTPS retrieval imports published regulation text into an in-boundary indexed corpus; production customer data is never sent to the publishers.",
         "justification": "The official publishers are the authoritative sources for current federal acquisition regulations and agency supplements.",
-        "mitigationMeasures": ["Maintain a one-way ingestion path with no customer-data payload.", "Record source location and validate content before indexing."],
-        "compensatingControls": ["TLS retrieval, provenance records, in-boundary indexing, and application authorization around derived research and artifacts."]
+        "mitigationMeasures": [
+          "Maintain a one-way ingestion path with no customer-data payload.",
+          "Record source location and validate content before indexing."
+        ],
+        "compensatingControls": [
+          "TLS retrieval, provenance records, in-boundary indexing, and application authorization around derived research and artifacts."
+        ]
       },
       {
         "name": "Bureau of Labor Statistics public data API",
@@ -183,8 +212,13 @@
         "useCase": "Read-only ingestion of public occupational employment and wage data used for independent government cost estimates and price analysis. No federal customer content is sent to BLS.",
         "generalUsageAndConfiguration": "A Tarly-operated ingestion job retrieves public BLS API data over HTTPS and stores normalized records in the shared Azure public-data platform. Cowork reads the resulting public wage records through its credentialed, read-oriented shared-data connection; the production configuration includes a secret-backed BLS_API_KEY binding.",
         "justification": "BLS is the authoritative federal source for occupational employment and wage observations used in acquisition cost research.",
-        "mitigationMeasures": ["Limit outbound requests to public series identifiers, dates, and subscription credentials; never include customer prompts, documents, or procurement-file content.", "Validate and normalize returned public records before making them available to Cowork."],
-        "compensatingControls": ["One-way public-data ingestion, TLS transport, secret-managed subscription credentials, in-boundary storage, source attribution, and application authorization around saved research artifacts."]
+        "mitigationMeasures": [
+          "Limit outbound requests to public series identifiers, dates, and subscription credentials; never include customer prompts, documents, or procurement-file content.",
+          "Validate and normalize returned public records before making them available to Cowork."
+        ],
+        "compensatingControls": [
+          "One-way public-data ingestion, TLS transport, secret-managed subscription credentials, in-boundary storage, source attribution, and application authorization around saved research artifacts."
+        ]
       },
       {
         "name": "Regulations.gov public API",
@@ -193,8 +227,13 @@
         "useCase": "Read-only ingestion and retrieval of public rulemaking dockets, documents, and public comments used for regulatory and acquisition research. No federal customer content is sent to Regulations.gov.",
         "generalUsageAndConfiguration": "A Tarly-operated ingestion path retrieves public Regulations.gov API records over HTTPS using a secret-backed REGULATIONS_GOV_API_KEY binding and stores normalized records in the shared Azure public-data platform for read-oriented Cowork queries.",
         "justification": "Regulations.gov is the authoritative federal source for public rulemaking dockets, notices, supporting materials, and submitted public comments.",
-        "mitigationMeasures": ["Limit requests to public query parameters and identifiers and prohibit customer-content payloads.", "Treat public comments and attachments as untrusted external content, preserve source provenance, and validate content before indexing or display."],
-        "compensatingControls": ["One-way public-data ingestion, TLS transport, secret-managed subscription credentials, content handling controls, source attribution, and in-boundary access controls on retained records."]
+        "mitigationMeasures": [
+          "Limit requests to public query parameters and identifiers and prohibit customer-content payloads.",
+          "Treat public comments and attachments as untrusted external content, preserve source provenance, and validate content before indexing or display."
+        ],
+        "compensatingControls": [
+          "One-way public-data ingestion, TLS transport, secret-managed subscription credentials, content handling controls, source attribution, and in-boundary access controls on retained records."
+        ]
       },
       {
         "name": "Brave Search API",
@@ -203,8 +242,13 @@
         "useCase": "Discovery-only web search. The assistant sends a short search query string derived from the user's request and receives result titles, URLs, and snippets; results are never cited directly, and any source relied upon is subsequently fetched and captured as evidence inside the boundary. Procurement file contents, uploaded evidence, and generated artifacts are not transmitted to this provider.",
         "generalUsageAndConfiguration": "The backend sends bounded query strings over HTTPS to the Brave Search API and uses returned titles, URLs, and snippets only to discover candidate public sources.",
         "justification": "The integration supplies broad public-source discovery when authoritative structured federal APIs do not contain the needed material.",
-        "mitigationMeasures": ["Do not transmit procurement-file contents, uploads, complete prompts, or generated artifacts.", "Do not cite search snippets; fetch and retain the underlying source before relying on it."],
-        "compensatingControls": ["Query minimization, secret-managed API credentials, outbound HTTPS controls, evidence capture, and source-level citation review."]
+        "mitigationMeasures": [
+          "Do not transmit procurement-file contents, uploads, complete prompts, or generated artifacts.",
+          "Do not cite search snippets; fetch and retain the underlying source before relying on it."
+        ],
+        "compensatingControls": [
+          "Query minimization, secret-managed API credentials, outbound HTTPS controls, evidence capture, and source-level citation review."
+        ]
       },
       {
         "name": "Public web content retrieval",
@@ -212,8 +256,13 @@
         "useCase": "Read-only, outbound HTTPS retrieval of specific public web pages identified by the user or by search results, so that cited material can be captured and stored as evidence inside the boundary. Retrieval is one-way; the request URL is the only information disclosed to the destination site.",
         "generalUsageAndConfiguration": "The backend performs bounded outbound HTTPS GET retrieval for an explicit public URL and captures the response as evidence; it does not authenticate to or write to the destination.",
         "justification": "Acquisition research sometimes depends on public source material outside structured government APIs.",
-        "mitigationMeasures": ["Limit disclosure to the requested URL and normal network metadata.", "Treat response content as untrusted and constrain retrieval against server-side request forgery and unsafe-content risks."],
-        "compensatingControls": ["Read-only HTTPS, fetch limits, content handling controls, in-boundary evidence storage, and citation provenance."]
+        "mitigationMeasures": [
+          "Limit disclosure to the requested URL and normal network metadata.",
+          "Treat response content as untrusted and constrain retrieval against server-side request forgery and unsafe-content risks."
+        ],
+        "compensatingControls": [
+          "Read-only HTTPS, fetch limits, content handling controls, in-boundary evidence storage, and citation provenance."
+        ]
       },
       {
         "name": "Tarly Microsoft 365 / SharePoint Online integration",
@@ -222,28 +271,76 @@
         "useCase": "The connector is a test placeholder for a future customer-operated SharePoint tenant. It is configured to a Tarly-operated SharePoint Online site so the import path can be exercised, and it lets authenticated Cowork users search that configured site and import selected documents into a procurement file as evidence. No agency or customer tenant is connected, so no federal customer data flows through it today. The data flow is inbound from SharePoint to Cowork; this record does not claim the current tenant is agency-operated or covered by an agency authorization.",
         "generalUsageAndConfiguration": "The production backend has a configured Tarly Microsoft 365 tenant, application identity, secret-backed credential, and SharePoint site URL. Application code uses Microsoft Graph HTTPS read, search, list, and download operations and imports only a user-selected document into Cowork evidence storage.",
         "justification": "The connector provides a governed shared source for documents that authorized Cowork users need to locate and import without unmanaged local transfer steps.",
-        "mitigationMeasures": ["Keep the application credential in the managed secret store and restrict the connector to the configured site and read-oriented Graph operations.", "Require authenticated Cowork access and explicit user selection before importing a document, and treat imported content as untrusted until processed inside the boundary.", "Do not represent the Tarly-operated tenant as an agency information resource or extend the integration to an agency tenant without a new configuration and scope review."],
-        "compensatingControls": ["Secret protection, application authorization, source and import audit metadata, user-selected transfer, and in-boundary access controls after import.", "The effective Microsoft Graph permission grant was independently verified on 2026-08-26 two ways: the appRoleAssignments on the service principal, and the roles claim of a live client-credentials token. Both show Sites.Read.All and no other application role, so the connector holds no write authority over any site collection. Source review confirms every Graph call the connector makes is a read. An unused Files.ReadWrite.All role observed on 2026-08-16 was removed on 2026-08-18 and its absence is confirmed by this measurement. Because the connected tenant is Tarly-operated and holds no customer or federal data, the remaining read scope reaches no customer content."]
+        "mitigationMeasures": [
+          "Keep the application credential in the managed secret store and restrict the connector to the configured site and read-oriented Graph operations.",
+          "Require authenticated Cowork access and explicit user selection before importing a document, and treat imported content as untrusted until processed inside the boundary.",
+          "Do not represent the Tarly-operated tenant as an agency information resource or extend the integration to an agency tenant without a new configuration and scope review."
+        ],
+        "compensatingControls": [
+          "Secret protection, application authorization, source and import audit metadata, user-selected transfer, and in-boundary access controls after import.",
+          "The effective Microsoft Graph permission grant was independently verified on 2026-08-26 two ways: the appRoleAssignments on the service principal, and the roles claim of a live client-credentials token. Both show Sites.Read.All and no other application role, so the connector holds no write authority over any site collection. Source review confirms every Graph call the connector makes is a read. An unused Files.ReadWrite.All role observed on 2026-08-16 was removed on 2026-08-18 and its absence is confirmed by this measurement. Because the connected tenant is Tarly-operated and holds no customer or federal data, the remaining read scope reaches no customer content."
+        ]
+      },
+      {
+        "name": "Azure DevOps Services \u2014 production delivery and evidence workflows",
+        "provider": "Microsoft Corporation",
+        "website": "https://dev.azure.com/pincus/tarly/",
+        "useCase": "Source control, build orchestration, deployment and compliance-evidence workflows that can affect production. This is a supporting assessment dependency; Azure Commercial authorization is not asserted as authorization of this separate SaaS service.",
+        "generalUsageAndConfiguration": "Private project repositories, self-hosted Azure runners, workload-identity service connections, protected pipeline inputs, build logs and controlled artifacts. Production customer documents are not an intended input. Supporting runners and their deployment privileges are included in security review.",
+        "justification": "The delivery service coordinates repeatable builds, security scans, staging verification, deployment and evidence publication.",
+        "mitigationMeasures": [
+          "Retain source revision, build identity, image digest, scan result and signature bindings.",
+          "Use federated Azure authentication and protect pipeline secrets and artifact access; review aggregate deployment privileges and runner vulnerabilities."
+        ],
+        "compensatingControls": [
+          "Staging and image-scan gates, immutable production image references, signed provenance and audit history.",
+          "Open supporting-CI hardening and privilege findings are retained; a successful application build does not establish that every supporting control is met."
+        ]
+      },
+      {
+        "name": "GitHub.com public Trust Center repository",
+        "provider": "GitHub, Inc.",
+        "website": "https://github.com/patrick-tarly-co/trust-center",
+        "useCase": "Independent public publication of KSI status, availability history and public certification summaries. No authorization inheritance is claimed for the configured public repository.",
+        "generalUsageAndConfiguration": "The compliance workflow publishes sanitized public reports and revision history to the public repository. Controlled certification archives remain behind Tarly Trust Center authentication; this repository is not their access-control boundary.",
+        "justification": "Federal reviewers can retrieve public status information independently of the production application request path.",
+        "mitigationMeasures": [
+          "Publish only approved public report fields and run leakage checks before publication.",
+          "Retain repository revision history and source/evidence integrity bindings."
+        ],
+        "compensatingControls": [
+          "Keep controlled packages and signed publication receipts in the authenticated Azure-backed Trust Center.",
+          "Verify source and published report bytes and disclose partially met indicators and open remediation work."
+        ]
       }
     ]
   },
   "documentationOverview": [
     {
       "name": "Certification Package Overview",
-      "formats": ["HTML", "JSON"],
+      "formats": [
+        "HTML",
+        "JSON"
+      ],
       "availability": "Public",
       "url": "https://gov.tarly.co/trust/"
     },
     {
       "name": "Secure Configuration Guide",
-      "formats": ["HTML", "JSON"],
+      "formats": [
+        "HTML",
+        "JSON"
+      ],
       "availability": "Public",
       "url": "https://gov.tarly.co/trust/secure-configuration-guide.html",
       "machineReadableUrl": "https://gov.tarly.co/trust/secure-configuration-guide.json"
     },
     {
       "name": "Certification Data Access Guide",
-      "formats": ["HTML", "JSON"],
+      "formats": [
+        "HTML",
+        "JSON"
+      ],
       "availability": "Public access instructions; controlled artifacts delivered to authorized parties",
       "url": "https://gov.tarly.co/trust/access.html"
     },
@@ -258,12 +355,18 @@
     },
     {
       "name": "Security Decision Record",
-      "formats": ["JSON", "Human-readable rendering"],
+      "formats": [
+        "JSON",
+        "Human-readable rendering"
+      ],
       "availability": "Maintained by the provider; supplied to authorized agency and assessment personnel on request"
     },
     {
       "name": "Ongoing Certification Report",
-      "formats": ["JSON", "Human-readable rendering"],
+      "formats": [
+        "JSON",
+        "Human-readable rendering"
+      ],
       "availability": "Public example report covering all required sections; the first quarterly report is targeted for 2026-10-06 and each report is published under its own quarter",
       "url": "https://github.com/patrick-tarly-co/trust-center/blob/main/ocr/example/REPORT.md",
       "machineReadableUrl": "https://raw.githubusercontent.com/patrick-tarly-co/trust-center/main/ocr/example/report.json",
@@ -271,7 +374,10 @@
     },
     {
       "name": "Authorization boundary, data flows, policies, procedures, assessment evidence, and continuous-compliance results",
-      "formats": ["Human-readable", "Machine-readable evidence"],
+      "formats": [
+        "Human-readable",
+        "Machine-readable evidence"
+      ],
       "availability": "Public summaries in the Trust Center; detailed materials supplied to authorized agency and assessment personnel on request"
     }
   ],
@@ -286,8 +392,8 @@
       "fedRampCertified": false
     },
     {
-      "serviceName": "Development, test, staging, and corporate business systems",
-      "reason": "They do not process production Tarly Cowork federal customer data and are outside the planned authorization boundary.",
+      "serviceName": "Unconnected development, test and corporate business workloads",
+      "reason": "Only workloads that neither process federal customer data nor administer, build, test, sign, deploy or publish evidence for production are excluded here. Production delivery, staging verification and evidence-publishing dependencies remain in supporting assessment scope even when outside the production data-processing boundary.",
       "supplemental": true,
       "includedInCloudServiceOffering": false,
       "includedInMinimumAssessmentScope": false,
