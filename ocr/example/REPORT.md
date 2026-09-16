@@ -12,10 +12,11 @@ Report period: 2026-06-19 through 2026-09-16
 
 Planning horizon through: 2026-12-17
 
+- KSI-CNA-MAT: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-IAM-AAM: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-IAM-ELP: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-IAM-JIT: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-SVC-ACM: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-RPL-ABO: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-SCR-MIT: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
@@ -24,7 +25,7 @@ Planning horizon through: 2026-12-17
 ### Accepted decision 1 of 3: approved by FedRAMP Program Owner on 2026-08-17
 
 - **Accepted:**
-  - Virtual networks should be protected by Azure Firewall (defender-group-6557fc98debafa727527876d, PAIN rating N2)
+  - Virtual networks should be protected by Azure Firewall (risk-acceptance-TARLY-RA-2026-002, PAIN rating N2)
 - **Next review:** no later than 2027-02-25
 - **Rationale:** No Azure Firewall is deployed, so outbound traffic from the Cowork virtual networks is not filtered, FQDN-restricted, or IDPS-inspected. Azure Firewall Standard exceeds the total infrastructure spend of the offering for controls substantially duplicated by the existing design: inbound traffic reaches only Front Door with managed WAF rules, the Container Apps environments are private, and the main customer storage account, Key Vault, PostgreSQL and ACR restrict public network access. The separate logging accounts use default-deny public endpoints with an Azure trusted-service writer bypass; private Blob reader endpoints are being added and verified separately.
 - **Residual risk:** A compromised workload could reach an arbitrary internet endpoint, and detection of that would depend on platform and application telemetry rather than network-layer inspection.
@@ -32,7 +33,7 @@ Planning horizon through: 2026-12-17
 ### Accepted decision 2 of 3: approved by FedRAMP Program Owner on 2026-08-17
 
 - **Accepted:**
-  - Azure Backup should be enabled for virtual machines (defender-group-ad0290184eef11353984fe46, PAIN rating N2)
+  - Azure Backup should be enabled for virtual machines (risk-acceptance-TARLY-RA-2026-003, PAIN rating N2)
 - **Next review:** no later than 2027-02-25
 - **Rationale:** No Recovery Services vault exists and no virtual machine has point-in-time restore. Every VM in the boundary is an Azure Pipelines runner whose state is reproducible or disposable: two have no data disk, and the other two attach only a Docker layer cache that is rebuilt on demand. All four are provisioned from IaC with cloud-init, so the supported recovery action is redeploy rather than restore, and backing them up would preserve build caches the pipeline reconstructs anyway.
 - **Residual risk:** Losing a runner costs a redeploy and cache rewarm, and any state left on a runner outside the pipeline working directories is unrecoverable. Customer and certification data are covered separately by PostgreSQL backups and the locked 400-day compliance-evidence archive.
@@ -46,13 +47,13 @@ Planning horizon through: 2026-12-17
 
 ### Population reconciliation
 
-- Grouped vulnerability record(s) reconciled: 11
-- Under active remediation with a recorded owner and target date: 0
-- Carrying a final disposition: 8
+- Grouped vulnerability record(s) reconciled: 25
+- Under active remediation with a recorded owner and target date: 15
+- Carrying a final disposition: 7
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 4 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 5 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 

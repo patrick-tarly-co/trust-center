@@ -2,12 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-09-16T00:44:33.476516+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-09-16T02:52:50.554972+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 42 |
-| Partially met | 4 |
+| Met | 41 |
+| Partially met | 5 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -19,14 +19,14 @@ Generated 2026-09-16T00:44:33.476516+00:00 by the nightly compliance pipeline. M
 | KSI-CNA-DFP | Defining Functionality and Privileges | Met |  |
 | KSI-CNA-EIS | Enforcing Intended State | Met |  |
 | KSI-CNA-IBP | Implementing Best Practices | Met |  |
-| KSI-CNA-MAT | Minimizing Attack Surface | Met |  |
+| KSI-CNA-MAT | Minimizing Attack Surface | Partially met |  |
 | KSI-CNA-OFA | Optimizing for Availability | Met |  |
 | KSI-CNA-RNT | Restricting Network Traffic | Met |  |
 | KSI-CNA-RVP | Reviewing Protections | Met |  |
 | KSI-CNA-ULN | Using Logical Networking | Met |  |
 | KSI-IAM-AAM | Automating Account Management | Partially met |  |
 | KSI-IAM-APM | Adopting Passwordless Methods | Met |  |
-| KSI-IAM-ELP | Ensuring Least Privilege | Partially met |  |
+| KSI-IAM-ELP | Ensuring Least Privilege | Met |  |
 | KSI-IAM-JIT | Authorizing Just-in-Time | Partially met |  |
 | KSI-IAM-SNU | Securing Non-User Authentication | Met |  |
 | KSI-IAM-SUS | Responding to Suspicious Activity | Met |  |
@@ -43,13 +43,13 @@ Generated 2026-09-16T00:44:33.476516+00:00 by the nightly compliance pipeline. M
 | KSI-PIY-RIS | Reviewing Investments in Security | Met |  |
 | KSI-PIY-RSD | Reviewing Security in the SDLC | Met |  |
 | KSI-PIY-RVD | Reviewing Vulnerability Disclosures | Met |  |
-| KSI-RPL-ABO | Aligning Backups with Objectives | Met |  |
+| KSI-RPL-ABO | Aligning Backups with Objectives | Partially met |  |
 | KSI-RPL-ARP | Aligning Recovery Plan | Met |  |
 | KSI-RPL-RRO | Reviewing Recovery Objectives | Met |  |
 | KSI-RPL-TRC | Testing Recovery Capabilities | Met |  |
-| KSI-SCR-MIT | Mitigating Supply Chain Risk | Met |  |
+| KSI-SCR-MIT | Mitigating Supply Chain Risk | Partially met |  |
 | KSI-SCR-MON | Monitoring Supply Chain Risk | Met |  |
-| KSI-SVC-ACM | Automating Configuration Management | Partially met |  |
+| KSI-SVC-ACM | Automating Configuration Management | Met |  |
 | KSI-SVC-ASM | Automating Secret Management | Met |  |
 | KSI-SVC-EIS | Evaluating and Improving Security | Met |  |
 | KSI-SVC-PRR | Preventing Residual Risk | Met |  |
