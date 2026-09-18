@@ -2,7 +2,7 @@
 
 FedRAMP package ID: FR2628650874
 
-Report period: 2026-06-20 through 2026-09-17
+Report period: 2026-06-21 through 2026-09-18
 
 ## Certification data changes
 
@@ -10,7 +10,7 @@ Report period: 2026-06-20 through 2026-09-17
 
 ## Planned certification data changes
 
-Planning horizon through: 2026-12-18
+Planning horizon through: 2026-12-19
 
 - No certification-data changes are currently planned during this horizon.
 
