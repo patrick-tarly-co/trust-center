@@ -2,7 +2,7 @@
 
 FedRAMP package ID: FR2628650874
 
-Report period: 2026-06-25 through 2026-09-22
+Report period: 2026-06-26 through 2026-09-23
 
 ## Certification data changes
 
@@ -10,9 +10,9 @@ Report period: 2026-06-25 through 2026-09-22
 
 ## Planned certification data changes
 
-Planning horizon through: 2026-12-23
+Planning horizon through: 2026-12-24
 
-- No certification-data changes are currently planned during this horizon.
+- KSI-MLA-RVL: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
@@ -43,13 +43,13 @@ Planning horizon through: 2026-12-23
 
 ### Population reconciliation
 
-- Grouped vulnerability record(s) reconciled: 14
-- Under active remediation with a recorded owner and target date: 7
-- Carrying a final disposition: 4
+- Grouped vulnerability record(s) reconciled: 16
+- Under active remediation with a recorded owner and target date: 10
+- Carrying a final disposition: 3
 - Under provider risk acceptance: 3
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 0 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 1 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
