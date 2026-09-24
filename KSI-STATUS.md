@@ -2,12 +2,11 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-09-24T14:22:38.668714+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-09-24T14:46:45.752703+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 44 |
-| Partially met | 2 |
+| Met | 46 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -24,7 +23,7 @@ Generated 2026-09-24T14:22:38.668714+00:00 by the nightly compliance pipeline. M
 | KSI-CNA-RNT | Restricting Network Traffic | Met |  |
 | KSI-CNA-RVP | Reviewing Protections | Met |  |
 | KSI-CNA-ULN | Using Logical Networking | Met |  |
-| KSI-IAM-AAM | Automating Account Management | Partially met |  |
+| KSI-IAM-AAM | Automating Account Management | Met |  |
 | KSI-IAM-APM | Adopting Passwordless Methods | Met |  |
 | KSI-IAM-ELP | Ensuring Least Privilege | Met |  |
 | KSI-IAM-JIT | Authorizing Just-in-Time | Met |  |
@@ -51,7 +50,7 @@ Generated 2026-09-24T14:22:38.668714+00:00 by the nightly compliance pipeline. M
 | KSI-SCR-MON | Monitoring Supply Chain Risk | Met |  |
 | KSI-SVC-ACM | Automating Configuration Management | Met |  |
 | KSI-SVC-ASM | Automating Secret Management | Met |  |
-| KSI-SVC-EIS | Evaluating and Improving Security | Partially met |  |
+| KSI-SVC-EIS | Evaluating and Improving Security | Met |  |
 | KSI-SVC-PRR | Preventing Residual Risk | Met |  |
 | KSI-SVC-RUD | Removing Unwanted Data | Met |  |
 | KSI-SVC-SIN | Securing Information | Met |  |
