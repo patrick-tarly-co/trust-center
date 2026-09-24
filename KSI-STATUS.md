@@ -2,11 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-09-24T15:11:17.437050+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-09-24T15:39:30.103100+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 46 |
+| Met | 45 |
+| Partially met | 1 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -42,7 +43,7 @@ Generated 2026-09-24T15:11:17.437050+00:00 by the nightly compliance pipeline. M
 | KSI-PIY-RIS | Reviewing Investments in Security | Met |  |
 | KSI-PIY-RSD | Reviewing Security in the SDLC | Met |  |
 | KSI-PIY-RVD | Reviewing Vulnerability Disclosures | Met |  |
-| KSI-RPL-ABO | Aligning Backups with Objectives | Met |  |
+| KSI-RPL-ABO | Aligning Backups with Objectives | Partially met |  |
 | KSI-RPL-ARP | Aligning Recovery Plan | Met |  |
 | KSI-RPL-RRO | Reviewing Recovery Objectives | Met |  |
 | KSI-RPL-TRC | Testing Recovery Capabilities | Met |  |
