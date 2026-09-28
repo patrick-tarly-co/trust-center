@@ -2,7 +2,7 @@
 
 FedRAMP package ID: FR2628650874
 
-Report period: 2026-06-30 through 2026-09-27
+Report period: 2026-07-01 through 2026-09-28
 
 ## Certification data changes
 
@@ -10,7 +10,7 @@ Report period: 2026-06-30 through 2026-09-27
 
 ## Planned certification data changes
 
-Planning horizon through: 2026-12-28
+Planning horizon through: 2026-12-29
 
 - KSI-SVC-RUD: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
