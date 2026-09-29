@@ -2,7 +2,7 @@
 
 FedRAMP package ID: FR2628650874
 
-Report period: 2026-07-01 through 2026-09-28
+Report period: 2026-07-02 through 2026-09-29
 
 ## Certification data changes
 
@@ -10,7 +10,7 @@ Report period: 2026-07-01 through 2026-09-28
 
 ## Planned certification data changes
 
-Planning horizon through: 2026-12-29
+Planning horizon through: 2026-12-30
 
 - KSI-SVC-RUD: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
@@ -38,14 +38,14 @@ Planning horizon through: 2026-12-29
 
 - **Accepted:**
   - Anti-Virus component in your EDR is off or partially configured (defender-group-0c81f7fdb19bc1d9ae46cfd3, PAIN rating N4)
-  - Anti-Virus scans of your EDR are out of 7 days (defender-group-4307cf3746767ad24b390ce4, PAIN rating N4)
+  - Anti-Virus component of your EDR uses outdated signatures (defender-group-64a6aace05468f23850597f5, PAIN rating N4)
 - **Next review:** no later than 2027-04-01
 - **Rationale:** Defender for Servers Plan 1 is licensed and the endpoint-protection extension is healthy on the three runners that can take it, including the production runner. vm-tarly-ci-azdo runs Ubuntu Pro FIPS and the extension will not onboard it; two attempts failed, the second with settings matched byte-for-byte to a runner where onboarding succeeded, and the correlation across the four machines is exact. The host is on the FIPS image deliberately because it is the build host for the Ubuntu Pro FIPS application runtime, so rebuilding it on the standard image would remove Tarly's ability to build a FIPS runtime. It serves no customer traffic and is a supporting build-plane dependency; its absence from rg-tarly-prod does not exclude its build-chain risk from the offering assessment.
 
 ### Population reconciliation
 
-- Grouped vulnerability record(s) reconciled: 12
-- Under active remediation with a recorded owner and target date: 4
+- Grouped vulnerability record(s) reconciled: 15
+- Under active remediation with a recorded owner and target date: 7
 - Carrying a final disposition: 4
 - Under provider risk acceptance: 4
 - Risk-acceptance decisions pending a controlled approval: 0
