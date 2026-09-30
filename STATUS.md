@@ -4,7 +4,7 @@ FedRAMP package ID: **FR2628650874**
 
 Current status: **Operational**
 
-Last checked: 2026-09-29T20:25:04.088997Z
+Last checked: 2026-09-30T07:18:11.318155Z
 
 This page is generated outside the production request path and retained in the independently hosted public trust-center repository.
 
@@ -12,8 +12,8 @@ This page is generated outside the production request path and retained in the i
 
 | Service | Status | HTTP | Latency |
 | --- | --- | ---: | ---: |
-| cowork-trust | Operational | 200 | 87 ms |
-| cowork-web | Operational | 200 | 179 ms |
+| cowork-trust | Operational | 200 | 122 ms |
+| cowork-web | Operational | 200 | 312 ms |
 
 ## 30-day history
 
@@ -21,6 +21,7 @@ Observed 30 of 30 required daily status points. Full-history requirement met: **
 
 | Date | Status |
 | --- | --- |
+| 2026-09-30 | Operational |
 | 2026-09-29 | Operational |
 | 2026-09-28 | Operational |
 | 2026-09-27 | Operational |
@@ -50,7 +51,6 @@ Observed 30 of 30 required daily status points. Full-history requirement met: **
 | 2026-09-03 | Operational |
 | 2026-09-02 | Operational |
 | 2026-09-01 | Operational |
-| 2026-08-31 | Operational |
 
 Scheduled daily probes, with additional run-triggered observations. Each daily row is the latest retained point observation, not a claim of uninterrupted availability. Incidents include retained failed probes and documented outages between probes; approximate incident times are labelled with their evidence source.
 
