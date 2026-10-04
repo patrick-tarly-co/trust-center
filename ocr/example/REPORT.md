@@ -2,7 +2,7 @@
 
 FedRAMP package ID: FR2628650874
 
-Report period: 2026-07-06 through 2026-10-03
+Report period: 2026-07-07 through 2026-10-04
 
 ## Certification data changes
 
@@ -10,13 +10,14 @@ Report period: 2026-07-06 through 2026-10-03
 
 ## Planned certification data changes
 
-Planning horizon through: 2027-01-03
+Planning horizon through: 2027-01-04
 
+- KSI-MLA-OSM: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-SVC-RUD: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
-3 provider risk-acceptance decision(s) covering 4 vulnerability record(s) are in force, each with a named approving role, an approval timestamp, and controlled approval evidence retained outside this report.
+3 provider risk-acceptance decision(s) covering 5 vulnerability record(s) are in force, each with a named approving role, an approval timestamp, and controlled approval evidence retained outside this report.
 
 ### Accepted decision 1 of 3: approved by FedRAMP Program Owner on 2026-09-21
 
@@ -38,19 +39,20 @@ Planning horizon through: 2027-01-03
 
 - **Accepted:**
   - Anti-Virus component in your EDR is off or partially configured (defender-group-0c81f7fdb19bc1d9ae46cfd3, PAIN rating N4)
+  - Anti-Virus scans of your EDR are out of 7 days (defender-group-4307cf3746767ad24b390ce4, PAIN rating N4)
   - Anti-Virus component of your EDR uses outdated signatures (defender-group-64a6aace05468f23850597f5, PAIN rating N4)
 - **Next review:** no later than 2027-04-01
 - **Rationale:** Defender for Servers Plan 1 is licensed and the endpoint-protection extension is healthy on the three runners that can take it, including the production runner. vm-tarly-ci-azdo runs Ubuntu Pro FIPS and the extension will not onboard it; two attempts failed, the second with settings matched byte-for-byte to a runner where onboarding succeeded, and the correlation across the four machines is exact. The host is on the FIPS image deliberately because it is the build host for the Ubuntu Pro FIPS application runtime, so rebuilding it on the standard image would remove Tarly's ability to build a FIPS runtime. It serves no customer traffic and is a supporting build-plane dependency; its absence from rg-tarly-prod does not exclude its build-chain risk from the offering assessment.
 
 ### Population reconciliation
 
-- Grouped vulnerability record(s) reconciled: 33
-- Under active remediation with a recorded owner and target date: 26
+- Grouped vulnerability record(s) reconciled: 27
+- Under active remediation with a recorded owner and target date: 19
 - Carrying a final disposition: 3
-- Under provider risk acceptance: 4
+- Under provider risk acceptance: 5
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 1 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 2 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
