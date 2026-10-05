@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-10-04T07:17:09.827998Z",
+  "generatedAt": "2026-10-05T09:09:46.015341Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-10-04T07:15:53Z",
+  "latestAccessAt": "2026-10-05T09:08:26Z",
   "allCertificationDataChannelsLogged": true,
   "githubTrafficCaptureVerified": true,
   "githubTrafficCapture": {
     "expectedRepository": "patrick-tarly-co/trust-center",
     "maxAgeHours": 48,
     "repository": "patrick-tarly-co/trust-center",
-    "collectedAt": "2026-10-04T07:13:33.181908Z",
+    "collectedAt": "2026-10-05T09:06:33.875240Z",
     "trafficDataAvailable": true,
-    "ageHours": 0.06,
+    "ageHours": 0.05,
     "endpointStatus": {
       "traffic/views": 200,
       "traffic/clones": 200,
       "traffic/popular/paths": 200
     },
     "summary": {
-      "viewCount": 43,
+      "viewCount": 50,
       "viewUniques": 8,
-      "cloneCount": 328,
-      "cloneUniques": 140
+      "cloneCount": 330,
+      "cloneUniques": 142
     }
   },
   "publicChannelLoggingCoverage": [
@@ -59,8 +59,8 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 20226,
-    "daysWithRequests": 61,
+    "requestCount": 20327,
+    "daysWithRequests": 62,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 0,
     "deniedAgencyRequests": 0,
@@ -430,9 +430,15 @@
     },
     {
       "date": "2026-10-04",
-      "requestCount": 25,
-      "uniqueClientAddresses": 5,
-      "lastRequestAt": "2026-10-04T07:15:53Z"
+      "requestCount": 81,
+      "uniqueClientAddresses": 19,
+      "lastRequestAt": "2026-10-04T23:42:20Z"
+    },
+    {
+      "date": "2026-10-05",
+      "requestCount": 45,
+      "uniqueClientAddresses": 12,
+      "lastRequestAt": "2026-10-05T09:08:26Z"
     }
   ],
   "agencyAccessors": [],
