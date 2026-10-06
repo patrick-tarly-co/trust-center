@@ -12,6 +12,7 @@ Report period: 2026-07-09 through 2026-10-06
 
 Planning horizon through: 2027-01-06
 
+- KSI-RPL-ABO: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-SVC-RUD: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
@@ -29,7 +30,7 @@ Planning horizon through: 2027-01-06
 ### Accepted decision 2 of 3: approved by FedRAMP Program Owner on 2026-08-17
 
 - **Accepted:**
-  - Azure Backup should be enabled for virtual machines (risk-acceptance-TARLY-RA-2026-003, PAIN rating N2)
+  - Azure Backup should be enabled for virtual machines (defender-group-ad0290184eef11353984fe46-accepted-TARLY-RA-2026-003, PAIN rating N2)
 - **Next review:** no later than 2027-02-25
 - **Rationale:** No Recovery Services vault exists and no virtual machine has point-in-time restore. Every VM in the boundary is an Azure Pipelines runner whose state is reproducible or disposable: two have no data disk, and the other two attach only a Docker layer cache that is rebuilt on demand. All four are provisioned from IaC with cloud-init, so the supported recovery action is redeploy rather than restore, and backing them up would preserve build caches the pipeline reconstructs anyway. Scope reduced 2026-09-24: vm-tarly-ci-azdo-3 was destroyed by the reviewed decommission (commit 0d143fbf, tarly-iac-ci builds 4293 and 4297) and is no longer an approved resource; the three covered machines are vm-tarly-ci-azdo, vm-tarly-ci-azdo-2 and vm-tarly-prod-azdo.
 - **Residual risk:** Losing a runner costs a redeploy and cache rewarm, and any state left on a runner outside the pipeline working directories is unrecoverable. Customer and certification data are covered separately by PostgreSQL backups and the locked 400-day compliance-evidence archive.
@@ -51,7 +52,7 @@ Planning horizon through: 2027-01-06
 - Under provider risk acceptance: 5
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 1 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 2 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
