@@ -2,12 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-10-06T16:42:36.758113+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-10-06T19:18:01.413286+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 44 |
-| Partially met | 2 |
+| Met | 42 |
+| Partially met | 4 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -34,7 +34,7 @@ Generated 2026-10-06T16:42:36.758113+00:00 by the nightly compliance pipeline. M
 | KSI-INR-RIR | Reviewing Incident Response Procedures | Met |  |
 | KSI-INR-RPI | Reviewing Past Incidents | Met |  |
 | KSI-MLA-ALA | Authorizing Log Access | Met |  |
-| KSI-MLA-EVC | Evaluating Configurations | Met |  |
+| KSI-MLA-EVC | Evaluating Configurations | Partially met |  |
 | KSI-MLA-LET | Logging Event Types | Met |  |
 | KSI-MLA-OSM | Operating SIEM Capability | Met |  |
 | KSI-MLA-RVL | Reviewing Logs | Met |  |
@@ -49,7 +49,7 @@ Generated 2026-10-06T16:42:36.758113+00:00 by the nightly compliance pipeline. M
 | KSI-RPL-TRC | Testing Recovery Capabilities | Met |  |
 | KSI-SCR-MIT | Mitigating Supply Chain Risk | Met |  |
 | KSI-SCR-MON | Monitoring Supply Chain Risk | Met |  |
-| KSI-SVC-ACM | Automating Configuration Management | Met |  |
+| KSI-SVC-ACM | Automating Configuration Management | Partially met |  |
 | KSI-SVC-ASM | Automating Secret Management | Met |  |
 | KSI-SVC-EIS | Evaluating and Improving Security | Met |  |
 | KSI-SVC-PRR | Preventing Residual Risk | Met |  |
