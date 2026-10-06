@@ -2,7 +2,7 @@
 
 FedRAMP package ID: FR2628650874
 
-Report period: 2026-07-08 through 2026-10-05
+Report period: 2026-07-09 through 2026-10-06
 
 ## Certification data changes
 
@@ -10,7 +10,7 @@ Report period: 2026-07-08 through 2026-10-05
 
 ## Planned certification data changes
 
-Planning horizon through: 2027-01-05
+Planning horizon through: 2027-01-06
 
 - KSI-SVC-RUD: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
@@ -45,9 +45,9 @@ Planning horizon through: 2027-01-05
 
 ### Population reconciliation
 
-- Grouped vulnerability record(s) reconciled: 26
-- Under active remediation with a recorded owner and target date: 7
-- Carrying a final disposition: 14
+- Grouped vulnerability record(s) reconciled: 29
+- Under active remediation with a recorded owner and target date: 11
+- Carrying a final disposition: 13
 - Under provider risk acceptance: 5
 - Risk-acceptance decisions pending a controlled approval: 0
 
