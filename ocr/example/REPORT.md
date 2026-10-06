@@ -12,9 +12,12 @@ Report period: 2026-07-09 through 2026-10-06
 
 Planning horizon through: 2027-01-06
 
+- KSI-CNA-DFP: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-IAM-AAM: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-IAM-JIT: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-MLA-EVC: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-MLA-OSM: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-RPL-ABO: High-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-SVC-ACM: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-SVC-RUD: High-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
@@ -40,13 +43,13 @@ Planning horizon through: 2027-01-06
 
 ### Population reconciliation
 
-- Grouped vulnerability record(s) reconciled: 26
-- Under active remediation with a recorded owner and target date: 9
-- Carrying a final disposition: 13
+- Grouped vulnerability record(s) reconciled: 28
+- Under active remediation with a recorded owner and target date: 10
+- Carrying a final disposition: 14
 - Under provider risk acceptance: 4
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 4 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 7 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
