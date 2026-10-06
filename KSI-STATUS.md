@@ -2,12 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-10-06T19:18:01.413286+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-10-06T22:17:48.960666+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 42 |
-| Partially met | 4 |
+| Met | 39 |
+| Partially met | 7 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -16,7 +16,7 @@ Generated 2026-10-06T19:18:01.413286+00:00 by the nightly compliance pipeline. M
 | KSI-CMT-RMV | Redeploying vs Modifying | Met |  |
 | KSI-CMT-RVP | Reviewing Change Procedures | Met |  |
 | KSI-CMT-VTD | Validating Throughout Deployment | Met |  |
-| KSI-CNA-DFP | Defining Functionality and Privileges | Met |  |
+| KSI-CNA-DFP | Defining Functionality and Privileges | Partially met |  |
 | KSI-CNA-EIS | Enforcing Intended State | Met |  |
 | KSI-CNA-IBP | Implementing Best Practices | Met |  |
 | KSI-CNA-MAT | Minimizing Attack Surface | Met |  |
@@ -24,10 +24,10 @@ Generated 2026-10-06T19:18:01.413286+00:00 by the nightly compliance pipeline. M
 | KSI-CNA-RNT | Restricting Network Traffic | Met |  |
 | KSI-CNA-RVP | Reviewing Protections | Met |  |
 | KSI-CNA-ULN | Using Logical Networking | Met |  |
-| KSI-IAM-AAM | Automating Account Management | Met |  |
+| KSI-IAM-AAM | Automating Account Management | Partially met |  |
 | KSI-IAM-APM | Adopting Passwordless Methods | Met |  |
 | KSI-IAM-ELP | Ensuring Least Privilege | Met |  |
-| KSI-IAM-JIT | Authorizing Just-in-Time | Met |  |
+| KSI-IAM-JIT | Authorizing Just-in-Time | Partially met |  |
 | KSI-IAM-SNU | Securing Non-User Authentication | Met |  |
 | KSI-IAM-SUS | Responding to Suspicious Activity | Met |  |
 | KSI-INR-AAR | Generating After Action Reports | Met |  |
@@ -36,7 +36,7 @@ Generated 2026-10-06T19:18:01.413286+00:00 by the nightly compliance pipeline. M
 | KSI-MLA-ALA | Authorizing Log Access | Met |  |
 | KSI-MLA-EVC | Evaluating Configurations | Partially met |  |
 | KSI-MLA-LET | Logging Event Types | Met |  |
-| KSI-MLA-OSM | Operating SIEM Capability | Met |  |
+| KSI-MLA-OSM | Operating SIEM Capability | Partially met |  |
 | KSI-MLA-RVL | Reviewing Logs | Met |  |
 | KSI-PIY-GIV | Generating Inventories | Met |  |
 | KSI-PIY-RES | Reviewing Executive Support | Met |  |
@@ -49,7 +49,7 @@ Generated 2026-10-06T19:18:01.413286+00:00 by the nightly compliance pipeline. M
 | KSI-RPL-TRC | Testing Recovery Capabilities | Met |  |
 | KSI-SCR-MIT | Mitigating Supply Chain Risk | Met |  |
 | KSI-SCR-MON | Monitoring Supply Chain Risk | Met |  |
-| KSI-SVC-ACM | Automating Configuration Management | Partially met |  |
+| KSI-SVC-ACM | Automating Configuration Management | Met |  |
 | KSI-SVC-ASM | Automating Secret Management | Met |  |
 | KSI-SVC-EIS | Evaluating and Improving Security | Met |  |
 | KSI-SVC-PRR | Preventing Residual Risk | Met |  |
