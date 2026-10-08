@@ -2,12 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-10-08T20:14:30.408579+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-10-08T20:47:35.924923+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 38 |
-| Partially met | 8 |
+| Met | 41 |
+| Partially met | 5 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -33,11 +33,11 @@ Generated 2026-10-08T20:14:30.408579+00:00 by the nightly compliance pipeline. M
 | KSI-INR-AAR | Generating After Action Reports | Met |  |
 | KSI-INR-RIR | Reviewing Incident Response Procedures | Met |  |
 | KSI-INR-RPI | Reviewing Past Incidents | Met |  |
-| KSI-MLA-ALA | Authorizing Log Access | Partially met |  |
+| KSI-MLA-ALA | Authorizing Log Access | Met |  |
 | KSI-MLA-EVC | Evaluating Configurations | Met |  |
 | KSI-MLA-LET | Logging Event Types | Met |  |
 | KSI-MLA-OSM | Operating SIEM Capability | Partially met |  |
-| KSI-MLA-RVL | Reviewing Logs | Partially met |  |
+| KSI-MLA-RVL | Reviewing Logs | Met |  |
 | KSI-PIY-GIV | Generating Inventories | Met |  |
 | KSI-PIY-RES | Reviewing Executive Support | Partially met |  |
 | KSI-PIY-RIS | Reviewing Investments in Security | Partially met |  |
@@ -49,7 +49,7 @@ Generated 2026-10-08T20:14:30.408579+00:00 by the nightly compliance pipeline. M
 | KSI-RPL-TRC | Testing Recovery Capabilities | Met |  |
 | KSI-SCR-MIT | Mitigating Supply Chain Risk | Met |  |
 | KSI-SCR-MON | Monitoring Supply Chain Risk | Met |  |
-| KSI-SVC-ACM | Automating Configuration Management | Partially met |  |
+| KSI-SVC-ACM | Automating Configuration Management | Met |  |
 | KSI-SVC-ASM | Automating Secret Management | Met |  |
 | KSI-SVC-EIS | Evaluating and Improving Security | Met |  |
 | KSI-SVC-PRR | Preventing Residual Risk | Met |  |
