@@ -32,9 +32,9 @@ Planning horizon through: 2027-01-08
 
 ### Population reconciliation
 
-- Grouped vulnerability record(s) reconciled: 14
-- Under active remediation with a recorded owner and target date: 9
-- Carrying a final disposition: 4
+- Grouped vulnerability record(s) reconciled: 15
+- Under active remediation with a recorded owner and target date: 8
+- Carrying a final disposition: 6
 - Under provider risk acceptance: 1
 - Risk-acceptance decisions pending a controlled approval: 0
 
