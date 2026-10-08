@@ -2,12 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-10-07T23:52:01.778057+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-10-08T00:48:02.364451+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 43 |
-| Partially met | 3 |
+| Met | 41 |
+| Partially met | 5 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -39,8 +39,8 @@ Generated 2026-10-07T23:52:01.778057+00:00 by the nightly compliance pipeline. M
 | KSI-MLA-OSM | Operating SIEM Capability | Met |  |
 | KSI-MLA-RVL | Reviewing Logs | Met |  |
 | KSI-PIY-GIV | Generating Inventories | Met |  |
-| KSI-PIY-RES | Reviewing Executive Support | Met |  |
-| KSI-PIY-RIS | Reviewing Investments in Security | Met |  |
+| KSI-PIY-RES | Reviewing Executive Support | Partially met |  |
+| KSI-PIY-RIS | Reviewing Investments in Security | Partially met |  |
 | KSI-PIY-RSD | Reviewing Security in the SDLC | Met |  |
 | KSI-PIY-RVD | Reviewing Vulnerability Disclosures | Met |  |
 | KSI-RPL-ABO | Aligning Backups with Objectives | Partially met |  |
