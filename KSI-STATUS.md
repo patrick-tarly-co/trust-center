@@ -2,12 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-10-08T20:47:35.924923+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-10-09T01:34:12.443005+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 41 |
-| Partially met | 5 |
+| Met | 36 |
+| Partially met | 10 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -24,17 +24,17 @@ Generated 2026-10-08T20:47:35.924923+00:00 by the nightly compliance pipeline. M
 | KSI-CNA-RNT | Restricting Network Traffic | Met |  |
 | KSI-CNA-RVP | Reviewing Protections | Met |  |
 | KSI-CNA-ULN | Using Logical Networking | Met |  |
-| KSI-IAM-AAM | Automating Account Management | Met |  |
+| KSI-IAM-AAM | Automating Account Management | Partially met |  |
 | KSI-IAM-APM | Adopting Passwordless Methods | Met |  |
 | KSI-IAM-ELP | Ensuring Least Privilege | Met |  |
-| KSI-IAM-JIT | Authorizing Just-in-Time | Met |  |
+| KSI-IAM-JIT | Authorizing Just-in-Time | Partially met |  |
 | KSI-IAM-SNU | Securing Non-User Authentication | Met |  |
 | KSI-IAM-SUS | Responding to Suspicious Activity | Met |  |
 | KSI-INR-AAR | Generating After Action Reports | Met |  |
 | KSI-INR-RIR | Reviewing Incident Response Procedures | Met |  |
 | KSI-INR-RPI | Reviewing Past Incidents | Met |  |
 | KSI-MLA-ALA | Authorizing Log Access | Met |  |
-| KSI-MLA-EVC | Evaluating Configurations | Met |  |
+| KSI-MLA-EVC | Evaluating Configurations | Partially met |  |
 | KSI-MLA-LET | Logging Event Types | Met |  |
 | KSI-MLA-OSM | Operating SIEM Capability | Partially met |  |
 | KSI-MLA-RVL | Reviewing Logs | Met |  |
@@ -42,14 +42,14 @@ Generated 2026-10-08T20:47:35.924923+00:00 by the nightly compliance pipeline. M
 | KSI-PIY-RES | Reviewing Executive Support | Partially met |  |
 | KSI-PIY-RIS | Reviewing Investments in Security | Partially met |  |
 | KSI-PIY-RSD | Reviewing Security in the SDLC | Met |  |
-| KSI-PIY-RVD | Reviewing Vulnerability Disclosures | Met |  |
+| KSI-PIY-RVD | Reviewing Vulnerability Disclosures | Partially met |  |
 | KSI-RPL-ABO | Aligning Backups with Objectives | Partially met |  |
 | KSI-RPL-ARP | Aligning Recovery Plan | Met |  |
 | KSI-RPL-RRO | Reviewing Recovery Objectives | Met |  |
 | KSI-RPL-TRC | Testing Recovery Capabilities | Met |  |
 | KSI-SCR-MIT | Mitigating Supply Chain Risk | Met |  |
 | KSI-SCR-MON | Monitoring Supply Chain Risk | Met |  |
-| KSI-SVC-ACM | Automating Configuration Management | Met |  |
+| KSI-SVC-ACM | Automating Configuration Management | Partially met |  |
 | KSI-SVC-ASM | Automating Secret Management | Met |  |
 | KSI-SVC-EIS | Evaluating and Improving Security | Met |  |
 | KSI-SVC-PRR | Preventing Residual Risk | Met |  |
