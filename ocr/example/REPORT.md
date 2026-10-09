@@ -15,7 +15,7 @@ Planning horizon through: 2027-01-09
 - KSI-CNA-OFA: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-PIY-RVD: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-RPL-ABO: High-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-SVC-ACM: High-risk implementation gap; remediation detail is retained in controlled certification data.
+- KSI-SVC-EIS: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
