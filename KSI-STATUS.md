@@ -2,12 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-10-09T07:26:51.288959+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-10-09T18:44:13.474030+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 39 |
-| Partially met | 7 |
+| Met | 42 |
+| Partially met | 4 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -36,11 +36,11 @@ Generated 2026-10-09T07:26:51.288959+00:00 by the nightly compliance pipeline. M
 | KSI-MLA-ALA | Authorizing Log Access | Met |  |
 | KSI-MLA-EVC | Evaluating Configurations | Met |  |
 | KSI-MLA-LET | Logging Event Types | Met |  |
-| KSI-MLA-OSM | Operating SIEM Capability | Partially met |  |
+| KSI-MLA-OSM | Operating SIEM Capability | Met |  |
 | KSI-MLA-RVL | Reviewing Logs | Met |  |
 | KSI-PIY-GIV | Generating Inventories | Met |  |
-| KSI-PIY-RES | Reviewing Executive Support | Partially met |  |
-| KSI-PIY-RIS | Reviewing Investments in Security | Partially met |  |
+| KSI-PIY-RES | Reviewing Executive Support | Met |  |
+| KSI-PIY-RIS | Reviewing Investments in Security | Met |  |
 | KSI-PIY-RSD | Reviewing Security in the SDLC | Met |  |
 | KSI-PIY-RVD | Reviewing Vulnerability Disclosures | Partially met |  |
 | KSI-RPL-ABO | Aligning Backups with Objectives | Partially met |  |
@@ -49,11 +49,11 @@ Generated 2026-10-09T07:26:51.288959+00:00 by the nightly compliance pipeline. M
 | KSI-RPL-TRC | Testing Recovery Capabilities | Met |  |
 | KSI-SCR-MIT | Mitigating Supply Chain Risk | Met |  |
 | KSI-SCR-MON | Monitoring Supply Chain Risk | Met |  |
-| KSI-SVC-ACM | Automating Configuration Management | Met |  |
+| KSI-SVC-ACM | Automating Configuration Management | Partially met |  |
 | KSI-SVC-ASM | Automating Secret Management | Met |  |
 | KSI-SVC-EIS | Evaluating and Improving Security | Met |  |
 | KSI-SVC-PRR | Preventing Residual Risk | Met |  |
-| KSI-SVC-RUD | Removing Unwanted Data | Partially met |  |
+| KSI-SVC-RUD | Removing Unwanted Data | Met |  |
 | KSI-SVC-SIN | Securing Information | Met |  |
 | KSI-SVC-VCM | Validating Communications | Met |  |
 | KSI-SVC-VRI | Validating Resource Integrity | Met |  |
