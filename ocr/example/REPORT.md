@@ -15,7 +15,6 @@ Planning horizon through: 2027-01-09
 - KSI-CNA-OFA: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-PIY-RVD: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-RPL-ABO: High-risk implementation gap; remediation detail is retained in controlled certification data.
-- KSI-SVC-EIS: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
 
 ## Accepted vulnerabilities
 
@@ -37,7 +36,7 @@ Planning horizon through: 2027-01-09
 - Under provider risk acceptance: 1
 - Risk-acceptance decisions pending a controlled approval: 0
 
-Separately, 4 KSI implementation gap(s) remain under remediation and independent review.
+Separately, 3 KSI implementation gap(s) remain under remediation and independent review.
 
 ## Transformative changes
 
