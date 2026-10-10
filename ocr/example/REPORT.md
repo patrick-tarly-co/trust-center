@@ -2,7 +2,7 @@
 
 FedRAMP package ID: FR2628650874
 
-Report period: 2026-07-12 through 2026-10-09
+Report period: 2026-07-13 through 2026-10-10
 
 ## Certification data changes
 
@@ -10,7 +10,7 @@ Report period: 2026-07-12 through 2026-10-09
 
 ## Planned certification data changes
 
-Planning horizon through: 2027-01-09
+Planning horizon through: 2027-01-10
 
 - KSI-CNA-OFA: High-risk implementation gap; remediation detail is retained in controlled certification data.
 - KSI-PIY-RVD: Medium-risk implementation gap; remediation detail is retained in controlled certification data.
