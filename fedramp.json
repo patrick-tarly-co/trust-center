@@ -41,7 +41,7 @@
         "Trust Center"
       ],
       "url": "https://gov.tarly.co/trust/",
-      "repositoryDescription": "Tarly Trust Center \u2014 FedRAMP certification status, security posture, certification roadmap, and quarterly progress updates. Machine-readable data at https://gov.tarly.co/trust/fedramp.json. No authentication required.",
+      "repositoryDescription": "Tarly Trust Center — FedRAMP certification status, security posture, certification roadmap, and quarterly progress updates. Machine-readable data at https://gov.tarly.co/trust/fedramp.json. No authentication required.",
       "authenticationRequired": false
     },
     "secureConfigurationGuidance": {
@@ -98,7 +98,7 @@
     },
     {
       "serviceName": "Workflows",
-      "serviceDescription": "Guided, multi-step acquisition workflows that produce procurement artifacts \u2014 market research, independent government cost estimates, solicitations, and evaluation materials \u2014 with versioning, validation against the applicable regulation, and export to Word and PDF. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "serviceDescription": "Guided, multi-step acquisition workflows that produce procurement artifacts — market research, independent government cost estimates, solicitations, and evaluation materials — with versioning, validation against the applicable regulation, and export to Word and PDF. Included in the planned FedRAMP Minimum Assessment Scope.",
       "dateAvailable": "2026-03-13",
       "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
       "includedInMinimumAssessmentScope": true
@@ -253,15 +253,17 @@
       {
         "name": "Public web content retrieval",
         "provider": "Various public website operators",
-        "useCase": "Read-only, outbound HTTPS retrieval of specific public web pages identified by the user or by search results, so that cited material can be captured and stored as evidence inside the boundary. Retrieval is one-way; the request URL is the only information disclosed to the destination site.",
-        "generalUsageAndConfiguration": "The backend performs bounded outbound HTTPS GET retrieval for an explicit public URL and captures the response as evidence; it does not authenticate to or write to the destination.",
-        "justification": "Acquisition research sometimes depends on public source material outside structured government APIs.",
+        "useCase": "Read-only retrieval of public research content, including user/search-selected pages and scheduled government-source ingestion into the Tarly-operated warehouse. The upstream group includes CBCA decisions, trade.gov Consolidated Screening List, DHS UFLPA Entity List, Federal Register/DoD Section 1260H notices, DoD SBIR/STTR DSIP, sbir.gov and grants.gov public solicitations. These upstream publishers affect research-record integrity and are assessed as information resources.",
+        "generalUsageAndConfiguration": "The backend retrieves selected public pages; the data pipeline retrieves configured public feeds, documents and public search results. Requests carry public source URLs, public topic/solicitation identifiers and normal network metadata. grants.gov uses a read-only search POST with public solicitation keywords. No customer-content submission, provider account write or authenticated customer repository is authorized by this use.",
+        "justification": "Public acquisition research and warehouse coverage depend on official upstream publications. Source provenance and source-specific freshness remain necessary; hosting the warehouse on Azure does not transfer publisher responsibility to Azure.",
         "mitigationMeasures": [
-          "Limit disclosure to the requested URL and normal network metadata.",
-          "Treat response content as untrusted and constrain retrieval against server-side request forgery and unsafe-content risks."
+          "Treat source pages, PDFs and API records as untrusted research content; preserve source identifiers and provenance.",
+          "Use bounded requests and parser validation; screening-list replacement rejects substantial count collapse and DSIP retains prior data when the live list is empty.",
+          "Keep customer data out of ingestion requests and reassess before changing data flow or provider authority."
         ],
         "compensatingControls": [
-          "Read-only HTTPS, fetch limits, content handling controls, in-boundary evidence storage, and citation provenance."
+          "Backend public-URL retrieval retains its SSRF controls. Scheduled feed clients have separately reviewed configured-source behavior; they are not claimed to inherit the backend URL fetcher’s protections.",
+          "Source-specific retries, timeouts, provenance and ingestion status support error review. Independent validation of every upstream fact or complete real-time freshness is not asserted."
         ]
       },
       {
@@ -282,7 +284,7 @@
         ]
       },
       {
-        "name": "Azure DevOps Services \u2014 production delivery and evidence workflows",
+        "name": "Azure DevOps Services — production delivery and evidence workflows",
         "provider": "Microsoft Corporation",
         "website": "https://dev.azure.com/pincus/tarly/",
         "useCase": "Source control, build orchestration, deployment and compliance-evidence workflows that can affect production. This is a supporting assessment dependency; Azure Commercial authorization is not asserted as authorization of this separate SaaS service.",
