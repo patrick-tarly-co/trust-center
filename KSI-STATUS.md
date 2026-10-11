@@ -2,12 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-10-10T11:14:16.567214+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-10-11T01:22:57.102596+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 43 |
-| Partially met | 3 |
+| Met | 45 |
+| Partially met | 1 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -20,7 +20,7 @@ Generated 2026-10-10T11:14:16.567214+00:00 by the nightly compliance pipeline. M
 | KSI-CNA-EIS | Enforcing Intended State | Met |  |
 | KSI-CNA-IBP | Implementing Best Practices | Met |  |
 | KSI-CNA-MAT | Minimizing Attack Surface | Met |  |
-| KSI-CNA-OFA | Optimizing for Availability | Partially met |  |
+| KSI-CNA-OFA | Optimizing for Availability | Met |  |
 | KSI-CNA-RNT | Restricting Network Traffic | Met |  |
 | KSI-CNA-RVP | Reviewing Protections | Met |  |
 | KSI-CNA-ULN | Using Logical Networking | Met |  |
@@ -34,7 +34,7 @@ Generated 2026-10-10T11:14:16.567214+00:00 by the nightly compliance pipeline. M
 | KSI-INR-RIR | Reviewing Incident Response Procedures | Met |  |
 | KSI-INR-RPI | Reviewing Past Incidents | Met |  |
 | KSI-MLA-ALA | Authorizing Log Access | Met |  |
-| KSI-MLA-EVC | Evaluating Configurations | Met |  |
+| KSI-MLA-EVC | Evaluating Configurations | Partially met |  |
 | KSI-MLA-LET | Logging Event Types | Met |  |
 | KSI-MLA-OSM | Operating SIEM Capability | Met |  |
 | KSI-MLA-RVL | Reviewing Logs | Met |  |
@@ -42,8 +42,8 @@ Generated 2026-10-10T11:14:16.567214+00:00 by the nightly compliance pipeline. M
 | KSI-PIY-RES | Reviewing Executive Support | Met |  |
 | KSI-PIY-RIS | Reviewing Investments in Security | Met |  |
 | KSI-PIY-RSD | Reviewing Security in the SDLC | Met |  |
-| KSI-PIY-RVD | Reviewing Vulnerability Disclosures | Partially met |  |
-| KSI-RPL-ABO | Aligning Backups with Objectives | Partially met |  |
+| KSI-PIY-RVD | Reviewing Vulnerability Disclosures | Met |  |
+| KSI-RPL-ABO | Aligning Backups with Objectives | Met |  |
 | KSI-RPL-ARP | Aligning Recovery Plan | Met |  |
 | KSI-RPL-RRO | Reviewing Recovery Objectives | Met |  |
 | KSI-RPL-TRC | Testing Recovery Capabilities | Met |  |

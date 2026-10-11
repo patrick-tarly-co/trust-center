@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-10-10T11:14:52.468623Z",
+  "generatedAt": "2026-10-11T01:23:51.458020Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-10-10T11:13:41Z",
+  "latestAccessAt": "2026-10-11T01:22:24Z",
   "allCertificationDataChannelsLogged": true,
   "githubTrafficCaptureVerified": true,
   "githubTrafficCapture": {
     "expectedRepository": "patrick-tarly-co/trust-center",
     "maxAgeHours": 48,
     "repository": "patrick-tarly-co/trust-center",
-    "collectedAt": "2026-10-10T11:05:14.881008Z",
+    "collectedAt": "2026-10-11T01:11:57.585550Z",
     "trafficDataAvailable": true,
-    "ageHours": 0.16,
+    "ageHours": 0.2,
     "endpointStatus": {
       "traffic/views": 200,
       "traffic/clones": 200,
@@ -25,9 +25,9 @@
     },
     "summary": {
       "viewCount": 67,
-      "viewUniques": 12,
-      "cloneCount": 604,
-      "cloneUniques": 222
+      "viewUniques": 11,
+      "cloneCount": 685,
+      "cloneUniques": 246
     }
   },
   "publicChannelLoggingCoverage": [
@@ -59,8 +59,8 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 23579,
-    "daysWithRequests": 67,
+    "requestCount": 23653,
+    "daysWithRequests": 68,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 1,
     "deniedAgencyRequests": 0,
@@ -466,9 +466,15 @@
     },
     {
       "date": "2026-10-10",
-      "requestCount": 146,
-      "uniqueClientAddresses": 6,
-      "lastRequestAt": "2026-10-10T11:13:41Z"
+      "requestCount": 191,
+      "uniqueClientAddresses": 15,
+      "lastRequestAt": "2026-10-10T21:37:27Z"
+    },
+    {
+      "date": "2026-10-11",
+      "requestCount": 29,
+      "uniqueClientAddresses": 2,
+      "lastRequestAt": "2026-10-11T01:22:24Z"
     }
   ],
   "agencyAccessors": [],
