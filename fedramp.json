@@ -7,8 +7,8 @@
       "email": "security@tarly.co",
       "phone": "585-474-2276"
     },
-    "version": "2026.09.16.1",
-    "lastUpdated": "2026-09-16T01:22:28Z",
+    "version": "2026.10.12.1",
+    "lastUpdated": "2026-10-12T21:11:44Z",
     "sourceOfUpdate": "Tarly compliance repository source revision"
   },
   "serviceIdentification": {
@@ -27,7 +27,8 @@
       "SaaS"
     ],
     "deploymentModel": "Public Cloud",
-    "digitalIdentityLevel": "IAL1/AAL1 (federated sign-in; target IAL2/AAL2 at certification)",
+    "digitalIdentityLevel": "IAL1/AAL1 (current reported level; target IAL2/AAL2 through agency SSO)",
+    "digitalIdentityReadiness": "Tarly is prepared to implement IAL2/AAL2 for agency users through agency OpenID Connect (OIDC) SSO. Tarly's application and supporting infrastructure are built and deployed, including tenant-specific connections, signed-token and authentication-context validation, approved identity bindings, server-side sessions, audit logging, and protection against local-password bypass. Agency activation requires tenant configuration, documented reliance on agency IAL2 identity proofing, reviewed phishing-resistant MFA and recovery policies, and successful integration testing. No agency connection is active or independently verified, and this readiness does not establish IAL2/AAL2 today. This implementation supports OIDC; SAML and automated agency deprovisioning are not implemented. Until an automated lifecycle feed is validated, agency removals require the agreed notification and Tarly revocation process.",
     "businessCategory": [
       "Artificial Intelligence (AI)",
       "Collaboration",

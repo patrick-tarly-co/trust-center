@@ -2,11 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-10-12T11:19:37.990949+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-10-12T23:58:54.182230+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 46 |
+| Met | 43 |
+| Partially met | 3 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -15,7 +16,7 @@ Generated 2026-10-12T11:19:37.990949+00:00 by the nightly compliance pipeline. M
 | KSI-CMT-RMV | Redeploying vs Modifying | Met |  |
 | KSI-CMT-RVP | Reviewing Change Procedures | Met |  |
 | KSI-CMT-VTD | Validating Throughout Deployment | Met |  |
-| KSI-CNA-DFP | Defining Functionality and Privileges | Met |  |
+| KSI-CNA-DFP | Defining Functionality and Privileges | Partially met |  |
 | KSI-CNA-EIS | Enforcing Intended State | Met |  |
 | KSI-CNA-IBP | Implementing Best Practices | Met |  |
 | KSI-CNA-MAT | Minimizing Attack Surface | Met |  |
@@ -33,7 +34,7 @@ Generated 2026-10-12T11:19:37.990949+00:00 by the nightly compliance pipeline. M
 | KSI-INR-RIR | Reviewing Incident Response Procedures | Met |  |
 | KSI-INR-RPI | Reviewing Past Incidents | Met |  |
 | KSI-MLA-ALA | Authorizing Log Access | Met |  |
-| KSI-MLA-EVC | Evaluating Configurations | Met |  |
+| KSI-MLA-EVC | Evaluating Configurations | Partially met |  |
 | KSI-MLA-LET | Logging Event Types | Met |  |
 | KSI-MLA-OSM | Operating SIEM Capability | Met |  |
 | KSI-MLA-RVL | Reviewing Logs | Met |  |
@@ -48,7 +49,7 @@ Generated 2026-10-12T11:19:37.990949+00:00 by the nightly compliance pipeline. M
 | KSI-RPL-TRC | Testing Recovery Capabilities | Met |  |
 | KSI-SCR-MIT | Mitigating Supply Chain Risk | Met |  |
 | KSI-SCR-MON | Monitoring Supply Chain Risk | Met |  |
-| KSI-SVC-ACM | Automating Configuration Management | Met |  |
+| KSI-SVC-ACM | Automating Configuration Management | Partially met |  |
 | KSI-SVC-ASM | Automating Secret Management | Met |  |
 | KSI-SVC-EIS | Evaluating and Improving Security | Met |  |
 | KSI-SVC-PRR | Preventing Residual Risk | Met |  |
