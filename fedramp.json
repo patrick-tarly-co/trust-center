@@ -7,8 +7,8 @@
       "email": "security@tarly.co",
       "phone": "585-474-2276"
     },
-    "version": "2026.10.12.1",
-    "lastUpdated": "2026-10-13T02:16:29.385669Z",
+    "version": "2026.10.12.2",
+    "lastUpdated": "2026-10-12T21:36:58.826838Z",
     "sourceOfUpdate": "Tarly compliance repository source revision"
   },
   "serviceIdentification": {
@@ -42,7 +42,7 @@
         "Trust Center"
       ],
       "url": "https://gov.tarly.co/trust/",
-      "repositoryDescription": "Tarly Trust Center — FedRAMP certification status, security posture, certification roadmap, and quarterly progress updates. Machine-readable data at https://gov.tarly.co/trust/fedramp.json. No authentication required.",
+      "repositoryDescription": "Tarly Trust Center \u2014 FedRAMP certification status, security posture, certification roadmap, and quarterly progress updates. Machine-readable data at https://gov.tarly.co/trust/fedramp.json. No authentication required.",
       "authenticationRequired": false
     },
     "secureConfigurationGuidance": {
@@ -99,7 +99,7 @@
     },
     {
       "serviceName": "Workflows",
-      "serviceDescription": "Guided, multi-step acquisition workflows that produce procurement artifacts — market research, independent government cost estimates, solicitations, and evaluation materials — with versioning, validation against the applicable regulation, and export to Word and PDF. Included in the planned FedRAMP Minimum Assessment Scope.",
+      "serviceDescription": "Guided, multi-step acquisition workflows that produce procurement artifacts \u2014 market research, independent government cost estimates, solicitations, and evaluation materials \u2014 with versioning, validation against the applicable regulation, and export to Word and PDF. Included in the planned FedRAMP Minimum Assessment Scope.",
       "dateAvailable": "2026-03-13",
       "securityCategory": "FIPS 199 Moderate (confidentiality: Moderate; integrity: Moderate; availability: Moderate)",
       "includedInMinimumAssessmentScope": true
@@ -263,7 +263,7 @@
           "Keep customer data out of ingestion requests and reassess before changing data flow or provider authority."
         ],
         "compensatingControls": [
-          "Backend public-URL retrieval retains its SSRF controls. Scheduled feed clients have separately reviewed configured-source behavior; they are not claimed to inherit the backend URL fetcher’s protections.",
+          "Backend public-URL retrieval retains its SSRF controls. Scheduled feed clients have separately reviewed configured-source behavior; they are not claimed to inherit the backend URL fetcher\u2019s protections.",
           "Source-specific retries, timeouts, provenance and ingestion status support error review. Independent validation of every upstream fact or complete real-time freshness is not asserted."
         ]
       },
@@ -285,7 +285,7 @@
         ]
       },
       {
-        "name": "Azure DevOps Services — production delivery and evidence workflows",
+        "name": "Azure DevOps Services \u2014 production delivery and evidence workflows",
         "provider": "Microsoft Corporation",
         "website": "https://dev.azure.com/pincus/tarly/",
         "useCase": "Source control, build orchestration, deployment and compliance-evidence workflows that can affect production. This is a supporting assessment dependency; Azure Commercial authorization is not asserted as authorization of this separate SaaS service.",
