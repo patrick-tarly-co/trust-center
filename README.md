@@ -36,3 +36,7 @@ Evaluated against the [FedRAMP Consolidated Rules](https://github.com/FedRAMP/ru
 ## Contact
 
 Security: patrick@tarly.co · Sales: cary@tarly.co
+
+## Ongoing Certification Report
+
+[Initial report through October 12, 2026](ocr/2026-Q4/REPORT.md), [JSON](ocr/2026-Q4/report.json), and [formatted Word report](ocr/2026-Q4/Tarly-Cowork-OCR-2026-Q4.docx). Next regular OCR target: January 6, 2027.

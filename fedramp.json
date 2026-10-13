@@ -8,7 +8,7 @@
       "phone": "585-474-2276"
     },
     "version": "2026.10.12.1",
-    "lastUpdated": "2026-10-12T21:11:44Z",
+    "lastUpdated": "2026-10-13T01:58:55.310989Z",
     "sourceOfUpdate": "Tarly compliance repository source revision"
   },
   "serviceIdentification": {
@@ -73,7 +73,7 @@
         "accessRequestInstructions": "Request a per-party access token from security@tarly.co, identifying your organization, official purpose, and package FR2628650874. Instructions: https://gov.tarly.co/trust/access.html"
       }
     ],
-    "nextOngoingCertificationReportDate": "2026-10-06",
+    "nextOngoingCertificationReportDate": "2027-01-06",
     "nextQuarterlyReview": {
       "date": "2026-10-13",
       "startTime": "15:00:00-04:00",
@@ -370,10 +370,10 @@
         "JSON",
         "Human-readable rendering"
       ],
-      "availability": "Public example report covering all required sections; the first quarterly report is targeted for 2026-10-06 and each report is published under its own quarter",
-      "url": "https://github.com/patrick-tarly-co/trust-center/blob/main/ocr/example/REPORT.md",
-      "machineReadableUrl": "https://raw.githubusercontent.com/patrick-tarly-co/trust-center/main/ocr/example/report.json",
-      "isExample": true
+      "availability": "Public initial report published October 12, 2026, covering July 17 through October 12; the next regular report is targeted for January 6, 2027",
+      "url": "https://github.com/patrick-tarly-co/trust-center/blob/main/ocr/2026-Q4/REPORT.md",
+      "machineReadableUrl": "https://raw.githubusercontent.com/patrick-tarly-co/trust-center/main/ocr/2026-Q4/report.json",
+      "isExample": false
     },
     {
       "name": "Authorization boundary, data flows, policies, procedures, assessment evidence, and continuous-compliance results",
