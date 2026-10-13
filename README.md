@@ -39,4 +39,4 @@ Security: patrick@tarly.co · Sales: cary@tarly.co
 
 ## Ongoing Certification Report
 
-Initial report through October 12, 2026: [PDF](ocr/2026-Q4/Tarly-Cowork-OCR-2026-Q4.pdf) and [JSON](ocr/2026-Q4/report.json). Next regular OCR target: January 6, 2027.
+The OCR is available only through the [authenticated Tarly Trust Center](https://gov.tarly.co/trust/package.html?rule=CCM-OCR-AVL). Authorized necessary parties can read and download the report after signing in. The next regular OCR target is January 6, 2027.
