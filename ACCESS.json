@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-10-13T11:29:39.937062Z",
+  "generatedAt": "2026-10-14T07:20:01.464764Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-10-13T11:28:46Z",
+  "latestAccessAt": "2026-10-14T07:18:31Z",
   "allCertificationDataChannelsLogged": true,
   "githubTrafficCaptureVerified": true,
   "githubTrafficCapture": {
     "expectedRepository": "patrick-tarly-co/trust-center",
     "maxAgeHours": 48,
     "repository": "patrick-tarly-co/trust-center",
-    "collectedAt": "2026-10-13T11:25:05.858362Z",
+    "collectedAt": "2026-10-14T07:15:04.471530Z",
     "trafficDataAvailable": true,
     "ageHours": 0.08,
     "endpointStatus": {
@@ -24,10 +24,10 @@
       "traffic/popular/paths": 200
     },
     "summary": {
-      "viewCount": 74,
-      "viewUniques": 11,
-      "cloneCount": 791,
-      "cloneUniques": 276
+      "viewCount": 87,
+      "viewUniques": 12,
+      "cloneCount": 868,
+      "cloneUniques": 293
     }
   },
   "publicChannelLoggingCoverage": [
@@ -59,8 +59,8 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 24917,
-    "daysWithRequests": 70,
+    "requestCount": 25398,
+    "daysWithRequests": 71,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 1,
     "deniedAgencyRequests": 0,
@@ -484,9 +484,15 @@
     },
     {
       "date": "2026-10-13",
-      "requestCount": 555,
-      "uniqueClientAddresses": 17,
-      "lastRequestAt": "2026-10-13T11:28:46Z"
+      "requestCount": 1005,
+      "uniqueClientAddresses": 32,
+      "lastRequestAt": "2026-10-13T23:32:27Z"
+    },
+    {
+      "date": "2026-10-14",
+      "requestCount": 31,
+      "uniqueClientAddresses": 11,
+      "lastRequestAt": "2026-10-14T07:18:31Z"
     }
   ],
   "agencyAccessors": [],

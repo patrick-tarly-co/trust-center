@@ -75,10 +75,11 @@
     ],
     "nextOngoingCertificationReportDate": "2027-01-06",
     "nextQuarterlyReview": {
-      "date": "2026-10-13",
-      "startTime": "15:00:00-04:00",
+      "date": "2027-01-13",
+      "startTime": "15:00:00-05:00",
       "registrationUrl": "mailto:security@tarly.co?subject=Tarly%20Cowork%20Q4%202026%20FedRAMP%20Quarterly%20Review%20registration",
-      "calendarUrl": "https://gov.tarly.co/trust/quarterly-review-2026-q4.ics"
+      "calendarUrl": "https://gov.tarly.co/trust/quarterly-review-2027-q1.ics",
+      "reportingQuarter": "2026-Q4"
     },
     "ongoingCertificationReportFeedbackUrl": "mailto:security@tarly.co?subject=Tarly%20Cowork%20Ongoing%20Certification%20Report%20feedback"
   },
@@ -370,10 +371,12 @@
         "PDF",
         "JSON"
       ],
-      "availability": "Authenticated Trust Center access for authorized necessary parties; initial report published October 12, 2026, covering July 17 through October 12. Next regular target: January 6, 2027.",
+      "availability": "Authenticated Trust Center access for authorized necessary parties; initial Q3 2026 report published October 12, 2026, covering July 17 through October 12. Next Q4 2026 report target: January 6, 2027.",
       "url": "https://gov.tarly.co/trust/package.html?rule=CCM-OCR-AVL",
       "machineReadableUrl": "https://gov.tarly.co/api/trust/controlled/files/rule-and-ksi-packages/CCM-OCR-AVL/evidence/ocr/2026-Q4/report.json",
-      "isExample": false
+      "isExample": false,
+      "reportingQuarter": "2026-Q3",
+      "nextReportingQuarter": "2026-Q4"
     },
     {
       "name": "Authorization boundary, data flows, policies, procedures, assessment evidence, and continuous-compliance results",
