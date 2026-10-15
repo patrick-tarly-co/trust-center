@@ -8,14 +8,14 @@
     "version": "2026.10.05.01",
     "source": "https://github.com/FedRAMP/rules"
   },
-  "generated-at": "2026-10-14T12:37:03.849624+00:00",
+  "generated-at": "2026-10-15T07:20:09.536852+00:00",
   "summary": {
-    "drifted": 0,
+    "drifted": 3,
     "false": 0,
     "inherited": 0,
-    "partial": 0,
+    "partial": 3,
     "total": 46,
-    "true": 46,
+    "true": 43,
     "unknown": 0
   },
   "ksis": [
@@ -31,7 +31,7 @@
         "total": 15,
         "passing": 15
       },
-      "evidence-manifest-sha256": "3d4ff6aedba97c7de453db162f6e08545a227629b44a90b7f65761543337f86d"
+      "evidence-manifest-sha256": "57d6937ad6b3610319624ec99dfc2c237d1f5b8ed5df64450484c9f0caa9d9ba"
     },
     {
       "id": "KSI-CMT-LMC",
@@ -45,7 +45,7 @@
         "total": 9,
         "passing": 9
       },
-      "evidence-manifest-sha256": "7cd0ef4ea56de36382b92ec2314ca28df714906b78b076043f141c8d7ba0a703"
+      "evidence-manifest-sha256": "bf42ee8ddf0c702086e0ae467774d92ca2aa4b488d032cdfc9bbc465984f7b38"
     },
     {
       "id": "KSI-CMT-RMV",
@@ -59,7 +59,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "1c9d1660889f3a2ce5061bfe2f3799ffb8a02c766401671c9006926086a33d5e"
+      "evidence-manifest-sha256": "35cef5af03f205eaab9ec89a41149f40c8f23150e8341fcec1a3c83c5270f59e"
     },
     {
       "id": "KSI-CMT-RVP",
@@ -73,7 +73,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "0220dc21a318f9f1e09c515db047a20095aa9234c89b47f46f1d78d996d02f50"
+      "evidence-manifest-sha256": "7bcd43fe51bca34aaab1ffe0ab1219416e2bb6355b18251e749ad861e8561920"
     },
     {
       "id": "KSI-CMT-VTD",
@@ -87,7 +87,7 @@
         "total": 3,
         "passing": 3
       },
-      "evidence-manifest-sha256": "ce46ebe4a8e8371b19cf5d1f12cca9147111eef529a67e3d986717fbbedc0fcf"
+      "evidence-manifest-sha256": "9a75bb05444041d062667f32c743790d8336366db689429307d52acd730ea1a0"
     },
     {
       "id": "KSI-CNA-DFP",
@@ -101,21 +101,25 @@
         "total": 7,
         "passing": 7
       },
-      "evidence-manifest-sha256": "1a93c62335eeb0cdafa544b72f750c24e1c236b3895f415fde48b54ff6776511"
+      "evidence-manifest-sha256": "bf238a2991ddebf0158ce257a1e4428cee2262b8b25a5bd1e1ecfeb0dbfb5bd7"
     },
     {
       "id": "KSI-CNA-EIS",
       "name": "Enforcing Intended State",
       "category": "Cloud Native Architecture",
       "statement": "Automated services are used to persistently assess the security of all machine-based information resources and automatically enforce their intended operational state.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
         "total": 7,
-        "passing": 7
+        "passing": 6
       },
-      "evidence-manifest-sha256": "1748a7798aef9dcac1159a47a228b6bdb3524519fa5c26f86614bf9f188c47d0"
+      "evidence-manifest-sha256": "a15c050c54a2e0960c56f1451862950a9f89b2074a107bd68f3a8d59ef7a853d",
+      "remediation": {
+        "risk": "medium",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-CNA-IBP",
@@ -129,7 +133,7 @@
         "total": 7,
         "passing": 7
       },
-      "evidence-manifest-sha256": "e02544bea72ebdd23b2e0a4fe59db69c509cc55ba7185f497af5e483d46b3e87"
+      "evidence-manifest-sha256": "71e8b594db0e65d733a95d050b92ba4164a5e187ef10c74cd9101e7c09c55500"
     },
     {
       "id": "KSI-CNA-MAT",
@@ -143,7 +147,7 @@
         "total": 11,
         "passing": 11
       },
-      "evidence-manifest-sha256": "5b25533550385546ab77bfb6221248f13d589d8a0829a259878e6a7ec12630b0"
+      "evidence-manifest-sha256": "becbd1755af0bd20b6dc6cf956431f4e4c692d1ba8f4926a27d5f380e735c903"
     },
     {
       "id": "KSI-CNA-OFA",
@@ -157,7 +161,7 @@
         "total": 12,
         "passing": 12
       },
-      "evidence-manifest-sha256": "c1f2a315fb452e99ee73a7a822091475458bc76256e5dba250b57d75a509bb45"
+      "evidence-manifest-sha256": "857a1b9ca7723d3c52d6eb853edd29862e84d23446a7430ec4f7291287d8f745"
     },
     {
       "id": "KSI-CNA-RNT",
@@ -171,7 +175,7 @@
         "total": 5,
         "passing": 5
       },
-      "evidence-manifest-sha256": "7c1fd57af72efeb48ab8c8137e41661eef01d15c05e9b310a87f97f0007e7c1e"
+      "evidence-manifest-sha256": "a726807ce58dac4c759b1e13601535745e8053bd20452cd9203df4dd0aa7a2b6"
     },
     {
       "id": "KSI-CNA-RVP",
@@ -185,7 +189,7 @@
         "total": 7,
         "passing": 7
       },
-      "evidence-manifest-sha256": "57ddafcb1ddcaee77dd1552c65dc48288c0a4ed312b8c32e43bcf335b18d7eb9"
+      "evidence-manifest-sha256": "82409efb7fffa7c4bf5f938a00a92d65265a42945987ecdd58825bec666800a7"
     },
     {
       "id": "KSI-CNA-ULN",
@@ -199,7 +203,7 @@
         "total": 2,
         "passing": 2
       },
-      "evidence-manifest-sha256": "1efbe4cd099e9c1b1f6e8ab894d3a000e0e74d90e4cf289ad827780661644ffb"
+      "evidence-manifest-sha256": "4f17b9cf31c8d514ca345298de40a459db000aceca6d2476bff20f9721a3d4c5"
     },
     {
       "id": "KSI-IAM-AAM",
@@ -213,7 +217,7 @@
         "total": 8,
         "passing": 8
       },
-      "evidence-manifest-sha256": "93ac06402d8642bc98a46cd91011b5c78f32d16ed68be10014806f2a36196b1d"
+      "evidence-manifest-sha256": "6cbee2ce9088c82adeb0b98a81038a6560391417a5ee413cddb55c7c3e6e7d10"
     },
     {
       "id": "KSI-IAM-APM",
@@ -227,7 +231,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "b74d6cadea535102834be7927d8afc6f605fe6025ddf389b91237e368e155e74"
+      "evidence-manifest-sha256": "5fdf4c098084a8d807fd6bbab80aaf6c7e921e867c4f998a92505119fe6b3d57"
     },
     {
       "id": "KSI-IAM-ELP",
@@ -241,7 +245,7 @@
         "total": 5,
         "passing": 5
       },
-      "evidence-manifest-sha256": "3062bd99cef9c302fb430dff775a3e5cc30f554d6a3691859f94f54e742b7bdd"
+      "evidence-manifest-sha256": "0c9492960044248c0f311b166294594ac13a0ec08ec361d4cdac39b2d5868c8b"
     },
     {
       "id": "KSI-IAM-JIT",
@@ -255,7 +259,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "3b9622b87665f844610530e03e8d32a1db5d00f6cf7df993916d52d5f72c3736"
+      "evidence-manifest-sha256": "2f0f210c8b24c5742cb83718149743457a46fe5b3508f3020f1e164185836129"
     },
     {
       "id": "KSI-IAM-SNU",
@@ -269,7 +273,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "f0d439b739c4ef6ee8f13a5a99be32659b21192ef62ce660f14f1bf77b5d8120"
+      "evidence-manifest-sha256": "ee3d597211d763044635ad22a04dedd5e97353c23a283431e21a48779bf36c99"
     },
     {
       "id": "KSI-IAM-SUS",
@@ -283,7 +287,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "a36e82062a92b90ab3a867ce89eb9356c1eb73be479ff1a694716c84f47c3d7b"
+      "evidence-manifest-sha256": "673592eb4b587cb705fcdcfaa58314d375d5e6f0e1659cd372d5a66fed6e8a71"
     },
     {
       "id": "KSI-INR-AAR",
@@ -297,7 +301,7 @@
         "total": 13,
         "passing": 13
       },
-      "evidence-manifest-sha256": "8c0d218fdb220287af6a7848bfc49614069b6447a3a996dcfe02c88288bfba21"
+      "evidence-manifest-sha256": "b1b5a4bf8aa820dad58b9725bb5961d17d166fff5db6728a37d578ed5c8b455a"
     },
     {
       "id": "KSI-INR-RIR",
@@ -311,7 +315,7 @@
         "total": 9,
         "passing": 9
       },
-      "evidence-manifest-sha256": "8bb9e6fdb87698ce02930d881e6cd4d00996d061da2fcf6c3cae3cdb0ef02317"
+      "evidence-manifest-sha256": "7a85c5f2a2b1c0087bffd71df13ae640bfbf94fa3e31ca0c68db85f0ca015c95"
     },
     {
       "id": "KSI-INR-RPI",
@@ -325,7 +329,7 @@
         "total": 7,
         "passing": 7
       },
-      "evidence-manifest-sha256": "e1de9e0f7031ca443de9a6a0cc383596ab6da533abc2809c08314420a6151b31"
+      "evidence-manifest-sha256": "dfddafd28a98fcd9203739dcad4ce82d54bc28b9bfacdfc9e18fe07fabd3e6f2"
     },
     {
       "id": "KSI-MLA-ALA",
@@ -339,21 +343,25 @@
         "total": 10,
         "passing": 10
       },
-      "evidence-manifest-sha256": "35739e27496cb7fadd64afa5381a84e7e54c75fdcc7113f34f433ac54c58b947"
+      "evidence-manifest-sha256": "00d8501d0fab5cee8132f066a8088311c93274e75a6388f682a46eef21125d54"
     },
     {
       "id": "KSI-MLA-EVC",
       "name": "Evaluating Configurations",
       "category": "Monitoring, Logging, and Auditing",
       "statement": "The configuration of machine-based information resources, especially infrastructure as code, is persistently evaluated and tested.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
         "total": 6,
-        "passing": 6
+        "passing": 4
       },
-      "evidence-manifest-sha256": "57e470e4b04d3f32dafb8aa6d009dcec59b7566b95644da952e17dad75834325"
+      "evidence-manifest-sha256": "204e05d21adf31610f863a9c6bc31d5226884a6b45ed525eec812b9e6f39ac88",
+      "remediation": {
+        "risk": "medium",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-MLA-LET",
@@ -367,7 +375,7 @@
         "total": 3,
         "passing": 3
       },
-      "evidence-manifest-sha256": "3cdb50f727c491d82c2d520dbfe2cd155e1540407858af2f6041f2d434f31626"
+      "evidence-manifest-sha256": "e7b7d76b34dd82275cc82ec54421cc7c78e21603144e2de2e5385a9501286f9e"
     },
     {
       "id": "KSI-MLA-OSM",
@@ -381,7 +389,7 @@
         "total": 15,
         "passing": 15
       },
-      "evidence-manifest-sha256": "b521eefafd34b978b09174dd771acdde96a2e7e973ff515d6b91ce5316f3df7f"
+      "evidence-manifest-sha256": "6d427971c1a480a2239d2a9a7642b6d280578562e21fca59b72cf6837262cb9f"
     },
     {
       "id": "KSI-MLA-RVL",
@@ -395,7 +403,7 @@
         "total": 8,
         "passing": 8
       },
-      "evidence-manifest-sha256": "3a34195a6ff131fac0435d59404f73a6994d419a4e135250d242a57f80fbba67"
+      "evidence-manifest-sha256": "c4df8d026bb80e239bd66e619c7b9e61b82e9aa4b2394d4b3466a627db804426"
     },
     {
       "id": "KSI-PIY-GIV",
@@ -409,7 +417,7 @@
         "total": 8,
         "passing": 8
       },
-      "evidence-manifest-sha256": "b47171d4866ce200c7238b496eacaf542dc83cd66a57ef2b11396b9dc4c4b802"
+      "evidence-manifest-sha256": "843105691139a292c075ebdfeae30dfdf4770e88126457421a458ee7cb27390d"
     },
     {
       "id": "KSI-PIY-RES",
@@ -423,7 +431,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "30f748ff48b633b704c505041fd590c1cce402fa1ce2a5689eaae0d00eb7bb12"
+      "evidence-manifest-sha256": "a9f0ffe71c5c31b6b681f7d3bb05bc8a50faf33bfccf495b172638b95019d590"
     },
     {
       "id": "KSI-PIY-RIS",
@@ -437,7 +445,7 @@
         "total": 9,
         "passing": 9
       },
-      "evidence-manifest-sha256": "ccd8a9f9c2d36cc8bdc903573b31afce30ccfba61fa996ca0bae2ff33bdc296f"
+      "evidence-manifest-sha256": "22e99996088ddc5994c9b696a84bc50b2ca9e3e500fb1807f0524c2ca9dea151"
     },
     {
       "id": "KSI-PIY-RSD",
@@ -451,7 +459,7 @@
         "total": 11,
         "passing": 11
       },
-      "evidence-manifest-sha256": "1b33511fa9fbc1943a3e6e12e318a4dd57904a45e3720c063e86dbb47f6f4a6b"
+      "evidence-manifest-sha256": "f9618a804f2ad9b816233b29c2c43178fe340e3f4ac9f5c5138a2e6177e7adc0"
     },
     {
       "id": "KSI-PIY-RVD",
@@ -465,7 +473,7 @@
         "total": 5,
         "passing": 5
       },
-      "evidence-manifest-sha256": "ee28b922ed3bf89c51d0ada098c3b2a862577cdb945407e6c4b43b4d9b012145"
+      "evidence-manifest-sha256": "bb74f84d1481d83747458eb27d4ba4ede0eea1d159ae707ef0a05fe001e4af0e"
     },
     {
       "id": "KSI-RPL-ABO",
@@ -479,7 +487,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "18ae72f3a530633d3c9e1b922ad137d3e116f3b0ec50ca16632f3b9b2e0aeec9"
+      "evidence-manifest-sha256": "05a17a021e1f56be8cd35115a08cb4357052c7f5de36db7e75803ccdc2dc58fd"
     },
     {
       "id": "KSI-RPL-ARP",
@@ -493,7 +501,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "39ab7f68d9531a5906734df6187e413b6c77a706c4932958266ddaf618427480"
+      "evidence-manifest-sha256": "8ee1adbb536c9f9fdcd8a1e24772c6b22d457495021d97476fc92349c7e3b6ad"
     },
     {
       "id": "KSI-RPL-RRO",
@@ -507,7 +515,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "abf0e1e14092b2963259202d65842f60de9938dad1c5900b720439cabc4ab7f1"
+      "evidence-manifest-sha256": "37fdff624e133446dfb8c0e54a8bfe3c3762c1534c0e0783de05791f819f27cb"
     },
     {
       "id": "KSI-RPL-TRC",
@@ -521,7 +529,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "97f4590db80a6c14e844ab9c53478e0f5c67175fd20c35039cc8850476f8632e"
+      "evidence-manifest-sha256": "f0958e2f215e87f3c0780b0671ac9abdb2c137236c01384e5035a16228d72999"
     },
     {
       "id": "KSI-SCR-MIT",
@@ -535,7 +543,7 @@
         "total": 5,
         "passing": 5
       },
-      "evidence-manifest-sha256": "847300905fffa5ded4f3e86b48360cfefe4558b38aa9554eafecf328e4b5dce4"
+      "evidence-manifest-sha256": "f344954cc91a4c229e8d3bea1172f83e912bd4a02761261cb03481341cc96317"
     },
     {
       "id": "KSI-SCR-MON",
@@ -549,21 +557,25 @@
         "total": 3,
         "passing": 3
       },
-      "evidence-manifest-sha256": "427297ffcd05a937d8225806ad0ce2c21f1565b36a6f18ed5aad739af9877faa"
+      "evidence-manifest-sha256": "84e5fafa04566c540be0c049280ad6d41c1e77c4d2a982be4c9a9ae2dd944f37"
     },
     {
       "id": "KSI-SVC-ACM",
       "name": "Automating Configuration Management",
       "category": "Service Configuration",
       "statement": "The configuration of machine-based information resources is managed using automation and persistently reviewed for drift.",
-      "status": "true",
-      "status-label": "Met",
-      "drift": false,
+      "status": "partial",
+      "status-label": "Partially met",
+      "drift": true,
       "checks": {
         "total": 21,
-        "passing": 21
+        "passing": 19
       },
-      "evidence-manifest-sha256": "f979d93ebbec77e316985ef6acd19d83414124ce358bfc3cbe6c0d919d08758c"
+      "evidence-manifest-sha256": "dd9d2a737645ce16d2b4f40da90cfb24c65d1b371f5ddd2ca00a52156a27ca1d",
+      "remediation": {
+        "risk": "high",
+        "scheduled-completion": null
+      }
     },
     {
       "id": "KSI-SVC-ASM",
@@ -577,7 +589,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "841beb5e869c989696d44aae1ec19af5649eb0425cf62f5769d0cea22f83485e"
+      "evidence-manifest-sha256": "9bcba77db71a920d18f71eee57b66a32535b1b229b630599453cf5e2cc365fdd"
     },
     {
       "id": "KSI-SVC-EIS",
@@ -591,7 +603,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "22f5f1d253ff2d8da0b0eded8467346c83df0fcab49d83464657e0dd2c9a0056"
+      "evidence-manifest-sha256": "73b728a01588a8666c62e9f32139c373707abf845570a51d79bbbe352c281711"
     },
     {
       "id": "KSI-SVC-PRR",
@@ -605,7 +617,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "4da16616c511e409e125a4bb1992c3aa3211470dd5cd6c3cd8fb9061b9c6609b"
+      "evidence-manifest-sha256": "80bb415bbaac972c729b65782ebe1fd579ce76e1a17ae6d47304ce1ab15a9219"
     },
     {
       "id": "KSI-SVC-RUD",
@@ -619,7 +631,7 @@
         "total": 9,
         "passing": 9
       },
-      "evidence-manifest-sha256": "cab45d37b70b0c890e7f9468460ebf1a7cefdc2f4c800f3889477b7aa9645130"
+      "evidence-manifest-sha256": "8756f0eebe5cb2ee1f6b11c190e562ba837171f108f867cf725cb80ae185fa4f"
     },
     {
       "id": "KSI-SVC-SIN",
@@ -633,7 +645,7 @@
         "total": 4,
         "passing": 4
       },
-      "evidence-manifest-sha256": "d3726b85d0a9deef2b99d0b957bea66b751464da781a32ad9cefc74a2fbd98f3"
+      "evidence-manifest-sha256": "1aceac5dd4045546714f2185b8a8d36fd1cdf9da32cef0fddf14ad1b49f5eda3"
     },
     {
       "id": "KSI-SVC-VCM",
@@ -647,7 +659,7 @@
         "total": 8,
         "passing": 8
       },
-      "evidence-manifest-sha256": "9dea83ad51b024a1b405ae68f8b387615712fb66634329fb7274249e3c035d05"
+      "evidence-manifest-sha256": "2f265ad6b206bc71db489a41e849b26d4294d9a8e9b0f46fb4eb5faefefd90d3"
     },
     {
       "id": "KSI-SVC-VRI",
@@ -661,7 +673,7 @@
         "total": 6,
         "passing": 6
       },
-      "evidence-manifest-sha256": "a4684126398b7dd2fb62e5697343a1dcc734840b92dfcadbcef721ac2cc4e083"
+      "evidence-manifest-sha256": "00feaaeabc850534c83d4e0becd490cce2b69139ce3b64dea89316913cf5fb7a"
     }
   ]
 }
