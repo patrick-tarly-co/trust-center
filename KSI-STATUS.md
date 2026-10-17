@@ -2,11 +2,12 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-10-16T12:14:52.851252+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-10-17T07:21:30.219277+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 46 |
+| Met | 45 |
+| Partially met | 1 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
@@ -25,7 +26,7 @@ Generated 2026-10-16T12:14:52.851252+00:00 by the nightly compliance pipeline. M
 | KSI-CNA-ULN | Using Logical Networking | Met |  |
 | KSI-IAM-AAM | Automating Account Management | Met |  |
 | KSI-IAM-APM | Adopting Passwordless Methods | Met |  |
-| KSI-IAM-ELP | Ensuring Least Privilege | Met |  |
+| KSI-IAM-ELP | Ensuring Least Privilege | Partially met |  |
 | KSI-IAM-JIT | Authorizing Just-in-Time | Met |  |
 | KSI-IAM-SNU | Securing Non-User Authentication | Met |  |
 | KSI-IAM-SUS | Responding to Suspicious Activity | Met |  |

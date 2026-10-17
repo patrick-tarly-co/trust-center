@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-10-16T12:15:36.353373Z",
+  "generatedAt": "2026-10-17T07:22:22.444369Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-10-16T12:14:18Z",
+  "latestAccessAt": "2026-10-17T07:20:52Z",
   "allCertificationDataChannelsLogged": true,
   "githubTrafficCaptureVerified": true,
   "githubTrafficCapture": {
     "expectedRepository": "patrick-tarly-co/trust-center",
     "maxAgeHours": 48,
     "repository": "patrick-tarly-co/trust-center",
-    "collectedAt": "2026-10-16T12:10:51.153003Z",
+    "collectedAt": "2026-10-17T07:18:25.410057Z",
     "trafficDataAvailable": true,
-    "ageHours": 0.08,
+    "ageHours": 0.07,
     "endpointStatus": {
       "traffic/views": 200,
       "traffic/clones": 200,
@@ -25,9 +25,9 @@
     },
     "summary": {
       "viewCount": 87,
-      "viewUniques": 12,
-      "cloneCount": 1006,
-      "cloneUniques": 321
+      "viewUniques": 11,
+      "cloneCount": 1027,
+      "cloneUniques": 328
     }
   },
   "publicChannelLoggingCoverage": [
@@ -59,8 +59,8 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 26337,
-    "daysWithRequests": 73,
+    "requestCount": 26784,
+    "daysWithRequests": 74,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 1,
     "deniedAgencyRequests": 0,
@@ -502,9 +502,15 @@
     },
     {
       "date": "2026-10-16",
-      "requestCount": 308,
+      "requestCount": 687,
+      "uniqueClientAddresses": 41,
+      "lastRequestAt": "2026-10-16T21:45:22Z"
+    },
+    {
+      "date": "2026-10-17",
+      "requestCount": 68,
       "uniqueClientAddresses": 18,
-      "lastRequestAt": "2026-10-16T12:14:18Z"
+      "lastRequestAt": "2026-10-17T07:20:52Z"
     }
   ],
   "agencyAccessors": [],
@@ -549,7 +555,7 @@
       "Requested material is unrelated to the Tarly Cowork Certification Package or the stated official purpose.",
       "Requested delivery would violate law, contract, FedRAMP direction, or another agency's confidentiality; offer a safe subset when possible."
     ],
-    "target-response-business-days": 5,
+    "target-response-business-days": 3,
     "approved-delivery-method": "Time-limited authenticated HTTPS bundle with manifest, SHA-256 hashes, schema and media-type metadata, signature verification metadata, and retained delivery receipt.",
     "retrieval-logging-verified": true,
     "logging-evidence-uri": "https://dev.azure.com/pincus/tarly/_git/tarly-apps?path=/compliance/evidence/certification-data/cds-trc-acl-production-retrieval-log-2026-08-18.json&version=GC12f3ef4c468649d1ac419d0c13a8bad1a5d65e3b",
