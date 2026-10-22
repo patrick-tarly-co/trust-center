@@ -2,7 +2,7 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated: 2026-10-21T12:10:59.760005Z
+Generated: 2026-10-22T00:30:57.670330Z
 
 Access logging operational: **True**
 
@@ -16,9 +16,9 @@ Uninterrupted necessary-party sharing verified: **True**
 
 Workspace retention: 365 days
 
-Trust Center requests in the 180-day window: 27886
+Trust Center requests in the 180-day window: 28012
 
-Days with requests: 78
+Days with requests: 79
 
 Active recorded agency accessors: 0
 
@@ -105,4 +105,5 @@ This desensitized summary contains no client addresses, credentials, or user ide
 | 2026-10-18 | 170 | 25 |
 | 2026-10-19 | 390 | 33 |
 | 2026-10-20 | 197 | 31 |
-| 2026-10-21 | 187 | 18 |
+| 2026-10-21 | 287 | 33 |
+| 2026-10-22 | 26 | 3 |
