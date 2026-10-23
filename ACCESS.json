@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-10-22T07:21:42.410324Z",
+  "generatedAt": "2026-10-23T07:21:37.358621Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-10-22T07:20:13Z",
+  "latestAccessAt": "2026-10-23T07:19:58Z",
   "allCertificationDataChannelsLogged": true,
   "githubTrafficCaptureVerified": true,
   "githubTrafficCapture": {
     "expectedRepository": "patrick-tarly-co/trust-center",
     "maxAgeHours": 48,
     "repository": "patrick-tarly-co/trust-center",
-    "collectedAt": "2026-10-22T07:17:45.401694Z",
+    "collectedAt": "2026-10-23T07:17:29.609615Z",
     "trafficDataAvailable": true,
     "ageHours": 0.07,
     "endpointStatus": {
@@ -24,10 +24,10 @@
       "traffic/popular/paths": 200
     },
     "summary": {
-      "viewCount": 82,
-      "viewUniques": 10,
-      "cloneCount": 1025,
-      "cloneUniques": 334
+      "viewCount": 71,
+      "viewUniques": 7,
+      "cloneCount": 812,
+      "cloneUniques": 261
     }
   },
   "publicChannelLoggingCoverage": [
@@ -59,8 +59,8 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 28095,
-    "daysWithRequests": 79,
+    "requestCount": 28226,
+    "daysWithRequests": 80,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 1,
     "deniedAgencyRequests": 0,
@@ -538,9 +538,15 @@
     },
     {
       "date": "2026-10-22",
-      "requestCount": 109,
-      "uniqueClientAddresses": 12,
-      "lastRequestAt": "2026-10-22T07:20:13Z"
+      "requestCount": 196,
+      "uniqueClientAddresses": 40,
+      "lastRequestAt": "2026-10-22T22:53:25Z"
+    },
+    {
+      "date": "2026-10-23",
+      "requestCount": 44,
+      "uniqueClientAddresses": 17,
+      "lastRequestAt": "2026-10-23T07:19:58Z"
     }
   ],
   "agencyAccessors": [],
