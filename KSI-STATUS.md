@@ -2,17 +2,17 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-10-24T12:17:26.912172+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-10-24T12:46:25.308730+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
-| Met | 43 |
-| Partially met | 3 |
+| Met | 44 |
+| Partially met | 2 |
 
 | KSI | Name | Status | Target date |
 | --- | --- | --- | --- |
 | KSI-CED-RAT | Reviewing All Training | Met |  |
-| KSI-CMT-LMC | Logging Changes | Partially met |  |
+| KSI-CMT-LMC | Logging Changes | Met |  |
 | KSI-CMT-RMV | Redeploying vs Modifying | Met |  |
 | KSI-CMT-RVP | Reviewing Change Procedures | Met |  |
 | KSI-CMT-VTD | Validating Throughout Deployment | Met |  |
