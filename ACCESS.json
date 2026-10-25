@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-10-25T10:38:13.116907Z",
+  "generatedAt": "2026-10-25T11:11:07.824589Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-10-25T10:36:54Z",
+  "latestAccessAt": "2026-10-25T11:09:33Z",
   "allCertificationDataChannelsLogged": true,
   "githubTrafficCaptureVerified": true,
   "githubTrafficCapture": {
     "expectedRepository": "patrick-tarly-co/trust-center",
     "maxAgeHours": 48,
     "repository": "patrick-tarly-co/trust-center",
-    "collectedAt": "2026-10-25T10:35:28.712618Z",
+    "collectedAt": "2026-10-25T11:07:37.037921Z",
     "trafficDataAvailable": true,
-    "ageHours": 0.05,
+    "ageHours": 0.06,
     "endpointStatus": {
       "traffic/views": 200,
       "traffic/clones": 200,
@@ -59,7 +59,7 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 28752,
+    "requestCount": 28812,
     "daysWithRequests": 82,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 1,
@@ -556,9 +556,9 @@
     },
     {
       "date": "2026-10-25",
-      "requestCount": 111,
+      "requestCount": 171,
       "uniqueClientAddresses": 15,
-      "lastRequestAt": "2026-10-25T10:36:54Z"
+      "lastRequestAt": "2026-10-25T11:09:33Z"
     }
   ],
   "agencyAccessors": [],
