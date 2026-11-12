@@ -3,7 +3,7 @@
   "provider": "Pincus Technologies Inc",
   "service": "Tarly Cowork",
   "fedRampPackageId": "FR2628650874",
-  "generated_at": "2026-11-12T07:33:55.347367Z",
+  "generated_at": "2026-11-12T12:36:24.012026Z",
   "current_status": "operational",
   "services": [
     {
@@ -20,7 +20,7 @@
       "url": "https://gov.tarly.co/health",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 256,
+      "latency_ms": 285,
       "content_check": "json-field",
       "content_verified": true
     }
@@ -786,7 +786,7 @@
     },
     {
       "fedRampPackageId": "FR2628650874",
-      "checked_at": "2026-11-12T07:33:55.347367Z",
+      "checked_at": "2026-11-12T12:36:24.012026Z",
       "status": "operational",
       "services": [
         {
@@ -803,12 +803,12 @@
           "url": "https://gov.tarly.co/health",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 256,
+          "latency_ms": 285,
           "content_check": "json-field",
           "content_verified": true
         }
       ],
-      "sample_sha256": "2f0e9d61431bbc4b80bb88b53765f85a081cb73473c9e7265dc466e9b0e8cf77"
+      "sample_sha256": "e2ac371a433b924079150a7d10f15a0f681e513ed7dc560986eef50f00231554"
     }
   ],
   "observation_basis": "Scheduled daily probes, with additional run-triggered observations. Each daily row is the latest retained point observation, not a claim of uninterrupted availability. Incidents include retained failed probes and documented outages between probes; approximate incident times are labelled with their evidence source.",
