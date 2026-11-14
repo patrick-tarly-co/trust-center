@@ -2,7 +2,7 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated 2026-11-14T15:37:10.178533+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
+Generated 2026-11-14T19:15:23.373375+00:00 by the nightly compliance pipeline. Machine-readable version: [ksi-results.json](ksi-results.json). Human-facing trust center: <https://gov.tarly.co/trust/>.
 
 | Status | Count |
 | --- | --- |
