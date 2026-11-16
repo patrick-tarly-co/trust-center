@@ -2,13 +2,13 @@
 
 FedRAMP package ID: **FR2628650874**
 
-Generated: 2026-11-16T02:36:12.719426Z
+Generated: 2026-11-16T05:09:46.223363Z
 
 Access logging operational: **True**
 
 Access logging fresh within 48 hours: **True**
 
-All certification-data channels logged: **True**
+All certification-data channels logged: **False**
 
 Authoritative inventory reconciliation: **True**
 
@@ -16,7 +16,7 @@ Uninterrupted necessary-party sharing verified: **True**
 
 Workspace retention: 365 days
 
-Trust Center requests in the 180-day window: 39346
+Trust Center requests in the 180-day window: 39444
 
 Days with requests: 104
 
@@ -131,4 +131,4 @@ This desensitized summary contains no client addresses, credentials, or user ide
 | 2026-11-13 | 347 | 31 |
 | 2026-11-14 | 743 | 30 |
 | 2026-11-15 | 542 | 42 |
-| 2026-11-16 | 62 | 3 |
+| 2026-11-16 | 160 | 7 |
