@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-11-16T05:09:46.223363Z",
+  "generatedAt": "2026-11-16T09:41:25.515316Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-11-16T05:08:57Z",
-  "allCertificationDataChannelsLogged": false,
+  "latestAccessAt": "2026-11-16T09:40:38Z",
+  "allCertificationDataChannelsLogged": true,
   "githubTrafficCaptureVerified": true,
   "githubTrafficCapture": {
     "expectedRepository": "patrick-tarly-co/trust-center",
     "maxAgeHours": 48,
     "repository": "patrick-tarly-co/trust-center",
-    "collectedAt": "2026-11-16T05:01:43.830682Z",
+    "collectedAt": "2026-11-16T09:33:23.333499Z",
     "trafficDataAvailable": true,
     "ageHours": 0.13,
     "endpointStatus": {
@@ -50,7 +50,7 @@
       "gap": ""
     }
   ],
-  "controlledRetrievalLoggingVerified": false,
+  "controlledRetrievalLoggingVerified": true,
   "continuityEvidenceVersion": 1,
   "uninterruptedSharingVerified": true,
   "continuityFindings": [],
@@ -59,7 +59,7 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 39444,
+    "requestCount": 39657,
     "daysWithRequests": 104,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 17,
@@ -688,9 +688,9 @@
     },
     {
       "date": "2026-11-16",
-      "requestCount": 160,
-      "uniqueClientAddresses": 7,
-      "lastRequestAt": "2026-11-16T05:08:57Z"
+      "requestCount": 373,
+      "uniqueClientAddresses": 10,
+      "lastRequestAt": "2026-11-16T09:40:38Z"
     }
   ],
   "agencyAccessors": [],
@@ -738,11 +738,17 @@
     "target-response-business-days": 3,
     "approved-delivery-method": "Time-limited authenticated HTTPS bundle with manifest, SHA-256 hashes, schema and media-type metadata, signature verification metadata, and retained delivery receipt.",
     "retrieval-logging-verified": true,
-    "logging-evidence-uri": "https://dev.azure.com/pincus/tarly/_git/tarly-apps?path=/compliance/evidence/certification-data/cds-trc-acl-production-retrieval-log-2026-08-18.json&version=GC12f3ef4c468649d1ac419d0c13a8bad1a5d65e3b",
-    "logging-evidence-sha256": "5a86385fa1acd39449ad0df0a9de0faa3b940a008f9672630a4b7404c86ab2bf",
-    "logging-last-verified-at": "2026-08-18T03:40:31Z",
+    "logging-evidence-uri": "az://sttarlyprodzs37m1/compliance-evidence/repository-captures/sha256/eefc6d8144b7c7204004451c015308cc1107409db7cf13a9cc59a92fb3fda36a",
+    "logging-evidence-sha256": "eefc6d8144b7c7204004451c015308cc1107409db7cf13a9cc59a92fb3fda36a",
+    "logging-evidence-manifest": "compliance/evidence/manifests/controlled-retrieval-logging-2026-11-16.json",
+    "logging-evidence-member": "production-served-logging.json",
+    "logging-last-verified-at": "2026-11-16T08:55:12.156Z",
+    "logging-reviewed-by": "Patrick Phillips",
+    "logging-next-review-due": "2027-02-14T08:55:12.156000Z",
+    "logging-previous-evidence-uri": "https://dev.azure.com/pincus/tarly/_git/tarly-apps?path=/compliance/evidence/certification-data/cds-trc-acl-production-retrieval-log-2026-08-18.json&version=GC12f3ef4c468649d1ac419d0c13a8bad1a5d65e3b",
+    "logging-previous-evidence-sha256": "5a86385fa1acd39449ad0df0a9de0faa3b940a008f9672630a4b7404c86ab2bf",
     "summary-retention-days": 400,
-    "logging-note": "Every controlled attempt, served or denied, appends an immutable trust_retrieval_log row before the caller is answered. The retained production summary carries 22 rows from 2026-08-15T19:33:40Z to 2026-08-18T02:51:41Z with both immutability triggers enabled; all are denials, because no production entitlement has been issued and no external party has requested controlled access. The served path is retained from the 2026-08-14 staging lifecycle exercise (12 rows, 7 served with digests). Rows cannot be updated or deleted, so the underlying retention is unbounded; desensitized summaries archive with the trust-access evidence set in the Locked 400-day compliance-evidence container.",
+    "logging-note": "Verified 2,306 production retrieval-log rows through 2026-11-16T08:53:11Z, including 386 served, 1,894 denied and 26 session-issued outcomes. Both immutable BEFORE UPDATE/DELETE triggers are enabled and invoke the observed exception-raising function. Two bounded no-token/invalid-token probes were read back with matching HTTP 401 outcomes before their observed responses. All 379 served manifest/file rows carry manifest digests; all file rows carry artifact digests. Seven served guide responses do not require a manifest digest. The served population includes 78 FedRAMP non-test rows and 308 labeled provider-internal test rows. Read-only aggregate SQL ran inside ca-tarly-api-prod; the private database boundary remained enforced. Archive 9634 retains the source-bound collectors, transport receipts and desensitized results for 400 days. The original August evidence remains separately identified above. The 90-day dated-review limit remains enforced and is included in the two-day warning check.",
     "fedramp-denial-form": "https://help.fedramp.gov/hc/en-us/requests/new?ticket_form_id=51829826617243"
   },
   "privacy": "No client address, token, or user identity is included in this desensitized summary."
