@@ -3,7 +3,7 @@
   "provider": "Pincus Technologies Inc",
   "service": "Tarly Cowork",
   "fedRampPackageId": "FR2628650874",
-  "generated_at": "2026-11-17T20:56:14.184341Z",
+  "generated_at": "2026-11-17T23:14:30.883513Z",
   "current_status": "operational",
   "services": [
     {
@@ -11,7 +11,7 @@
       "url": "https://gov.tarly.co/trust/",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 75,
+      "latency_ms": 101,
       "content_check": "text-markers",
       "content_verified": true
     },
@@ -20,7 +20,7 @@
       "url": "https://gov.tarly.co/health",
       "operational": true,
       "http_status": 200,
-      "latency_ms": 269,
+      "latency_ms": 297,
       "content_check": "json-field",
       "content_verified": true
     }
@@ -786,7 +786,7 @@
     },
     {
       "fedRampPackageId": "FR2628650874",
-      "checked_at": "2026-11-17T20:56:14.184341Z",
+      "checked_at": "2026-11-17T23:14:30.883513Z",
       "status": "operational",
       "services": [
         {
@@ -794,7 +794,7 @@
           "url": "https://gov.tarly.co/trust/",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 75,
+          "latency_ms": 101,
           "content_check": "text-markers",
           "content_verified": true
         },
@@ -803,12 +803,12 @@
           "url": "https://gov.tarly.co/health",
           "operational": true,
           "http_status": 200,
-          "latency_ms": 269,
+          "latency_ms": 297,
           "content_check": "json-field",
           "content_verified": true
         }
       ],
-      "sample_sha256": "4f9cc0899c71570467a10ad4e515033c8668d1de2d8f1aeb5f638acedc01e21e"
+      "sample_sha256": "0d1fcbdfc9e179164d96dfb2a9a09c8d40853926544ad6bbfe92608741f2b317"
     }
   ],
   "observation_basis": "Scheduled daily probes, with additional run-triggered observations. Each daily row is the latest retained point observation, not a claim of uninterrupted availability. Incidents include retained failed probes and documented outages between probes; approximate incident times are labelled with their evidence source.",
