@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-11-16T21:49:37.525617Z",
+  "generatedAt": "2026-11-17T20:57:07.021225Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-11-16T21:48:47Z",
+  "latestAccessAt": "2026-11-17T20:56:17Z",
   "allCertificationDataChannelsLogged": true,
   "githubTrafficCaptureVerified": true,
   "githubTrafficCapture": {
     "expectedRepository": "patrick-tarly-co/trust-center",
     "maxAgeHours": 48,
     "repository": "patrick-tarly-co/trust-center",
-    "collectedAt": "2026-11-16T21:41:00.453066Z",
+    "collectedAt": "2026-11-17T20:47:41.441569Z",
     "trafficDataAvailable": true,
-    "ageHours": 0.14,
+    "ageHours": 0.16,
     "endpointStatus": {
       "traffic/views": 200,
       "traffic/clones": 200,
       "traffic/popular/paths": 200
     },
     "summary": {
-      "viewCount": 49,
-      "viewUniques": 9,
-      "cloneCount": 861,
-      "cloneUniques": 249
+      "viewCount": 69,
+      "viewUniques": 12,
+      "cloneCount": 997,
+      "cloneUniques": 277
     }
   },
   "publicChannelLoggingCoverage": [
@@ -59,10 +59,10 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 40149,
-    "daysWithRequests": 104,
+    "requestCount": 41521,
+    "daysWithRequests": 105,
     "activeAgencyAccessors": 0,
-    "approvedAgencyRequests": 17,
+    "approvedAgencyRequests": 18,
     "deniedAgencyRequests": 0,
     "denialsPendingFedRAMPNotice": 0,
     "denialsPastFedRAMPDeadline": 0
@@ -688,9 +688,15 @@
     },
     {
       "date": "2026-11-16",
-      "requestCount": 865,
-      "uniqueClientAddresses": 22,
-      "lastRequestAt": "2026-11-16T21:48:47Z"
+      "requestCount": 893,
+      "uniqueClientAddresses": 24,
+      "lastRequestAt": "2026-11-16T23:26:07Z"
+    },
+    {
+      "date": "2026-11-17",
+      "requestCount": 1344,
+      "uniqueClientAddresses": 34,
+      "lastRequestAt": "2026-11-17T20:56:17Z"
     }
   ],
   "agencyAccessors": [],
