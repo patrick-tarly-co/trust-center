@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "fedRampPackageId": "FR2628650874",
-  "generatedAt": "2026-11-20T16:20:55.044844Z",
+  "generatedAt": "2026-11-21T13:22:22.466432Z",
   "historyWindowDays": 180,
   "workspaceRetentionDays": 365,
   "querySucceeded": true,
   "loggingOperational": true,
   "loggingFreshWithinHours": 48,
   "loggingFresh": true,
-  "latestAccessAt": "2026-11-20T16:20:04Z",
+  "latestAccessAt": "2026-11-21T13:21:32Z",
   "allCertificationDataChannelsLogged": true,
   "githubTrafficCaptureVerified": true,
   "githubTrafficCapture": {
     "expectedRepository": "patrick-tarly-co/trust-center",
     "maxAgeHours": 48,
     "repository": "patrick-tarly-co/trust-center",
-    "collectedAt": "2026-11-20T16:15:47.433080Z",
+    "collectedAt": "2026-11-21T13:17:11.783345Z",
     "trafficDataAvailable": true,
     "ageHours": 0.09,
     "endpointStatus": {
@@ -24,10 +24,10 @@
       "traffic/popular/paths": 200
     },
     "summary": {
-      "viewCount": 59,
-      "viewUniques": 11,
-      "cloneCount": 1269,
-      "cloneUniques": 328
+      "viewCount": 60,
+      "viewUniques": 12,
+      "cloneCount": 1202,
+      "cloneUniques": 312
     }
   },
   "publicChannelLoggingCoverage": [
@@ -59,8 +59,8 @@
   "denialNotificationControlImplemented": true,
   "denialNotificationControlExercised": false,
   "summary": {
-    "requestCount": 44365,
-    "daysWithRequests": 108,
+    "requestCount": 44481,
+    "daysWithRequests": 109,
     "activeAgencyAccessors": 0,
     "approvedAgencyRequests": 18,
     "deniedAgencyRequests": 0,
@@ -712,9 +712,15 @@
     },
     {
       "date": "2026-11-20",
-      "requestCount": 258,
-      "uniqueClientAddresses": 20,
-      "lastRequestAt": "2026-11-20T16:20:04Z"
+      "requestCount": 302,
+      "uniqueClientAddresses": 26,
+      "lastRequestAt": "2026-11-20T22:36:20Z"
+    },
+    {
+      "date": "2026-11-21",
+      "requestCount": 72,
+      "uniqueClientAddresses": 14,
+      "lastRequestAt": "2026-11-21T13:21:32Z"
     }
   ],
   "agencyAccessors": [],
